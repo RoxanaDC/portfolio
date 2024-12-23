@@ -2,7 +2,7 @@
   {
     "title": "Projet 1: Application web, de location immobilière avec React",
     "description": "Dans ce projet, j'ai développé le front-end d'une application en utilisant React et React Router afin de créer une expérience utilisateur moderne et interactive. J'ai travaillé sur la logique de présentation des données et les composants React, pour concevoir des interfaces utilisateur dynamiques et réactives.Avec React Router, j'ai configuré la navigation entre les différentes pages de l'application, ce qui m'a permis de mieux comprendre la gestion efficace du routage dans une application web moderne.",
-    "image": "Kasa.webp",
+    "image": "kasa.webp",
     "evaluation": "Points forts : Utilisation de React. Utilisation de Sass. Application conforme aux spécs. Remarques : Très bonne présentation orale/visuelle avec un support. Respect du timing. L'étudiante a su répondre aux questions. Bravo.",
     "githublink": "https://github.com/RoxanaDC/Kasa_005",
     "evaluatorname": "Amadou Oury Diallo",
