@@ -22,6 +22,19 @@
 
     <link rel="stylesheet" href="styles.css" />
     <title>Portfolio</title>
+
+    <!-- i am using jquery from https://releases.jquery.com/ - minified jquery 3.x-->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- the script from app.js with defer for DOM stuff-->
+    <script src="./js/app.js" defer></script>
+
+
+
   </head>
   <body>
     <!--NAVBAR-->
@@ -206,87 +219,9 @@
       </section>
 
       <!--SECTION 3: Projets-->
-      <section id="projets" class="projets-section">
-        <h2>Projet 1: Application web, de location immobilière avec React</h2>
-          <div class="text">
-            Dans ce projet, j'ai développé le front-end d'une application 
-            en utilisant React et React Router afin de créer une expérience utilisateur moderne et interactive.<br><br>
-            
-            J'ai travaillé sur la logique de présentation des données 
-            et les composants React, pour concevoir des interfaces utilisateur dynamiques et réactives.<br><br>
-            
-            Avec React Router, j'ai configuré la navigation entre les différentes pages de l'application, 
-            ce qui m'a permis de mieux comprendre la gestion efficace du routage dans une application web moderne.<br><br>
-
-          </div>
-        
-        <div class="group">
-          <div class="projet-details">
-            <img src="images/kasa.webp" alt="projet react" /><br>
-
-            <a href="https://github.com/RoxanaDC/Kasa_005" target="_blank">Voir le code de ce projet sur GitHub</a>
-            <p>evalué par: <a href="https://openclassrooms.com/fr/members/cqc611mwnt98" target="_blank">Amadou Oury Diallo</a></p>
-            <p>Evaluateur OpenClassrooms</p>
-          </div>
-
-          <div class="text">
-            Lors de la soutenance de ce projet, j'ai reçu l'évaluation suivante:
-            <br><br>
-            "Points forts : Utilisation de React. 
-            <br>
-            Utilisation de Sass.
-            <br>
-            Application conforme aux spécs. 
-            <br>
-            Remarques : Très bonne présentation
-            orale/visuelle avec un support. 
-            <br>
-            Respect du timing. 
-            <br>
-            L'étudiante a su répondre aux questions. Bravo. "
-            <br><br>
-            <br><br>
-          </div>
-        </div><br><br>
-
-        <h2>Projet 2: Backend d'un site de notation de livres</h2>
-        <div class="text">
-
-          Pour mon projet intitulé "Mon Vieux Grimoire", un site de notation de livres, j'ai développé le back-end de l'application.
-          <br><br>
-
-          Création d’un serveur avec Express, pour gérer les requêtes et réponses HTTP.
-          <br><br>
-          Connexion à une base de données MongoDB, pour stocker et gérer efficacement les données des utilisateurs et des livres.
-          <br><br>
-          Modèles de données et opérations CRUD (Créer, Lire, Mettre à jour, Supprimer) pour assurer une gestion complète des informations.
-          <br><br>
-          Sécurisation des données et système d'authentification
-          <br><br>
-          La fonctionnalité de téléchargement et d’optimisation des images
-          <br><br>
-          La fonctionnalité pour noter les livres et calcule automatiquement la moyenne des évaluations.<br><br>
-
-        </div>
-        <div class="group">
-          <div class="projet-details">
-            <img src="images/grimoire.webp" alt="projet backend" /><br>
-
-            <a href="https://github.com/RoxanaDC/Backend_Mon_Vieux_Grimoire" target="_blank">Voir le code de ce projet sur GitHub</a>
-            <p>evalué par: <a href="https://openclassrooms.com/fr/members/8tw73v12q599" target="_blank">Osiris Migan</a> </p>
-            <p>Évaluateur OpenClassrooms</p>
-          </div>
-
-          <div class="text">
-            Lors de la soutenance, j'ai reçu l'évaluation suivante: 
-            <br><br>
-            "Roxana a mené la soutenance de manière très professionnelle, avec une bonne maîtrise de son sujet. 
-            <br>Elle a su répondre avec assurance aux questions posées et a démontré une excellente compréhension des aspects techniques du projet.
-            <br>Son attitude positive face aux axes d'amélioration était très appréciable, et cela montre une bonne volonté de progression.<br>
-            Félicitations Roxana et bonne chance pour la suite !"
-          </div>
-        </div>
-      </section>
+<section class="projets-section"></section>
+      <div id="projets" class="projects"></div>
+</section>
 
             <!--SECTION 4: Contact-->
             <section id="contact" class="contact-section">

@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Projet 1: Application web, de location immobilière avec React",
+    "description": "Dans ce projet, j'ai développé le front-end d'une application en utilisant React et React Router afin de créer une expérience utilisateur moderne et interactive. J'ai travaillé sur la logique de présentation des données et les composants React, pour concevoir des interfaces utilisateur dynamiques et réactives.Avec React Router, j'ai configuré la navigation entre les différentes pages de l'application, ce qui m'a permis de mieux comprendre la gestion efficace du routage dans une application web moderne.",
+    "image": "Kasa.webp",
+    "evaluation": "Points forts : Utilisation de React. Utilisation de Sass. Application conforme aux spécs. Remarques : Très bonne présentation orale/visuelle avec un support. Respect du timing. L'étudiante a su répondre aux questions. Bravo.",
+    "githublink": "https://github.com/RoxanaDC/Kasa_005",
+    "evaluatorname": "Amadou Oury Diallo",
+    "evaluatorpage": "https://openclassrooms.com/fr/members/cqc611mwnt98"
+  },
+
+  {
+    "title": "Projet 2: Backend d'un site de notation de livres",
+    "description": "Pour mon projet intitulé 'Mon Vieux Grimoire', un site de notation de livres, j'ai développé le back-end de l'application. Création d’un serveur avec Express, pour gérer les requêtes et réponses HTTP. Connexion à une base de données MongoDB, pour stocker et gérer efficacement les données des utilisateurs et des livres. Modèles de données et opérations CRUD (Créer, Lire, Mettre à jour, Supprimer) pour assurer une gestion complète des informations. Sécurisation des données et système d'authentification.La fonctionnalité de téléchargement et d’optimisation des images. La fonctionnalité pour noter les livres et calcule automatiquement la moyenne des évaluations.",
+    "image": "grimoire.webp",
+    "evaluation": "Roxana a mené la soutenance de manière très professionnelle, avec une bonne maîtrise de son sujet. Elle a su répondre avec assurance aux questions posées et a démontré une excellente compréhension des aspects techniques du projet. Son attitude positive face aux axes d'amélioration était très appréciable, et cela montre une bonne volonté de progression. Félicitations Roxana et bonne chance pour la suite !",
+    "githublink": "https://github.com/RoxanaDC/Backend_Mon_Vieux_Grimoire",
+    "evaluatorname": "Osiris Migan",
+    "evaluatorpage": "https://openclassrooms.com/fr/members/8tw73v12q599"
+  },
+
+  {
+    "title": "Projet 3: Portfolio",
+    "description": "Dans le cadre de ce projet, j'ai conçu et développé un site web qui me permet de me présenter, de mettre en avant mes compétences, et de lister les projets sur lesquels j'ai travaillé. Pour ce faire, je me suis basée sur une mind map afin de structurer et hiérarchiser les informations clés à afficher, telles que mes compétences techniques et les projets réalisés. Le portfolio a également été conçu pour démontrer mes capacités techniques, non seulement à travers le contenu présenté, mais aussi via la qualité du code utilisé pour le site et une interface utilisateur intuitive et attrayante. Ce projet reflète mon souci du détail et ma volonté de livrer un produit fonctionnel et esthétique.",
+    "image": "portfolio.webp",
+    "evaluation": "Points forts : Carte des compétences présente et complète. Les offres d'emplois indiquées correspondent totalement aux compétences acquises durant la formation. Portfolio hébergé en ligne. Les différentes rubriques attendues sont bien présentes. La présentation de 2 projet de formation est présente. Projet responsive. Soutenance - Remarques : Présentation fluide & structurée. Timing respecté. Chaque point du brief a été présenté. Tous les choix ont été justifié",
+    "githublink": "https://github.com/RoxanaDC/portfolio",
+    "evaluatorname": "Aurélien Morvan",
+    "evaluatorpage": "https://openclassrooms.com/fr/members/v2m3vcvkt967"
+  },
+
+  {
+    "title": "Projet 4: Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
+    "description": "Dans le cadre de ce projet, j'ai créé la page d'accueil d'une agence de voyage en utilisant HTML et CSS. Ma mission principale consistait à intégrer une interface utilisateur responsive, adaptée à différents types d'écrans, afin d'offrir une expérience utilisateur fluide et agréable. Ce projet m'a permis de renforcer mes compétences en intégration web et en conception d'interfaces modernes et fonctionnelles.",
+    "image": "booki.webp",
+    "evaluation": "Points forts : La page HTML est codée avec les balises fondamentales attendues. La page est responsive. Le CSS est séparé du code HTML. Les fonctionnalités attendues sont disponible. Axes d'amélioration : Penser à respecter les bonnes pratiques Git",
+    "githublink": "https://github.com/RoxanaDC/booki",
+    "evaluatorname": "Eric Legba",
+    "evaluatorpage": "https://openclassrooms.com/fr/members/g29pmcx5tl55"
+  }
+]
