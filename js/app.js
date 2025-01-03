@@ -23,7 +23,7 @@ $.ajax('./json/projects.json').then((data) => {
         <p>---</p>
 
 
-        <a href="${project.githublink}" target="_blank">Voir le code de ce projet sur GitHub</a>
+        <a href="${project.link}" target="_blank">Découvrez ${project.details} de ce projet sur ${project.hostedon}</a>
         </div></div>
 
         `);
