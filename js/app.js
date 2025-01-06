@@ -1,5 +1,5 @@
 /* $ for jquery 
-i whant that has a class = projects*/
+i want that has a class = projects*/
 const projects = $('.projects');
 
 $.ajax('./json/projects.json').then((data) => {
@@ -10,13 +10,14 @@ $.ajax('./json/projects.json').then((data) => {
         <div class="text">${project.description}</div><br>
         <div class="group">
         <div class="projet-details">
+<a href=${project.sitedeployed} target="_blank">
         <img src="./images/${project.image}" alt="${project.title}" /><br><br>
-
+</a>
         <div class="text">Lors de la soutenance de ce projet, j'ai reçu l'évaluation suivante:<br><br> "${project.evaluation}"</div>
                 <p>---</p>
 
         <p>Evalué par:
-        <a href="${project.evaluatorpage}" target="_blank">${project.evaluatorname}</a>
+        <a href="${project.evaluatorpage}" target="_blank">${project.evaluatorname}</a> </p>
 
         
         <p>Evaluateur OpenClassrooms</p>
