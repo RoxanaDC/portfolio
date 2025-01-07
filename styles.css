@@ -71,19 +71,15 @@ nav .right a span:hover {
 /*SECTION 1: Hero*/
 
 #rox_img {
-  transition: transform 0.3s ease-out, border 0.3s ease-out; /* Tranșia pentru rotație și border */
-  border: 3px solid rgb(255, 239, 8); /* Adaugă border verde la hover */
+  transition: transform 0.3s ease-out, border 0.3s ease-out; /* transiton for rotation & border */
+  border: 3px solid rgb(255, 239, 8); /* adding border to hover */
 }
 
 #rox_img:hover {
-  transform: rotate(720deg); /* Rotește imaginea */
-  border: 20px solid rgb(255, 253, 144); /* Adaugă border verde la hover */
+  transform: rotate(720deg); /* rotation*/
+  box-shadow: 0 0 10px 4px rgb(128, 109, 0); /* Glow  */
 }
-/* #rox_img:hover {
-  transition: transform 0.3s ease-out;
-  transform: rotate(720deg);
-}
- */
+
 .hero-section {
   display: flex;
   justify-content: space-between;
