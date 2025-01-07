@@ -69,6 +69,21 @@ nav .right a span:hover {
 }
 
 /*SECTION 1: Hero*/
+
+#rox_img {
+  transition: transform 0.3s ease-out, border 0.3s ease-out; /* Tranșia pentru rotație și border */
+  border: 3px solid rgb(255, 239, 8); /* Adaugă border verde la hover */
+}
+
+#rox_img:hover {
+  transform: rotate(720deg); /* Rotește imaginea */
+  border: 20px solid rgb(255, 253, 144); /* Adaugă border verde la hover */
+}
+/* #rox_img:hover {
+  transition: transform 0.3s ease-out;
+  transform: rotate(720deg);
+}
+ */
 .hero-section {
   display: flex;
   justify-content: space-between;
