@@ -77,7 +77,7 @@ nav .right a span:hover {
 
 #rox_img:hover {
   transform: rotate(720deg); /* rotation*/
-  box-shadow: 0 0 10px 4px rgb(128, 109, 0); /* Glow  */
+  box-shadow: 0 0 10px 3px rgb(255, 196, 1); /* Glow  */
 }
 
 .hero-section {
