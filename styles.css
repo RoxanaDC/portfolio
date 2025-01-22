@@ -70,14 +70,16 @@ nav .right a span:hover {
 
 /*SECTION 1: Hero*/
 
-#rox_img {
+#rox_img,
+#cv {
   transition: transform 0.3s ease-out, border 0.3s ease-out; /* transiton for rotation & border */
-  border: 3px solid rgb(255, 239, 8); /* adding border to hover */
+  border: 3px solid rgb(252, 230, 35); /* adding border to hover */
 }
 
-#rox_img:hover {
+#rox_img:hover,
+#cv:hover {
   transform: rotate(720deg); /* rotation*/
-  box-shadow: 0 0 10px 3px rgb(255, 196, 1); /* Glow  */
+  box-shadow: 0 0 5px 3px rgb(255, 196, 1); /* Glow  */
 }
 
 .hero-section {
@@ -127,6 +129,9 @@ nav .right a span:hover {
   border-radius: 30%;
   width: 300px;
 }
+.hero-section .list {
+  padding-left: 20px;
+}
 /*SECTION 2: Skills*/
 .skills-section {
   padding: 0 50px;
@@ -154,14 +159,20 @@ nav .right a span:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
+  width: 150px;
   padding: 10px 20px;
   margin: 10px;
   border: 1.5px solid var(--link-color);
   border-radius: 5px;
   gap: 10px;
+  opacity: 0.9;
+  transition: transform 0.9s ease, opacity 0.3s ease;
 }
-
+.skills-section .cell:hover {
+  opacity: 1;
+  transform: translateY(4px);
+  box-shadow: 0 0 5px 1px rgb(255, 196, 1); /* Glow  */
+}
 .skills-section .cells .cell img {
   width: 30px;
   height: 30px;
@@ -170,7 +181,7 @@ nav .right a span:hover {
 }
 
 .skills-section .cells .cell span {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 /*SECTION 3: Projets*/
@@ -334,7 +345,7 @@ nav .right a span:hover {
     padding: 0 20px;
   }
   .skills-section .cells .cell span {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   /*SECTION 3: Projets*/

@@ -1,0 +1,66 @@
+[
+  {
+    "skillname": "HTML",
+    "image": "html-logo.webp"
+  },
+  {
+    "skillname": "CSS",
+    "image": "css-logo.webp"
+  },
+  {
+    "skillname": "SASS",
+    "image": "sass-logo.webp"
+  },
+  {
+    "skillname": "JavaScript",
+    "image": "javascript-logo.webp"
+  },
+  {
+    "skillname": "React",
+    "image": "react-logo.webp"
+  },
+  {
+    "skillname": "NodeJS",
+    "image": "nodejs-logo.webp"
+  },
+  {
+    "skillname": "Wix",
+    "image": "wix-logo.webp"
+  },
+  {
+    "skillname": "MongoDB",
+    "image": "mongodb-logo.webp"
+  },
+  {
+    "skillname": "Photoshop",
+    "image": "photoshop-logo.webp"
+  },
+  {
+    "skillname": "Illustrator",
+    "image": "illustrator-logo.webp"
+  },
+  {
+    "skillname": "CorelDraw",
+    "image": "corel-logo.webp"
+  },
+  {
+    "skillname": "Figma",
+    "image": "figma-logo.webp"
+  },
+  {
+    "skillname": "Gimp",
+    "image": "gimp-logo.webp"
+  },
+  {
+    "skillname": "Notion",
+    "image": "notion-logo.webp"
+  },
+  {
+    "skillname": "Agile",
+    "image": "agile.webp"
+  },
+  {
+    "skillname": "Lighthouse",
+    "image": "lighthouse-logo.webp"
+  }
+]

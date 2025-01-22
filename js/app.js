@@ -32,3 +32,21 @@ $.ajax('./json/projects.json').then((data) => {
     projects.append(div);
   });
 });
+
+const cells = $('.cells');
+
+$.ajax('./json/skills.json').then((data) => {
+  data.forEach((skill) => {
+    // Creăm un div pentru fiecare skill
+    const div = $("<div class='cell'>");
+
+    // Adăugăm conținutul HTML dinamic pentru fiecare skill
+    div.html(`
+      <img src="./images/${skill.image}" alt="${skill.skillname}" />
+      <span>${skill.skillname}</span>
+    `);
+
+    // Adăugăm div-ul creat în secțiunea cu clasele 'skills'
+    cells.append(div);
+  });
+});
