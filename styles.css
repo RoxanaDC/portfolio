@@ -71,7 +71,8 @@ nav .right a span:hover {
 /*SECTION 1: Hero*/
 
 #rox_img,
-#cv {
+#cv,
+#cv1 {
   transition: transform 0.3s ease-out, border 0.3s ease-out; /* transiton for rotation & border */
   border: 3px solid rgb(252, 230, 35); /* adding border to hover */
 }
