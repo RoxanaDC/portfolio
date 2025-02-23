@@ -1,0 +1,62 @@
+[
+  {
+    "caricaturename": "Caricatura 1",
+    "image": "caricatura_001.webp"
+  },
+  {
+    "caricaturename": "Caricatura 2",
+    "image": "caricatura_002.webp"
+  },
+  {
+    "caricaturename": "Caricatura 3",
+    "image": "caricatura_003.webp"
+  },
+  {
+    "caricaturename": "Caricatura 4",
+    "image": "caricatura_004.webp"
+  },
+  {
+    "caricaturename": "Caricatura 5",
+    "image": "caricatura_005.webp"
+  },
+  {
+    "caricaturename": "Caricatura 6",
+    "image": "caricatura_006.webp"
+  },
+  {
+    "caricaturename": "Caricatura 7",
+    "image": "caricatura_007.webp"
+  },
+  {
+    "caricaturename": "Caricatura 8",
+    "image": "caricatura_008.webp"
+  },
+  {
+    "caricaturename": "Caricatura 9",
+    "image": "caricatura_009.webp"
+  },
+  {
+    "caricaturename": "Caricatura 10",
+    "image": "caricatura_010.webp"
+  },
+  {
+    "caricaturename": "Caricatura 11",
+    "image": "caricatura_011.webp"
+  },
+  {
+    "caricaturename": "Caricatura 12",
+    "image": "caricatura_012.webp"
+  },
+  {
+    "caricaturename": "Caricatura 13",
+    "image": "caricatura_013.webp"
+  },
+  {
+    "caricaturename": "Caricatura 14",
+    "image": "caricatura_014.webp"
+  },
+  {
+    "caricaturename": "Caricatura 15",
+    "image": "caricatura_015.webp"
+  }
+]

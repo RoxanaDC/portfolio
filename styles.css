@@ -3,6 +3,7 @@
   /*--text-color: #1a1c20;*/
   --text-color: rgb(1, 71, 1);
   --link-color: green;
+
   --background-color: #faf6e6;
 }
 
@@ -50,16 +51,8 @@ nav .right a {
   color: var(--text-color);
   margin: 0 10px;
 }
-/*targeting last element - email*/
-nav .right a:last-child {
-  color: var(--background-color);
-  background-color: var(--text-color);
-  margin: 0 10px;
-  padding: 5px 15px;
-  border-radius: 5px;
-}
 
-/*targeting spans GitHub, LinkedIn, Email*/
+/*targeting spans GitHub, LinkedIn, Blog*/
 nav .right a span {
   margin-left: 5px;
 }
@@ -72,10 +65,14 @@ nav .right a span:hover {
 
 #cv {
   transition: transform 0.3s ease-out, border 0.3s ease-out; /* transiton for rotation & border */
-  border: 3px solid rgb(252, 230, 35); /* adding border to hover */
+  border: 3px solid rgb(255, 196, 1); /* adding border to hover */
 }
 
-#rox_img:hover,
+#rox_img {
+  width: 150px;
+  box-shadow: 0 0 5px 3px rgb(255, 196, 1); /* Glow  */
+}
+
 #cv:hover {
   transform: rotate(720deg); /* rotation*/
   box-shadow: 0 0 5px 3px rgb(255, 196, 1); /* Glow  */
@@ -87,11 +84,11 @@ nav .right a span:hover {
   padding: 0 50px; /*y x*/
   margin: 50px 0;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   gap: 30px;
 }
 .hero-section .text h2 {
-  font-size: 45px;
+  font-size: 30px;
   color: var(--text-color);
 }
 
@@ -125,7 +122,7 @@ nav .right a span:hover {
 }
 
 .hero-section .headshot img {
-  border-radius: 30%;
+  border-radius: 20%;
   width: 300px;
 }
 .hero-section .list {
@@ -139,7 +136,7 @@ nav .right a span:hover {
 
 .skills-section h2 {
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   color: var(--text-color);
 }
 
@@ -241,11 +238,11 @@ nav .right a span:hover {
 /*SECTION 4: Contact*/
 .contact-section {
   padding: 0 50px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 .contact-section h2 {
-  font-size: 35px;
+  font-size: 30px;
   color: var(--text-color);
 }
 
@@ -273,6 +270,70 @@ nav .right a span:hover {
   color: var(--text-color);
   border: 2px solid var(--text-color);
 }
+
+/*drawings*/
+/* Stilizarea secțiunii de caricaturi */
+.drawings {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 coloane egale */
+  gap: 10px;
+
+  padding: 2rem;
+  background: #f9f9f9; /* Fundal deschis pentru contrast */
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Umbră subtilă */
+  text-align: center; /* Centrare text */
+}
+
+.drawings h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem; /* Spațiu între titlu și conținut */
+}
+
+/* Containerul pentru drawings 
+.drawings {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(250px, 1fr)
+  ); /* Grilă flexibilă 
+  gap: 1.5rem; 
+}*/
+
+/* Fiecare caricatură (card) */
+.cell {
+  background: #fff; /* Fundal alb pentru fiecare card */
+  border-radius: 15px;
+  overflow: hidden; /* Ascunde marginile rotunjite */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animație pe hover */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+}
+
+.cell:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8); /* Umbră mai accentuată la hover */
+}
+
+/* Imaginile din caricaturi */
+.cell img {
+  width: 100%; /* Se adaptează la dimensiunea containerului */
+  height: auto; /* Păstrează proporțiile */
+  display: block; /* Elimină spațiile de sub imagini */
+}
+
+/* Textul din caricaturi */
+.cell span {
+  display: block;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600; /* Text mai îngroșat */
+  color: #555;
+}
+
+.category {
+  max-width: 400px;
+}
 /*---------------------MEDIA----------------------*/
 /*---------------------MEDIA----------------------*/
 /*---------------------MEDIA----------------------*/
@@ -284,7 +345,12 @@ nav .right a span:hover {
 - reduce the size of h2 text
 */
   .hero-section .text h2 {
-    font-size: 35px;
+    font-size: 20px;
+  }
+
+  .drawings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 coloane egale */
   }
 }
 @media (max-width: 740px) {
@@ -293,11 +359,11 @@ nav .right a span:hover {
     - image on top of the text and smaller
     */
   .hero-section {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .hero-section .headshot img {
-    width: 250px;
+    width: 100px;
   }
 
   /*SECTION 3: Projets*/
@@ -311,6 +377,11 @@ nav .right a span:hover {
 
   .projets-section .group .projet-details img {
     width: 100%;
+  }
+
+  .drawings {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 coloane egale */
   }
 
   /*SECTION 4: Contact*/
@@ -352,7 +423,7 @@ nav .right a span:hover {
   }
 
   .hero-section .text h2 {
-    font-size: 30px;
+    font-size: 20px;
   }
   /*SECTION 2: Skills*/
   .skills-section {
@@ -365,6 +436,11 @@ nav .right a span:hover {
   /*SECTION 3: Projets*/
   .projets-section {
     padding: 0 20px;
+  }
+
+  .drawings {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 coloane egale */
   }
 
   /*SECTION 4: Contact*/

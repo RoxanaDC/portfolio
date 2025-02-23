@@ -50,3 +50,74 @@ $.ajax('./json/skills.json').then((data) => {
     cells.append(div);
   });
 });
+
+/* const caricatures = $('.caricatures');
+
+$.ajax('./json/caricatures.json').then((data) => {
+  data.forEach((caricature) => {
+    // Creăm un div pentru fiecare drawing
+    const div = $("<div class='cell'>");
+
+    // Adăugăm conținutul HTML dinamic pentru fiecare drawing
+    div.html(`
+      <img src="./images/img_graphiste/caricatures/${caricature.image}" alt="${caricature.caricaturename}" />
+
+    `);
+
+    // Adăugăm div-ul creat în secțiunea cu clasele 'cells'
+    caricatures.append(div);
+  });
+});
+ */
+
+const categories = [
+  'affiches',
+  'caricatures',
+  'compositions',
+  'croquis',
+  'idees',
+  'lgbtq',
+  'nus',
+  'paysages',
+  'photos',
+  'portraits',
+  'reproductions',
+  'retouches',
+  'vectors',
+];
+
+$.ajax('./json/drawings.json').then((data) => {
+  categories.forEach((category) => {
+    const container = $(`#${category} .items`);
+
+    data[category].forEach((drawing) => {
+      const div = $("<div class='cell'>");
+
+      /*       div.html(`
+        <img
+        src="./images/img_graphiste/${category}/${drawing.image}" 
+        alt="${drawing.name}"
+        class="clickable-image" />
+      `);
+ */
+      div.html(`
+        <a
+        href="./images/img_graphiste/${category}/${drawing.image}" 
+        data-lightbox="${category}" 
+        data-title="${drawing.name}">
+          <img
+          src="./images/img_graphiste/${category}/${drawing.image}" 
+          alt="${drawing.name}" 
+          class="clickable-image" />
+        </a>
+      `);
+
+      container.append(div);
+    });
+  });
+
+  /*   $('.clickable-image').on('click', function () {
+    const imgSrc = $(this).attr('src');
+    window.open(imgSrc, '_blank', 'width=800,height=600'); // Dimensiune personalizată
+  }); */
+});
