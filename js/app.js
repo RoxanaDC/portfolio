@@ -51,25 +51,6 @@ $.ajax('./json/skills.json').then((data) => {
   });
 });
 
-/* const caricatures = $('.caricatures');
-
-$.ajax('./json/caricatures.json').then((data) => {
-  data.forEach((caricature) => {
-    // Creăm un div pentru fiecare drawing
-    const div = $("<div class='cell'>");
-
-    // Adăugăm conținutul HTML dinamic pentru fiecare drawing
-    div.html(`
-      <img src="./images/img_graphiste/caricatures/${caricature.image}" alt="${caricature.caricaturename}" />
-
-    `);
-
-    // Adăugăm div-ul creat în secțiunea cu clasele 'cells'
-    caricatures.append(div);
-  });
-});
- */
-
 const categories = [
   'affiches',
   'caricatures',
@@ -93,13 +74,6 @@ $.ajax('./json/drawings.json').then((data) => {
     data[category].forEach((drawing) => {
       const div = $("<div class='cell'>");
 
-      /*       div.html(`
-        <img
-        src="./images/img_graphiste/${category}/${drawing.image}" 
-        alt="${drawing.name}"
-        class="clickable-image" />
-      `);
- */
       div.html(`
         <a
         href="./images/img_graphiste/${category}/${drawing.image}" 
@@ -115,9 +89,4 @@ $.ajax('./json/drawings.json').then((data) => {
       container.append(div);
     });
   });
-
-  /*   $('.clickable-image').on('click', function () {
-    const imgSrc = $(this).attr('src');
-    window.open(imgSrc, '_blank', 'width=800,height=600'); // Dimensiune personalizată
-  }); */
 });
