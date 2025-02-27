@@ -64,7 +64,8 @@ nav .right a span:hover {
 
 /*SECTION 1: Hero*/
 
-#cv {
+#cv_dev,
+#cv_graph {
   transition: transform 0.3s ease-out, border 0.3s ease-out; /* transiton for rotation & border */
   border: 3px solid rgb(255, 196, 1); /* adding border to hover */
 }
@@ -74,7 +75,8 @@ nav .right a span:hover {
   box-shadow: 0 0 5px 3px rgb(255, 196, 1); /* Glow  */
 }
 
-#cv:hover {
+#cv_dev:hover,
+#cv_graph:hover {
   transform: rotate(720deg); /* rotation*/
   box-shadow: 0 0 5px 3px rgb(255, 196, 1); /* Glow  */
 }
