@@ -18,11 +18,9 @@
     { "name": "Caricatura 6", "image": "caricatura_006.webp" },
     { "name": "Caricatura 7", "image": "caricatura_007.webp" },
     { "name": "Caricatura 9", "image": "caricatura_009.webp" },
-    { "name": "Caricatura 10", "image": "caricatura_010.webp" },
     { "name": "Caricatura 11", "image": "caricatura_011.webp" },
     { "name": "Caricatura 12", "image": "caricatura_012.webp" },
     { "name": "Caricatura 13", "image": "caricatura_013.webp" },
-    { "name": "Caricatura 14", "image": "caricatura_014.webp" },
     { "name": "Caricatura 15", "image": "caricatura_015.webp" }
   ],
   "compositions": [
@@ -48,8 +46,7 @@
     { "name": "Schita 14", "image": "schita_014.webp" },
     { "name": "Schita 15", "image": "schita_015.webp" },
     { "name": "Schita 17", "image": "schita_017.webp" },
-    { "name": "Schita 18", "image": "schita_018.webp" },
-    { "name": "Schita 19", "image": "schita_019.webp" }
+    { "name": "Schita 18", "image": "schita_018.webp" }
   ],
   "idees": [
     { "name": "Idée 1", "image": "idee_001.webp" },
@@ -65,7 +62,8 @@
     { "name": "lgbtq 2", "image": "lgbtq_002.webp" },
     { "name": "lgbtq 3", "image": "lgbtq_003.webp" },
     { "name": "lgbtq 4", "image": "lgbtq_004.webp" },
-    { "name": "lgbtq 5", "image": "lgbtq_005.webp" }
+    { "name": "lgbtq 5", "image": "lgbtq_005.webp" },
+    { "name": "lgbtq 6", "image": "lgbtq_006.webp" }
   ],
   "nus": [
     { "name": "Nud 1", "image": "nud_001.webp" },
@@ -115,7 +113,8 @@
   ],
   "retouches": [
     { "name": "Retouche 1", "image": "retouche_001.webp" },
-    { "name": "Retouche 2", "image": "retouche_002.webp" }
+    { "name": "Retouche 2", "image": "retouche_002.webp" },
+    { "name": "Retouche 3", "image": "retouche_003.webp" }
   ],
   "vectors": [
     { "name": "Vector 1", "image": "vector_001.webp" },
