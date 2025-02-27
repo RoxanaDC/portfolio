@@ -17,7 +17,6 @@
     { "name": "Caricatura 5", "image": "caricatura_005.webp" },
     { "name": "Caricatura 6", "image": "caricatura_006.webp" },
     { "name": "Caricatura 7", "image": "caricatura_007.webp" },
-    { "name": "Caricatura 8", "image": "caricatura_008.webp" },
     { "name": "Caricatura 9", "image": "caricatura_009.webp" },
     { "name": "Caricatura 10", "image": "caricatura_010.webp" },
     { "name": "Caricatura 11", "image": "caricatura_011.webp" },
@@ -30,7 +29,12 @@
     { "name": "Composition 1", "image": "compo_001.webp" },
     { "name": "Composition 2", "image": "compo_002.webp" },
     { "name": "Composition 3", "image": "compo_003.webp" },
-    { "name": "Composition 4", "image": "compo_004.webp" }
+    { "name": "Composition 4", "image": "compo_004.webp" },
+    { "name": "Composition 5", "image": "compo_005.webp" },
+    { "name": "Composition 6", "image": "compo_006.webp" },
+    { "name": "Composition 7", "image": "compo_007.webp" },
+    { "name": "Composition 8", "image": "compo_008.webp" },
+    { "name": "Composition 9", "image": "compo_009.webp" }
   ],
   "croquis": [
     { "name": "Schita 1", "image": "schita_001.webp" },
@@ -39,18 +43,13 @@
     { "name": "Schita 4", "image": "schita_004.webp" },
     { "name": "Schita 5", "image": "schita_005.webp" },
     { "name": "Schita 7", "image": "schita_007.webp" },
-    { "name": "Schita 8", "image": "schita_008.webp" },
-    { "name": "Schita 9", "image": "schita_009.webp" },
-    { "name": "Schita 10", "image": "schita_010.webp" },
     { "name": "Schita 12", "image": "schita_012.webp" },
     { "name": "Schita 13", "image": "schita_013.webp" },
     { "name": "Schita 14", "image": "schita_014.webp" },
     { "name": "Schita 15", "image": "schita_015.webp" },
-    { "name": "Schita 16", "image": "schita_016.webp" },
     { "name": "Schita 17", "image": "schita_017.webp" },
     { "name": "Schita 18", "image": "schita_018.webp" },
-    { "name": "Schita 19", "image": "schita_019.webp" },
-    { "name": "Schita 21", "image": "schita_021.webp" }
+    { "name": "Schita 19", "image": "schita_019.webp" }
   ],
   "idees": [
     { "name": "Idée 1", "image": "idee_001.webp" },
@@ -94,8 +93,7 @@
     { "name": "Photo 4", "image": "photo_004.webp" },
     { "name": "Photo 5", "image": "photo_005.webp" },
     { "name": "Photo 6", "image": "photo_006.webp" },
-    { "name": "Photo 7", "image": "photo_007.webp" },
-    { "name": "Photo 8", "image": "photo_008.webp" }
+    { "name": "Photo 7", "image": "photo_007.webp" }
   ],
   "portraits": [
     { "name": "Portret 1", "image": "portret_001.webp" },

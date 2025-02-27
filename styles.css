@@ -83,6 +83,7 @@ nav .right a span:hover {
 
 .hero-section {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   /* padding: 0 50px; /*y x*/
   padding: 0 max(5vw, 10px);
@@ -242,7 +243,7 @@ nav .right a span:hover {
 
 /*SECTION 4: Contact*/
 .contact-section {
-  padding: 0 50px;
+  padding: 0 150px;
   margin-bottom: 20px;
 }
 
