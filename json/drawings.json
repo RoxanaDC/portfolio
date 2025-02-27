@@ -1,7 +1,17 @@
 {
+  "affiches": [
+    { "name": "Affiche 1", "image": "affiche_001.webp" },
+    { "name": "Affiche 2", "image": "affiche_002.webp" },
+    { "name": "Affiche 3", "image": "affiche_003.webp" },
+    { "name": "Affiche 4", "image": "affiche_004.webp" },
+    { "name": "Affiche 5", "image": "affiche_005.webp" },
+    { "name": "Affiche 6", "image": "affiche_006.webp" },
+    { "name": "Affiche 7", "image": "affiche_007.webp" },
+    { "name": "Affiche 8", "image": "affiche_008.webp" },
+    { "name": "Affiche 9", "image": "affiche_009.webp" }
+  ],
   "caricatures": [
     { "name": "Caricatura 1", "image": "caricatura_001.webp" },
-    { "name": "Caricatura 2", "image": "caricatura_002.webp" },
     { "name": "Caricatura 3", "image": "caricatura_003.webp" },
     { "name": "Caricatura 4", "image": "caricatura_004.webp" },
     { "name": "Caricatura 5", "image": "caricatura_005.webp" },
@@ -22,24 +32,33 @@
     { "name": "Composition 3", "image": "compo_003.webp" },
     { "name": "Composition 4", "image": "compo_004.webp" }
   ],
+  "croquis": [
+    { "name": "Schita 1", "image": "schita_001.webp" },
+    { "name": "Schita 2", "image": "schita_002.webp" },
+    { "name": "Schita 3", "image": "schita_003.webp" },
+    { "name": "Schita 4", "image": "schita_004.webp" },
+    { "name": "Schita 5", "image": "schita_005.webp" },
+    { "name": "Schita 7", "image": "schita_007.webp" },
+    { "name": "Schita 8", "image": "schita_008.webp" },
+    { "name": "Schita 9", "image": "schita_009.webp" },
+    { "name": "Schita 10", "image": "schita_010.webp" },
+    { "name": "Schita 12", "image": "schita_012.webp" },
+    { "name": "Schita 13", "image": "schita_013.webp" },
+    { "name": "Schita 14", "image": "schita_014.webp" },
+    { "name": "Schita 15", "image": "schita_015.webp" },
+    { "name": "Schita 16", "image": "schita_016.webp" },
+    { "name": "Schita 17", "image": "schita_017.webp" },
+    { "name": "Schita 18", "image": "schita_018.webp" },
+    { "name": "Schita 19", "image": "schita_019.webp" },
+    { "name": "Schita 21", "image": "schita_021.webp" }
+  ],
   "idees": [
     { "name": "Idée 1", "image": "idee_001.webp" },
     { "name": "Idée 2", "image": "idee_002.webp" },
     { "name": "Idée 3", "image": "idee_003.webp" },
-    { "name": "Idée 4", "image": "idee_004.webp" },
-    { "name": "Idée 5", "image": "idee_005.webp" },
-    { "name": "Idée 6", "image": "idee_006.webp" },
-    { "name": "Idée 7", "image": "idee_007.webp" },
-    { "name": "Idée 8", "image": "idee_008.webp" },
-    { "name": "Idée 9", "image": "idee_009.webp" },
     { "name": "Idée 10", "image": "idee_010.webp" },
     { "name": "Idée 11", "image": "idee_011.webp" },
     { "name": "Idée 12", "image": "idee_012.webp" },
-    { "name": "Idée 13", "image": "idee_013.webp" },
-    { "name": "Idée 14", "image": "idee_014.webp" },
-    { "name": "Idée 15", "image": "idee_015.webp" },
-    { "name": "Idée 16", "image": "idee_016.webp" },
-    { "name": "Idée 17", "image": "idee_017.webp" },
     { "name": "Idée 18", "image": "idee_018.webp" }
   ],
   "lgbtq": [
@@ -55,10 +74,7 @@
     { "name": "Nud 3", "image": "nud_003.webp" },
     { "name": "Nud 4", "image": "nud_004.webp" },
     { "name": "Nud 5", "image": "nud_005.webp" },
-    { "name": "Nud 6", "image": "nud_006.webp" },
-    { "name": "Nud 7", "image": "nud_007.webp" },
     { "name": "Nud 8", "image": "nud_008.webp" },
-    { "name": "Nud 9", "image": "nud_009.webp" },
     { "name": "Nud 10", "image": "nud_010.webp" },
     { "name": "Nud 11", "image": "nud_011.webp" },
     { "name": "Nud 12", "image": "nud_012.webp" },
@@ -71,65 +87,6 @@
     { "name": "Peisaj 2", "image": "peisaj_002.webp" },
     { "name": "Peisaj 3", "image": "peisaj_003.webp" }
   ],
-
-  "portraits": [
-    { "name": "Portret 1", "image": "portret_001.webp" },
-    { "name": "Portret 2", "image": "portret_002.webp" },
-    { "name": "Portret 3", "image": "portret_003.webp" },
-    { "name": "Portret 4", "image": "portret_004.webp" },
-    { "name": "Portret 5", "image": "portret_005.webp" },
-    { "name": "Portret 6", "image": "portret_006.webp" },
-    { "name": "Portret 7", "image": "portret_007.webp" },
-    { "name": "Portret 8", "image": "portret_008.webp" },
-    { "name": "Portret 9", "image": "portret_009.webp" },
-    { "name": "Portret 10", "image": "portret_010.webp" },
-    { "name": "Portret 11", "image": "portret_011.webp" }
-  ],
-  "reproductions": [
-    { "name": "Reproduction 1", "image": "reprod_001.webp" },
-    { "name": "Reproduction 2", "image": "reprod_002.webp" },
-    { "name": "Reproduction 3", "image": "reprod_003.webp" },
-    { "name": "Reproduction 4", "image": "reprod_004.webp" },
-    { "name": "Reproduction 5", "image": "reprod_005.webp" },
-    { "name": "Reproduction 6", "image": "reprod_006.webp" }
-  ],
-
-  "croquis": [
-    { "name": "Schita 1", "image": "schita_001.webp" },
-    { "name": "Schita 2", "image": "schita_002.webp" },
-    { "name": "Schita 3", "image": "schita_003.webp" },
-    { "name": "Schita 4", "image": "schita_004.webp" },
-    { "name": "Schita 5", "image": "schita_005.webp" },
-    { "name": "Schita 6", "image": "schita_006.webp" },
-    { "name": "Schita 7", "image": "schita_007.webp" },
-    { "name": "Schita 8", "image": "schita_008.webp" },
-    { "name": "Schita 9", "image": "schita_009.webp" },
-    { "name": "Schita 10", "image": "schita_010.webp" },
-    { "name": "Schita 11", "image": "schita_011.webp" },
-    { "name": "Schita 12", "image": "schita_012.webp" },
-    { "name": "Schita 13", "image": "schita_013.webp" },
-    { "name": "Schita 14", "image": "schita_014.webp" },
-    { "name": "Schita 15", "image": "schita_015.webp" },
-    { "name": "Schita 16", "image": "schita_016.webp" },
-    { "name": "Schita 17", "image": "schita_017.webp" },
-    { "name": "Schita 18", "image": "schita_018.webp" },
-    { "name": "Schita 19", "image": "schita_019.webp" },
-    { "name": "Schita 20", "image": "schita_020.webp" },
-    { "name": "Schita 21", "image": "schita_021.webp" },
-    { "name": "Schita 22", "image": "schita_022.webp" }
-  ],
-  "affiches": [
-    { "name": "Affiche 1", "image": "affiche_001.webp" },
-    { "name": "Affiche 2", "image": "affiche_002.webp" },
-    { "name": "Affiche 3", "image": "affiche_003.webp" },
-    { "name": "Affiche 4", "image": "affiche_004.webp" },
-    { "name": "Affiche 5", "image": "affiche_005.webp" },
-    { "name": "Affiche 6", "image": "affiche_006.webp" },
-    { "name": "Affiche 7", "image": "affiche_007.webp" },
-    { "name": "Affiche 8", "image": "affiche_008.webp" },
-    { "name": "Affiche 9", "image": "affiche_009.webp" }
-  ],
-
   "photos": [
     { "name": "Photo 1", "image": "photo_001.webp" },
     { "name": "Photo 2", "image": "photo_002.webp" },
@@ -140,17 +97,35 @@
     { "name": "Photo 7", "image": "photo_007.webp" },
     { "name": "Photo 8", "image": "photo_008.webp" }
   ],
-
+  "portraits": [
+    { "name": "Portret 1", "image": "portret_001.webp" },
+    { "name": "Portret 2", "image": "portret_002.webp" },
+    { "name": "Portret 5", "image": "portret_005.webp" },
+    { "name": "Portret 6", "image": "portret_006.webp" },
+    { "name": "Portret 7", "image": "portret_007.webp" },
+    { "name": "Portret 8", "image": "portret_008.webp" },
+    { "name": "Portret 9", "image": "portret_009.webp" },
+    { "name": "Portret 10", "image": "portret_010.webp" }
+  ],
+  "reproductions": [
+    { "name": "Reproduction 1", "image": "reprod_001.webp" },
+    { "name": "Reproduction 2", "image": "reprod_002.webp" },
+    { "name": "Reproduction 3", "image": "reprod_003.webp" },
+    { "name": "Reproduction 4", "image": "reprod_004.webp" },
+    { "name": "Reproduction 5", "image": "reprod_005.webp" },
+    { "name": "Reproduction 6", "image": "reprod_006.webp" }
+  ],
   "retouches": [
     { "name": "Retouche 1", "image": "retouche_001.webp" },
     { "name": "Retouche 2", "image": "retouche_002.webp" }
   ],
-
   "vectors": [
     { "name": "Vector 1", "image": "vector_001.webp" },
     { "name": "Vector 2", "image": "vector_002.webp" },
     { "name": "Vector 3", "image": "vector_003.webp" },
     { "name": "Vector 4", "image": "vector_004.webp" },
-    { "name": "Vector 5", "image": "vector_005.webp" }
+    { "name": "Vector 5", "image": "vector_005.webp" },
+    { "name": "Vector 6", "image": "vector_006.webp" },
+    { "name": "Vector 7", "image": "vector_007.webp" }
   ]
 }
