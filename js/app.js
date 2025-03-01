@@ -1,5 +1,3 @@
-/* $ for jquery 
-i want that has a class = projects*/
 const projects = $('.projects');
 
 $.ajax('./json/projects.json').then((data) => {
@@ -67,32 +65,6 @@ const categories = [
   'vectors',
 ];
 
-/* $.ajax('./json/drawings.json').then((data) => {
-  categories.forEach((category) => {
-    const container = $(`#${category} .items`);
-
-    data[category].forEach((drawing) => {
-      const div = $("<div class='cell'>");
-
-      div.html(`
-        <a
-        href="./images/img_graphiste/${category}/${drawing.image}" 
-        data-lightbox="${category}" 
-        data-title="${drawing.name}">
-          <img
-          src="./images/img_graphiste/${category}/${drawing.image}" 
-          alt="${drawing.name}" 
-          class="clickable-image" 
-          loading="lazy"/>
-        </a>
-      `);
-
-      container.append(div);
-    });
-  });
-});
- */
-
 $.ajax('./json/drawings.json').then((data) => {
   categories.forEach((category) => {
     const container = $(`#${category} .items`);
@@ -113,11 +85,10 @@ $.ajax('./json/drawings.json').then((data) => {
         </a>
       `);
 
-      container.append(div); // Nu uita să adaugi div-ul în container
+      container.append(div);
     });
   });
 
-  // Lazy load pentru imagini
   const images = document.querySelectorAll('.lazy-load');
 
   const observer = new IntersectionObserver(
@@ -126,7 +97,7 @@ $.ajax('./json/drawings.json').then((data) => {
         if (entry.isIntersecting) {
           const img = entry.target;
           img.src = img.dataset.src; // Setează src-ul din data-src
-          img.classList.add('fade-in'); // Adaugă o tranziție (optional)
+          img.classList.add('fade-in'); // Adaugă o tranziție
           observer.unobserve(img); // Oprește observarea imaginii
         }
       });

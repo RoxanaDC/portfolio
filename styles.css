@@ -286,8 +286,7 @@ nav .right a span:hover {
   border: 2px solid var(--text-color);
 }
 
-/*drawings*/
-/* Stilizarea secțiunii de caricaturi */
+/* Stilizarea secțiunii de drawings */
 .drawings {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4 coloane egale */
