@@ -11,7 +11,7 @@ $.ajax('./json/projects.json').then((data) => {
         <div class="group">
         <div class="projet-details">
 <a href=${project.sitedeployed} target="_blank">
-        <img src="./images/${project.image}" alt="${project.title}" /><br><br>
+        <img src="./images/${project.image}" alt="${project.title}" loading="lazy"/><br><br>
 </a>
         <div class="text">Lors de la soutenance de ce projet, j'ai reçu l'évaluation suivante:<br><br> "${project.evaluation}"</div>
                 <p>---</p>
@@ -42,7 +42,7 @@ $.ajax('./json/skills.json').then((data) => {
 
     // Adăugăm conținutul HTML dinamic pentru fiecare skill
     div.html(`
-      <img src="./images/${skill.image}" alt="${skill.skillname}" />
+      <img src="./images/${skill.image}" alt="${skill.skillname}" loading="lazy"/>
       <span>${skill.skillname}</span>
     `);
 
@@ -67,7 +67,7 @@ const categories = [
   'vectors',
 ];
 
-$.ajax('./json/drawings.json').then((data) => {
+/* $.ajax('./json/drawings.json').then((data) => {
   categories.forEach((category) => {
     const container = $(`#${category} .items`);
 
@@ -82,11 +82,57 @@ $.ajax('./json/drawings.json').then((data) => {
           <img
           src="./images/img_graphiste/${category}/${drawing.image}" 
           alt="${drawing.name}" 
-          class="clickable-image" />
+          class="clickable-image" 
+          loading="lazy"/>
         </a>
       `);
 
       container.append(div);
     });
   });
+});
+ */
+
+$.ajax('./json/drawings.json').then((data) => {
+  categories.forEach((category) => {
+    const container = $(`#${category} .items`);
+
+    data[category].forEach((drawing) => {
+      const div = $("<div class='cell'>");
+
+      div.html(`
+        <a
+          href="./images/img_graphiste/${category}/${drawing.image}" 
+          data-lightbox="${category}" 
+          data-title="${drawing.name}">
+          <img
+            data-src="./images/img_graphiste/${category}/${drawing.image}" 
+            alt="${drawing.name}" 
+            class="clickable-image lazy-load" 
+            />
+        </a>
+      `);
+
+      container.append(div); // Nu uita să adaugi div-ul în container
+    });
+  });
+
+  // Lazy load pentru imagini
+  const images = document.querySelectorAll('.lazy-load');
+
+  const observer = new IntersectionObserver(
+    (entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          img.src = img.dataset.src; // Setează src-ul din data-src
+          img.classList.add('fade-in'); // Adaugă o tranziție (optional)
+          observer.unobserve(img); // Oprește observarea imaginii
+        }
+      });
+    },
+    { rootMargin: '50px' }
+  ); // Se încarcă cu 50px înainte de vizibilitate
+
+  images.forEach((img) => observer.observe(img));
 });
