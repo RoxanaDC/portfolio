@@ -77,11 +77,14 @@ $.ajax('./json/drawings.json').then((data) => {
           href="./images/img_graphiste/${category}/${drawing.image}" 
           data-lightbox="${category}" 
           data-title="${drawing.name}">
-          <img
-            data-src="./images/img_graphiste/${category}/${drawing.image}" 
-            alt="${drawing.name}" 
+
+          
+         <img
             class="clickable-image lazy-load" 
-            />
+            src="./images/img_graphiste/${category}/${drawing.image}" 
+            alt="${drawing.name}"
+            loading="lazy"
+          />
         </a>
       `);
 
@@ -89,21 +92,21 @@ $.ajax('./json/drawings.json').then((data) => {
     });
   });
 
+  // 🚀 După ce AJAX a terminat, adăugăm observer-ul
   const images = document.querySelectorAll('.lazy-load');
 
   const observer = new IntersectionObserver(
     (entries, observer) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          const img = entry.target;
-          img.src = img.dataset.src; // Setează src-ul din data-src
-          img.classList.add('fade-in'); // Adaugă o tranziție
-          observer.unobserve(img); // Oprește observarea imaginii
+          console.log('Imagine vizibilă:', entry.target); // ✅ Verifică în consolă
+          entry.target.classList.add('visible'); // Adaugă efectul fade-in
+          observer.unobserve(entry.target); // Oprește observarea după ce imaginea s-a încărcat
         }
       });
     },
-    { rootMargin: '50px' }
-  ); // Se încarcă cu 50px înainte de vizibilitate
+    { rootMargin: '100px' } // Încarcă imaginile cu 100px înainte să fie vizibile
+  );
 
   images.forEach((img) => observer.observe(img));
 });

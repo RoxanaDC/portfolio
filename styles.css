@@ -241,13 +241,25 @@ nav .right a span:hover {
   color: var(--text-color);
 }
 
-.lazy-load {
+/* .lazy-load {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
 
 .lazy-load.fade-in {
   opacity: 1;
+}
+ */
+
+.lazy-load {
+  opacity: 0;
+  transform: translateY(20px); /* Se ridică ușor în sus la apariție */
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.lazy-load.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /*SECTION 4: Contact*/
