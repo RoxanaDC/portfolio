@@ -84,6 +84,8 @@ $.ajax('./json/drawings.json').then((data) => {
             src="./images/img_graphiste/${category}/${drawing.image}" 
             alt="${drawing.name}"
             loading="lazy"
+            width="600"  
+            height="400" 
           />
         </a>
       `);
