@@ -9,7 +9,7 @@ $.ajax('./json/projects.json').then((data) => {
         <div class="group">
         <div class="projet-details">
 <a href=${project.sitedeployed} target="_blank">
-        <img src="./images/${project.image}" alt="${project.title}" loading="lazy"/><br><br>
+        <img src="./images/${project.image}" alt="${project.title}" loading="lazy" width="300" height="200"/><br><br>
 </a>
         <div class="text">Lors de la soutenance de ce projet, j'ai reçu l'évaluation suivante:<br><br> "${project.evaluation}"</div>
                 <p>---</p>
@@ -40,7 +40,7 @@ $.ajax('./json/skills.json').then((data) => {
 
     // Adăugăm conținutul HTML dinamic pentru fiecare skill
     div.html(`
-      <img src="./images/${skill.image}" alt="${skill.skillname}" loading="lazy"/>
+      <img src="./images/${skill.image}" alt="${skill.skillname}" loading="lazy" width="10" height="10"/>
       <span>${skill.skillname}</span>
     `);
 
