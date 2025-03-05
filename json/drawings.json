@@ -4,9 +4,7 @@
     { "name": "Affiche 2", "image": "affiche_002.webp" },
     { "name": "Affiche 3", "image": "affiche_003.webp" },
     { "name": "Affiche 6", "image": "affiche_006.webp" },
-    { "name": "Affiche 7", "image": "affiche_007.webp" },
-    { "name": "Affiche 8", "image": "affiche_008.webp" },
-    { "name": "Affiche 9", "image": "affiche_009.webp" }
+    { "name": "Affiche 8", "image": "affiche_008.webp" }
   ],
   "caricatures": [
     { "name": "Caricatura 1", "image": "caricatura_001.webp" },
@@ -117,10 +115,10 @@
   "vectors": [
     { "name": "Vector 1", "image": "vector_001.webp" },
     { "name": "Vector 2", "image": "vector_002.webp" },
-    { "name": "Vector 3", "image": "vector_003.webp" },
     { "name": "Vector 4", "image": "vector_004.webp" },
     { "name": "Vector 5", "image": "vector_005.webp" },
     { "name": "Vector 6", "image": "vector_006.webp" },
-    { "name": "Vector 7", "image": "vector_007.webp" }
+    { "name": "Vector 7", "image": "vector_007.webp" },
+    { "name": "Vector 8", "image": "vector_008.webp" }
   ]
 }

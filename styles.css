@@ -24,6 +24,11 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: 'Poppins';
+  src: url('poppins.woff2') format('woff2');
+  font-display: swap;
+}
 body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--background-color);
