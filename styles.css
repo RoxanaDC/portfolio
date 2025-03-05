@@ -225,7 +225,8 @@ nav .right a span:hover {
 }
 
 .projets-section .group .projet-details img {
-  width: 500px;
+  width: 15vw;
+  height: auto;
   /*  aspect-ratio: 1/1;*/
   object-fit: contain;
   border-radius: 15px;
@@ -244,21 +245,25 @@ nav .right a span:hover {
 .projets-section .group .projet-details p:last-child {
   font-weight: normal;
 }
+
 .projets-section .group .text {
   flex: 8;
   font-weight: normal;
   color: var(--text-color);
 }
 
-/* .lazy-load {
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+.center-link-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Aliniază conținutul <a> la centru */
 }
 
-.lazy-load.fade-in {
-  opacity: 1;
+.center-link-project img {
+  max-width: 100%; /* Asigură că imaginea nu depășește dimensiunea containerului */
+  height: auto; /* Păstrează proporțiile imaginii */
 }
- */
 
 .lazy-load {
   opacity: 0;
@@ -400,13 +405,18 @@ nav .right a span:hover {
     flex-direction: column;
   }
 
-  .projets-section .group .projet-details img {
-    width: 100%;
-  }
-
   .drawings {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 coloane egale */
+  }
+
+  .projets-section .group .projet-details img {
+    width: 40vw;
+    height: auto;
+    /*  aspect-ratio: 1/1;*/
+    object-fit: contain;
+    border-radius: 15px;
+    margin-bottom: 10px;
   }
 
   /*SECTION 4: Contact*/

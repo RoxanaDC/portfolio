@@ -7,9 +7,9 @@ $.ajax('./json/projects.json').then((data) => {
     div.html(`<h2>${project.title}</h2><br>
         <div class="text">${project.description}</div><br>
         <div class="group">
-        <div class="projet-details">
-<a href=${project.sitedeployed} target="_blank">
-        <img src="./images/${project.image}" alt="${project.title}" loading="lazy" width="300" height="200"/><br><br>
+        <div class="projet-details center-link-project">
+<a href=${project.sitedeployed} target="_blank" >
+        <img src="./images/${project.image}" alt="${project.title}" loading="lazy" width="300" height="200" /><br><br>
 </a>
         <div class="text">Lors de la soutenance de ce projet, j'ai reçu l'évaluation suivante:<br><br> "${project.evaluation}"</div>
                 <p>---</p>
