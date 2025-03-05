@@ -24,13 +24,11 @@ html {
   scroll-behavior: smooth;
 }
 
-@font-face {
-  font-family: 'Poppins';
-  src: url('poppins.woff2') format('woff2');
-  font-display: swap;
-}
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Segoe UI', 'Helvetica', 'Arial', 'Roboto', sans-serif;
+
+  /*   font-family: 'Poppins', sans-serif;
+ */
   background-color: var(--background-color);
   width: 100%;
   max-width: 1440px; /*cannot zoom out anymore after 1440*/
@@ -77,6 +75,9 @@ nav .right a span:hover {
 #cv_graph {
   transition: transform 0.3s ease-out, border 0.3s ease-out; /* transiton for rotation & border */
   border: 3px solid rgb(255, 196, 1); /* adding border to hover */
+  width: 80px;
+  height: auto;
+  aspect-ratio: 1/1;
 }
 
 #rox_img {
