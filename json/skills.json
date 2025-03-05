@@ -44,6 +44,10 @@
     "image": "corel-logo.webp"
   },
   {
+    "skillname": "Inkscape",
+    "image": "inkscape-logo.webp"
+  },
+  {
     "skillname": "Figma",
     "image": "figma-logo.webp"
   },
@@ -62,5 +66,9 @@
   {
     "skillname": "Lighthouse",
     "image": "lighthouse-logo.webp"
+  },
+  {
+    "skillname": "ChatGPT",
+    "image": "chatgpt-logo.webp"
   }
 ]
