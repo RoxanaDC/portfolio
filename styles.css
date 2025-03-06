@@ -26,9 +26,7 @@ html {
 
 body {
   font-family: 'Segoe UI', 'Helvetica', 'Arial', 'Roboto', sans-serif;
-
-  /*   font-family: 'Poppins', sans-serif;
- */
+  color: var(--text-color);
   background-color: var(--background-color);
   width: 100%;
   max-width: 1440px; /*cannot zoom out anymore after 1440*/
