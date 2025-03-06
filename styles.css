@@ -82,6 +82,7 @@ nav .right a span:hover {
 
 #rox_img {
   width: 150px;
+  height: 144px;
   box-shadow: 0 0 5px 3px rgb(255, 196, 1); /* Glow  */
 }
 
@@ -383,6 +384,10 @@ nav .right a span:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 coloane egale */
   }
+  #objectifs {
+    min-height: 165px;
+    width: auto;
+  }
 }
 @media (max-width: 740px) {
   /*SECTION 1: Hero*/
@@ -418,6 +423,10 @@ nav .right a span:hover {
     object-fit: contain;
     border-radius: 15px;
     margin-bottom: 10px;
+  }
+  #objectifs {
+    min-height: 195px;
+    width: auto;
   }
 
   /*SECTION 4: Contact*/
@@ -486,6 +495,11 @@ nav .right a span:hover {
     grid-template-columns: repeat(2, 1fr); /* 2 coloane egale */
   }
 
+  #objectifs {
+    min-height: 220px;
+    width: auto;
+  }
+
   /*SECTION 4: Contact*/
   .contact-section {
     padding: 0 20px;
@@ -496,6 +510,14 @@ nav .right a span:hover {
   .text {
     width: 100%;
   }
+  .intro_projects {
+    font-size: 25px;
+  }
+  #objectifs {
+    min-height: 270px;
+    width: auto;
+  }
+
   .drawings {
     display: grid;
     grid-template-columns: repeat(1, 1fr); /* 2 coloane egale */
