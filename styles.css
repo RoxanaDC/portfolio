@@ -28,7 +28,9 @@
 }
 
 img {
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5); /* shadow bottom right */
+  box-shadow: 0 3px 4px rgb(255, 196, 1); /* Umbră subtilă */
+
+  /* box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5); /* shadow bottom right */
   width: 100%;
   height: auto;
   display: block;
@@ -362,7 +364,7 @@ nav .right a :hover {
   padding: 2rem;
   background: var(--background-color); /* Fundal deschis pentru contrast */
   border-radius: 20px;
-  box-shadow: 0 4px 8px rgb(255, 196, 1); /* Umbră subtilă */
+  box-shadow: 0 3px 4px rgb(255, 196, 1); /* Umbră subtilă */
   text-align: center; /* Centrare text */
 }
 
@@ -378,7 +380,7 @@ nav .right a :hover {
   border-radius: 15px;
   overflow: hidden; /* Ascunde marginile rotunjite */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animație pe hover */
-  box-shadow: 0 8px 8px rgb(255, 219, 102);
+  box-shadow: 0 2px 4px rgb(255, 219, 102);
   margin-bottom: 5px;
 }
 
