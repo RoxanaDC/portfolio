@@ -1,0 +1,48 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--background-color-dark-theme);
+    color: var(--text-color-dark-theme);
+  }
+
+  a {
+    color: var(--link-color-dark-theme);
+  }
+
+  a:hover {
+    color: var(--hover-color-dark-theme);
+  }
+}
+
+:root {
+  /* Variabile pentru tema light */
+  --background-color: #ffcc00; /* Galben deschis */
+  --text-color: #333; /* Text închis */
+  --link-color: rgb(0, 0, 0); /* Linkuri negre */
+  --hover-color: #333; /* Hover similar cu culoarea textului */
+
+  /* Variabile pentru tema dark */
+  --background-color-dark-theme: #333; /* Gri închis pentru fundal */
+  --text-color-dark-theme: #f4f4f4; /* Text deschis pentru a fi lizibil pe fundal întunecat */
+  --link-color-dark-theme: #ffcc00; /* Linkuri galbene pentru un contrast bun */
+  --hover-color-dark-theme: #ffffff; /* Hover alb pentru a atrage atenția */
+}
+
+body {
+  font-family: 'Segoe UI', 'Helvetica', 'Arial', 'Roboto', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--hover-color);
+}
+
+/* Tema dark */
