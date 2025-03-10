@@ -362,7 +362,7 @@ nav .right a :hover {
   padding: 2rem;
   background: var(--background-color); /* Fundal deschis pentru contrast */
   border-radius: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Umbră subtilă */
+  box-shadow: 0 4px 8px rgb(255, 196, 1); /* Umbră subtilă */
   text-align: center; /* Centrare text */
 }
 
@@ -378,12 +378,12 @@ nav .right a :hover {
   border-radius: 15px;
   overflow: hidden; /* Ascunde marginile rotunjite */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animație pe hover */
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 8px rgb(255, 219, 102);
   margin-bottom: 5px;
 }
 
 .cell:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8); /* Umbră mai accentuată la hover */
+  box-shadow: 2px 4px 16px rgb(255, 196, 1); /* Umbră mai accentuată la hover */
 }
 
 /* Imaginile din caricaturi */
