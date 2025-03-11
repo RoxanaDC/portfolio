@@ -28,7 +28,9 @@
     { "name": "Composition 6", "image": "compo_006.webp" },
     { "name": "Composition 7", "image": "compo_007.webp" },
     { "name": "Composition 8", "image": "compo_008.webp" },
-    { "name": "Composition 9", "image": "compo_009.webp" }
+    { "name": "Composition 9", "image": "compo_009.webp" },
+    { "name": "Composition 10", "image": "compo_010.webp" },
+    { "name": "Composition 11", "image": "compo_011.webp" }
   ],
   "croquis": [
     { "name": "Schita 1", "image": "schita_001.webp" },
@@ -42,7 +44,8 @@
     { "name": "Schita 14", "image": "schita_014.webp" },
     { "name": "Schita 15", "image": "schita_015.webp" },
     { "name": "Schita 17", "image": "schita_017.webp" },
-    { "name": "Schita 18", "image": "schita_018.webp" }
+    { "name": "Schita 18", "image": "schita_018.webp" },
+    { "name": "Schita 30", "image": "schita_030.webp" }
   ],
   "idees": [
     { "name": "Idée 1", "image": "idee_001.webp" },
@@ -78,7 +81,8 @@
   "paysages": [
     { "name": "Peisaj 1", "image": "peisaj_001.webp" },
     { "name": "Peisaj 2", "image": "peisaj_002.webp" },
-    { "name": "Peisaj 3", "image": "peisaj_003.webp" }
+    { "name": "Peisaj 3", "image": "peisaj_003.webp" },
+    { "name": "Peisaj 4", "image": "peisaj_004.webp" }
   ],
   "photos": [
     { "name": "Photo 1", "image": "photo_001.webp" },
