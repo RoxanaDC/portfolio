@@ -188,6 +188,7 @@ nav .right a :hover {
 .hero-section .text h2 {
   font-size: 30px;
   color: var(--text-color);
+  margin-top: 20px;
 }
 
 .hero-section .text .links {
@@ -229,13 +230,14 @@ nav .right a :hover {
 /*SECTION 2: Skills*/
 .skills-section {
   padding: 0 50px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .skills-section h2 {
   text-align: center;
   font-size: 30px;
   color: var(--text-color);
+  margin-top: 20px;
 }
 
 .skills-section .text {
