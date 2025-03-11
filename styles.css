@@ -94,12 +94,14 @@ nav {
   align-items: center;
   padding: 0 50px;
   height: 60px;
+  margin-top: 20px;
 }
 
-nav .left a {
-  color: var(--text-color);
-  font-size: 22px;
-  font-weight: 600;
+nav .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px 10px 0;
 }
 
 nav .right a {
@@ -136,9 +138,11 @@ nav .right a :hover {
 }
 
 #rox_img {
-  width: 150px;
-  height: 144px;
+  max-width: 350px;
+  width: 100%;
+  height: auto;
   box-shadow: 0 0 5px 3px rgb(255, 196, 1); /* Glow  */
+  margin: 10px;
 }
 
 #cv_dev:hover,
@@ -279,8 +283,23 @@ nav .right a :hover {
   gap: 50px;
 }
 .projets-section .group .projet-details {
+  display: flex;
+  flex-direction: row;
+  justify-items: end;
   text-align: center;
-  flex: 2;
+  flex: 3;
+  margin-bottom: 10px;
+}
+
+.evaluator_code_ahref {
+  border-left: thin solid var(--link-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  align-items: end;
+  margin-bottom: 10px;
+  padding-left: 10px;
 }
 
 .projets-section .group .projet-details img {
@@ -309,6 +328,8 @@ nav .right a :hover {
   flex: 8;
   font-weight: normal;
   color: var(--text-color);
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .center-link-project {
@@ -433,6 +454,9 @@ nav .right a :hover {
   /*RESPONSIVE 850px going down 
 - reduce the size of h2 text
 */
+  nav .left {
+    font-size: 15px;
+  }
   .hero-section .text h2 {
     font-size: 20px;
   }
@@ -445,8 +469,30 @@ nav .right a :hover {
     min-height: 165px;
     width: auto;
   }
+
+  .projets-section .group .projet-details {
+    flex-direction: column;
+    align-items: center; /* Opțional, pentru centrare */
+    text-align: center;
+  }
+  .evaluator_code_ahref {
+    border: 0;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .projets-section .group .projet-details img {
+    width: 40vw;
+    height: auto;
 }
 @media (max-width: 740px) {
+  nav .right a span {
+    display: none;
+  }
+  nav .right a {
+    font-size: 30px;
+  }
+
   /*SECTION 1: Hero*/
   /*RESPONSIVE 750px going down 
     - image on top of the text and smaller
@@ -504,19 +550,9 @@ nav .right a :hover {
     margin-top: 50px;
   }
 
-  nav .right a {
-    font-size: 24px;
-  }
-
-  /* nav .right a:last-child {
-    color: var(--text-color);
-    background-color: transparent;
-    padding: 0;
-  }
- */
-  nav .right a span {
-    display: none;
-  }
+/*   nav .right a {
+    font-size: 30px;
+  } */
 
   /*SECTION 1: Hero
 -padding like navbar*/
@@ -564,9 +600,14 @@ nav .right a :hover {
 }
 
 @media (max-width: 420px) {
+
+  nav .right a {
+    font-size: 22px;}
+
   .text {
     width: 100%;
   }
+  
   .intro_projects {
     font-size: 25px;
   }
