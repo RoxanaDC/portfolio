@@ -1,5 +1,16 @@
+/*COLORILE PENTRU DARK MODE*/
 :root {
-  /* variables */
+  --background-color: #1d1d1d;
+  --text-color: #ffeeb9;
+  --link-color: #ffcc00;
+  --hover-color: #ffeeb9;
+  --gradient-color1: 100, 100, 100;
+  --gradient-color2: 200, 200, 200;
+
+  /*   --gradient-color1: 59, 59, 59;
+  --gradient-color2: 78, 78, 78;
+ 
+  */ /* variables */
   /*--text-color: #1a1c20;
   --text-color: rgb(1, 71, 1);
   --link-color: green;
@@ -7,7 +18,7 @@
  */
 }
 
-.light-mode {
+/* .light-mode {
   --background-color: #ffcc00;
   --text-color: #333;
   --link-color: #000000;
@@ -20,6 +31,7 @@
   --link-color: #ffcc00;
   --hover-color: #ffeeb9;
 }
+ */
 
 * {
   margin: 0;
@@ -39,7 +51,7 @@ img {
 html {
   scroll-behavior: smooth;
 }
-
+/*BODY PENTRU DARK MODE*/
 body {
   font-family: 'Segoe UI', 'Helvetica', 'Arial', 'Roboto', sans-serif;
   color: var(--text-color);
@@ -48,24 +60,53 @@ body {
   max-width: 1440px; /*cannot zoom out anymore after 1440*/
   margin: 0 auto; /*y axis auto x axis*/
 
-  background-color: #1d1d1d;
-
   background-image: linear-gradient(
       135deg,
-      rgb(59, 59, 59) 0%,
-      rgb(78, 78, 78) 100%
+      rgba(var(--gradient-color1)) 0%,
+      rgba(var(--gradient-color2)) 100%
     ),
     /* Gradient */
       repeating-linear-gradient(
         45deg,
-        rgba(255, 255, 255, 0.15) 0px,
-        rgba(255, 255, 255, 0.15) 10px,
+        rgba(var(--gradient-color1), 0.15) 0px,
+        rgba(var(--gradient-color2), 0.15) 10px,
         transparent 10px,
         transparent 20px
       ); /* Linii diagonale */
 
-  background-size: cover, cover;
+  background-size: 100% 100%, cover;
   background-blend-mode: overlay;
+}
+
+/* Dacă utilizatorul are tema LIGHT activă */
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color: #1d1d1d;
+    --text-color: #ffeeb9;
+    --link-color: #ffcc00;
+    --hover-color: #ffeeb9;
+    --gradient-color1: 100, 100, 100;
+    --gradient-color2: 200, 200, 200;
+  }
+  body {
+    background-color: var(--background-color);
+    background-image: linear-gradient(
+        135deg,
+        rgba(var(--gradient-color1)) 0%,
+        rgba(var(--gradient-color2)) 100%
+      ),
+      /* Gradient */
+        repeating-linear-gradient(
+          45deg,
+          rgba(var(--gradient-color1), 0.15) 0px,
+          rgba(var(--gradient-color2), 0.15) 10px,
+          transparent 10px,
+          transparent 20px
+        ); /* Linii diagonale */
+
+    background-size: 100% 100%, cover;
+    background-blend-mode: overlay;
+  }
 }
 
 a {
