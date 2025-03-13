@@ -135,13 +135,27 @@ Découvrez mon travail : roxanadc.github.io/portfolio/."
 
       <section class="hero-section">
         <div class="headshot">
-          <img
+          <picture id="rox_img">
+            <source srcset="images/roxana.webp" media="(min-width: 740px)" />
+            <source
+              srcset="images/roxana_small_290_x_359.webp"
+              media="(max-width: 739px)"
+            />
+            <img
+              src="images/roxana.webp"
+              alt="Roxana Cretu"
+              fetchpriority="high"
+            />
+          </picture>
+
+          <!--           <img
             id="rox_img"
             src="images/roxana.webp"
             alt="Roxana Cretu image"
             width="420"
             height="550"
           />
+ -->
         </div>
         <div class="text" min-height="750px" weight="100%">
           <h2>Développement Web & Graphisme</h2>

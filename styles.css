@@ -157,6 +157,8 @@ nav .right a :hover {
 }
 
 #rox_img {
+  width: 420px;
+  height: 550px;
   max-width: 420px;
   width: 100%;
   height: auto;
@@ -230,7 +232,8 @@ nav .right a :hover {
 
 .hero-section .headshot img {
   border-radius: var(--border-radius-standard);
-  width: 300px;
+  width: 420px;
+  height: auto;
 }
 .hero-section .list {
   padding-left: 20px;
@@ -571,7 +574,8 @@ nav .right a :hover {
     padding-bottom: 0;
   }
   .hero-section .headshot img {
-    width: 100px;
+    width: 290px;
+    height: auto;
   }
   .contact-section > * {
     margin-bottom: 10px;
