@@ -113,8 +113,7 @@
   ],
   "retouches": [
     { "name": "Retouche 1", "image": "retouche_001.webp" },
-    { "name": "Retouche 2", "image": "retouche_002.webp" },
-    { "name": "Retouche 3", "image": "retouche_003.webp" }
+    { "name": "Retouche 2", "image": "retouche_002.webp" }
   ],
   "vectors": [
     { "name": "Vector 1", "image": "vector_001.webp" },

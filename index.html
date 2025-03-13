@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="/images/logo_icon_tiny.png" />
 
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
@@ -14,9 +13,9 @@
       referrerpolicy="no-referrer"
     />
 
-<!--     <link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'">
+    <!--     <link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'">
  -->
- <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 
     <title>Portfolios</title>
 
@@ -25,41 +24,49 @@
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
-      
     ></script>
 
     <!-- the script from app.js with defer for DOM stuff-->
     <script src="./js/app.js" defer></script>
 
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://roxanadc.github.io/portfolio/" />
     <meta
-      property="og:url"
-      content="https://roxanadc.github.io/portfolio/"
+      property="og:title"
+      content="Développeur web | Graphiste - Roxana Cretu"
     />
-    <meta property="og:title" content="Développeur web | Graphiste - Roxana Cretu" />
-    <meta property="og:description" 
-    content="Graphiste et développeur web, je combine plus de 3 ans d'expérience en design avec une formation en développement front-end et back-end.  
+    <meta
+      property="og:description"
+      content="Graphiste et développeur web, je combine plus de 3 ans d'expérience en design avec une formation en développement front-end et back-end.  
 Femme dans la tech, je suis passionnée par l'innovation, l’accessibilité numérique et le référencement SEO.  
 Mon objectif : créer des interfaces modernes, performantes et bien optimisées pour l'expérience utilisateur et la visibilité en ligne.  
-Découvrez mon travail : roxanadc.github.io/portfolio/." />
-
+Découvrez mon travail : roxanadc.github.io/portfolio/."
+    />
 
     <meta
       property="og:image"
       content="https://roxanadc.github.io/portfolio/images/roxana_tn.webp"
     />
 
-    <script type="application/ld+json" >
+    <script type="application/ld+json">
       {
         "@context": "http://schema.org",
         "@type": "ProfessionalService",
-        "name": "Cretu Roxana - Développeuse Web",
-        "description": "Création de sites web modernes et adaptés aux besoins de vos clients.",
-        "additionalType": "https://schema.org/WebSiteDevelopmentService"
+        "name": "Roxana Cretu -Développeur Web | Développeuse Web et Graphiste",
+        "url": "https://roxanadc.github.io/portfolio/",
         "image": "./images/roxana_tn.webp",
-        "telephone": "0033 768030702",
+        "telephone": "+33 768030702",
 
-        "sameAs": "https://cioplitdintr-obucata.blogspot.com/",
+        "description": "Création de sites web modernes et design graphique.",
+        "additionalType": "https://schema.org/WebSiteDevelopmentService",
+
+        "publisher": {
+          "@type": "Person",
+          "name": "Roxana Cretu",
+          "jobTitle": "Développeur Web | Développeuse Web et Graphiste",
+          "url": "https://roxanadc.github.io/portfolio/",
+          "image": "https://roxanadc.github.io/portfolio/images/roxana_tn.webp"
+        },
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "10 ter rue Janssen",
@@ -67,20 +74,24 @@ Découvrez mon travail : roxanadc.github.io/portfolio/." />
           "addressCountry": "FR",
           "postalCode": "75019"
         },
-        
-        "areaServed": "France"
-        "email":"cretu2roxana@gmail.com"
+        "sameAs": [
+          "https://www.linkedin.com/in/roxana-diana-cretu-635672a6/",
+          "https://github.com/RoxanaDC",
+          "https://roxanadc.github.io/portfolio/dev_web.html",
+          "https://roxanadc.github.io/portfolio/graphiste.html",
+          "https://cioplitdintr-obucata.blogspot.com/"
+        ],
+        "image": "https://roxanadc.github.io/portfolio/images/roxana_tn.webp",
+        "areaServed": "France",
+        "email": "cretu2roxana@gmail.com"
       }
     </script>
-
   </head>
   <body class="light-mode">
-    
     <!--NAVBAR-->
     <nav id="nav">
       <div class="left">
         <h2>Roxana Diana Cretu</h2>
-        
       </div>
 
       <div class="right">
@@ -89,158 +100,160 @@ Découvrez mon travail : roxanadc.github.io/portfolio/." />
           target="_blank"
           rel="noopener noreferrer"
         >
-        
           <i class="fa-brands fa-github"></i>
-        <span>  Git
-        </span>
+          <span> Git </span>
         </a>
- 
+
         <a
           href="https://www.linkedin.com/in/roxana-diana-cretu-635672a6/"
           target="_blank"
           rel="noopener noreferrer"
         >
-        
           <i class="fa-brands fa-linkedin"></i>
-        <span>  LinkedIn
-        </span>
+          <span> LinkedIn </span>
         </a>
 
-      <a href="mailto:cretu2roxana@gmail.com">
-      
-        <i class="fa-solid fa-envelope"></i>
-      <span>  Email
-      </span>
-      </a>
+        <a href="mailto:cretu2roxana@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
+          <span> Email </span>
+        </a>
 
-      <a
-      href="dev_web.html"
-      target="_self"
-      rel="noopener noreferrer"
-    >
-      
-        <i class="fa-solid fa-code"></i> 
-        <span>Portfolio developpement web
-      </span>
-    </a>
-    <a
-    href="graphiste.html"
-    target="_self"
-    rel="noopener noreferrer"
-  >
-    <i class="fa-solid fa-palette"></i> 
-    <span>  Portfolio graphiste
-
-  </span>
-  </a>
-
-
-    </div>
+        <a href="dev_web.html" target="_self" rel="noopener noreferrer">
+          <i class="fa-solid fa-code"></i>
+          <span> Portfolio Dév. Web </span>
+        </a>
+        <a href="graphiste.html" target="_self" rel="noopener noreferrer">
+          <i class="fa-solid fa-palette"></i>
+          <span> Portfolio graphiste </span>
+        </a>
+      </div>
     </nav>
 
     <main>
       <!--SECTION: Hero-->
-      
+
       <section class="hero-section">
         <div class="headshot">
-          <img id="rox_img" src="images/roxana.webp" alt="Roxana Cretu image" width="150" height="144" loading="lazy"/>
-          
+          <img
+            id="rox_img"
+            src="images/roxana.webp"
+            alt="Roxana Cretu image"
+            width="420"
+            height="550"
+            loading="lazy"
+          />
         </div>
-        <div class="text">
-        
-          <h2>
-          Développement Web &
-           Graphisme        
-           </h2> 
-          <h3>Donnez Vie à Vos Idées! </h3>
-          <br>
-          <p> Bonjour, je suis Roxana. </p><br>
-         
-          <p>J’allie 
-            <strong>
-            design graphique 
-          </strong>
-            et <strong>développement web</strong>, pour concevoir des identités 
-          visuelles uniques et des sites modernes et intuitifs.</p>
+        <div class="text" min-height="650px" weight="100%">
+          <h2>Développement Web & Graphisme</h2>
+          <h3>Donnez Vie à Vos Idées!</h3>
+          <br />
+          <p>Bonjour, je suis Roxana.</p>
+          <br />
+
+          <p>
+            J’allie
+            <strong> design graphique </strong>
+            et <strong>développement web</strong>, pour concevoir des identités
+            visuelles uniques et des sites modernes et intuitifs.
+          </p>
           <h2>Mes Objectifs</h2>
-       
-            <ul id="objectifs">
-              <li>Donner à votre projet une <strong>image forte</strong> et une <strong>présence digitale impactante.</strong></li>
-              <li><strong>Améliorer la visibilité</strong> de votre site pour les moteurs de recherche (comme Google) et <strong>attirer plus de visiteurs.</strong></li>
-              <li>Offrir une expérience utilisateur excellente grâce à des <strong>vitesses de chargement optimisées.</strong></li>
-              <li><strong>Faciliter l'ajout de contenu, </strong>grâce à des scripts JavaScript performants.</li>
-            </ul>
 
+          <ul id="objectifs">
+            <li>
+              Donner à votre projet une <strong>image forte</strong> et une
+              <strong>présence digitale impactante.</strong>
+            </li>
+            <li>
+              <strong>Améliorer la visibilité</strong> de votre site pour les
+              moteurs de recherche (comme Google) et
+              <strong>attirer plus de visiteurs.</strong>
+            </li>
+            <li>
+              Offrir une expérience utilisateur excellente grâce à des
+              <strong>vitesses de chargement optimisées.</strong>
+            </li>
+            <li>
+              <strong>Faciliter l'ajout de contenu, </strong>grâce à des scripts
+              JavaScript performants.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--SECTION 2: Skills-->
+      <section id="skills" class="skills-section">
+        <h2>Mes compétences Techniques</h2>
 
-<!--SECTION 2: Skills-->
-<section id="skills" class="skills-section">
-    <h2>Mes compétences Techniques</h2>
-    
-       <div class="cells"></div> <!-- here will be added the skills -->
-</section>
-<a href="https://miro.com/app/board/uXjVL8o7Qls=/?share_link_id=274875783980" target="_blank">
-  <strong>Mes compétences de développeuse web sur Miro</strong><br><br>
-</a>
-<a href="CV_Dev_Web_Graphiste_Roxana_Diana_Cretu_6mars_2025.pdf" target="_blank">
-  <strong>Mon CV de développeuse web (format .pdf)</strong><br>
-  <img src="images/cv_picture_small.png" alt="Image pour CV Développeur Web" width="80" height="80" id="cv_dev" loading="lazy">
-</a>
-<br>
-        <p height="100" width="auto">Vous pouvez voir mes portfolios en cliquant sur les liens ci-dessous:</p>
-            <div class="links">
-            
+        <div class="cells"></div>
+        <!-- here will be added the skills -->
+      </section>
 
-            
-            
-            <a href="dev_web.html" target="_blank">
-              <i class="fa-solid fa-code"></i>
-          
-              <span>Projets de developpement web</span>
-            </a>
+      <section id="cvs" class="contact-section cvs_section">
+        <strong>Mon CV de développeuse web (format .pdf)</strong><br />
 
-            <a href="graphiste.html" target="_blank">
-              <i class="fa-solid fa-pen"></i>
-              <i class="fa-solid fa-palette"></i>
-              <span>Projets de graphisme</span>
-            </a>
-     
-    </section>  
+        <a
+          id="a_cv"
+          href="CV_Dev_Web_Graphiste_Roxana_Diana_Cretu_6mars_2025.pdf"
+          target="_blank"
+        >
+          <img
+            src="images/cv_picture_small.png"
+            alt="Image pour CV Développeur Web"
+            width="80"
+            height="80"
+            id="cv_dev"
+            loading="lazy"
+          />
+        </a>
+        <br />
+        <strong>Ma carte de compétences de développeuse web sur Miro</strong
+        ><br />
+        <a
+          id="a_miro"
+          href="https://miro.com/app/board/uXjVL8o7Qls=/?share_link_id=274875783980"
+          target="_blank"
+        >
+          <img
+            src="images/carte_miro.jpg"
+            alt="Carte Miro"
+            width="117"
+            height="57"
+            id="image_carte_miro"
+            loading="lazy"
+          />
+        </a>
 
-      <section id="cvs" class="contact-section">
-      <br>
+        <br /><br />
 
+        <!-- închiderea div-ului links aici -->
+      </section>
+      <!-- secțiunea se închide corect aici -->
 
-    </section>
+      <!--SECTION: Contact-->
+      <section id="contact" class="contact-section">
+        <p>Pour transformer ensemble vos idées, en réalisations concrètes,</p>
+        <h2>Contactez-moi!</h2>
 
-            <!--SECTION: Contact-->
-          <section id="contact" class="contact-section">  
-            Pour transformer ensemble vos idées en réalisations concrètes,  
-              <h2>Contactez-moi!</h2>
-                       
-               <div class="text">
+        <div class="text">
+          <br />
+          <strong>Numéro de téléphone:</strong> +33 768 03 07 02
+          <br />
 
-                <br /> <strong>Numéro de téléphone:</strong> +33 768 03 07 02
-                <br>
-                
-                <a href="mailto:cretu2roxana@gmail.com">
-                  <i class="fa-solid fa-envelope"></i>
-                  <span><strong>Email:</strong> cretu2roxana@gmail.com</span>
-                </a>
-                <br /><br><p>(Je parle couramment <strong>l'anglais</strong> et <strong>le français</strong>, et <strong>le roumain</strong> est ma langue maternelle.)</p>
+          <a href="mailto:cretu2roxana@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+            <span><strong>Email:</strong> cretu2roxana@gmail.com</span>
+          </a>
+          <br /><br />
+          <p>
+            (Je parle couramment <strong>l'anglais</strong> et
+            <strong>le français</strong>, et <strong>le roumain</strong> est ma
+            langue maternelle.)
+          </p>
+        </div>
 
-              </div> 
-             
-              <div >
-              <a class="links" href="#nav">
-                <span>...↑...</span>
-              </a>
-            </section>
-           
-           
-               
-            </div>
-              
-<br>
+        <a class="links" href="#nav">
+          <span>...↑...</span>
+        </a>
+      </section>
     </main>
   </body>
 </html>

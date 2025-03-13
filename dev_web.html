@@ -13,7 +13,12 @@
       referrerpolicy="no-referrer"
     />
 
-    <link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'">
+    <link
+      rel="stylesheet"
+      href="styles.css"
+      media="print"
+      onload="this.media='all'"
+    />
     <title>Developpement web - Roxana C</title>
 
     <!-- i am using jquery from https://releases.jquery.com/ - minified jquery 3.x-->
@@ -21,37 +26,68 @@
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
-      
     ></script>
 
-    <!-- the script from app.js with defer for DOM stuff-->
+    <!-- the script from apps.js with defer for DOM stuff-->
     <script src="./js/app.js" defer></script>
+
     <meta property="og:type" content="website" />
     <meta
       property="og:url"
       content="https://roxanadc.github.io/portfolio/dev_web.html"
     />
 
-    <meta property="og:title" content="Portfolio Développeur Web - Roxana Cretu" />
-    <meta property="og:description" 
-          content="Découvrez mes projets en développement web : intégration front-end, développement back-end, SEO et création d’interfaces modernes et performantes." />
-    <meta name="description" 
-          content="Portfolio de développeur web : projets HTML, CSS, JavaScript, React, Node.js et optimisation SEO." />
-    <meta name="keywords" 
-          content="développeur web, intégration web, développement front-end, développement back-end, SEO, UI/UX, sites responsives, JavaScript, React, Node.js" />
-    
-
-
+    <meta
+      property="og:title"
+      content="Portfolio Développeur Web - Roxana Cretu"
+    />
+    <meta
+      property="og:description"
+      content="Découvrez mes projets en développement web : intégration front-end, développement back-end, SEO et création d’interfaces modernes et performantes."
+    />
+    <meta
+      name="description"
+      content="Portfolio de développeur web : projets HTML, CSS, JavaScript, React, Node.js et optimisation SEO."
+    />
+    <meta
+      name="keywords"
+      content="développeur web, intégration web, développement front-end, développement back-end, SEO, UI/UX, sites responsives, JavaScript, React, Node.js"
+    />
 
     <meta
       property="og:image"
       content="https://roxanadc.github.io/portfolio/images/web_tn.webp"
     />
-
-
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebPage",
+        "name": "Portfolio Développement Web",
+        "url": "https://roxanadc.github.io/portfolio/dev_web.html",
+        "description": "Découvrez mes projets de développement web.",
+        "mainEntity": {
+          "@type": "CreativeWork",
+          "name": "Projets de développement web",
+          "creator": {
+            "@type": "Person",
+            "name": "Roxana Cretu",
+            "jobTitle": "Développeur Web | Développeuse Web",
+            "url": "https://roxanadc.github.io/portfolio/"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/in/roxana-diana-cretu-635672a6/",
+            "https://github.com/RoxanaDC",
+            "https://roxanadc.github.io/portfolio/graphiste.html",
+            "https://cioplitdintr-obucata.blogspot.com/"
+          ],
+          "image": "https://roxanadc.github.io/portfolio/images/roxana_tn.webp",
+          "areaServed": "France",
+          "email": "cretu2roxana@gmail.com"
+        }
+      }
+    </script>
   </head>
   <body class="light-mode">
-
     <!--NAVBAR-->
     <nav id="nav">
       <div class="left">
@@ -64,72 +100,50 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-        
           <i class="fa-brands fa-github"></i>
-         <span> Github
-        </span>
+          <span> Github </span>
         </a>
- 
+
         <a
           href="https://www.linkedin.com/in/roxana-diana-cretu-635672a6/"
           target="_blank"
           rel="noopener noreferrer"
         >
-
-        <i class="fa-brands fa-linkedin"></i>
-               <span>
- LinkedIn
-      </span>
+          <i class="fa-brands fa-linkedin"></i>
+          <span> LinkedIn </span>
         </a>
 
-
-      <a
-        href="graphiste.html"
-        target="_self"
-        rel="noopener noreferrer"
-      >
-      <i class="fa-solid fa-palette"></i>
-            <span>
-  Portfolio graphiste
-      </span>
-      </a>
+        <a href="graphiste.html" target="_self" rel="noopener noreferrer">
+          <i class="fa-solid fa-palette"></i>
+          <span> Portfolio graphiste </span>
+        </a>
 
         <a href="mailto:cretu2roxana@gmail.com">
           <i class="fa-solid fa-envelope"></i>
-                <span>
-    Email
-        </span>
+          <span> Email </span>
         </a>
 
-        <a
-        href="index.html"
-        target="_self"
-        rel="noopener noreferrer"
-      >
-                ...← <span>Home</span>
-
-      </a>
+        <a href="index.html" target="_self" rel="noopener noreferrer">
+          ...← <span>Home</span>
+        </a>
       </div>
     </nav>
 
     <main>
       <!--SECTION: Projets-->
-<section class="projets-section"></section>
-<h2 class="intro_projects">Mes projets de développement web, allant des plus simples aux plus complexes</h2>
+      <section class="projets-section" id="projets-section">
+        <h2 class="intro_projects">
+          Mes projets de développement web, allant des plus simples aux plus
+          complexes
+        </h2>
 
-      <div id="projets" class="projects"></div>
-</section>
+        <div id="projets" class="projects"></div>
+        <a class="links" href="#nav">
+          <span>...↑...</span>
+        </a>
+      </section>
 
-              <div >
-              <a class="links" href="#nav">
-                <span>...↑...</span>
-              </a>
-            </section>
-           
-           
-            </div>
-              
-<br><br><br>
+      <br /><br /><br />
     </main>
   </body>
 </html>

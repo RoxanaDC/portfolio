@@ -1,0 +1,172 @@
+        <!--------------------------------------FORM: Contact - -----------------HTML------------------------------->
+        <form
+          id="contactForm"
+          action="mailto:kkk@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="email">Email (obligatoriu):</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="mesaj">Mesaj (maxim 500 de caractere):</label><br />
+
+          <textarea
+            id="mesaj"
+            name="mesaj"
+            maxlength="500"
+            style="resize: none"
+          ></textarea>
+          <br /><br />
+
+          <input type="submit" value="Trimite mesajul" />
+        </form>
+
+        <script>
+          document
+            .getElementById('contactForm')
+            .addEventListener('submit', function (event) {
+              // Aici poți adăuga cod JavaScript pentru a procesa formularul înainte de trimitere
+              // De exemplu, poți valida datele sau afișa un mesaj de confirmare
+              // Reține: trimiterea directă a unui email din HTML/JavaScript nu este posibilă în mod direct
+              // Vei avea nevoie de un backend pentru a procesa datele și a trimite emailul
+            });
+        </script>
+
+        <!--FORM: Contact-->
+
+
+
+
+
+
+
+/*--------------------------------------FORMULAR CONTACT--------------JAVASCRIPT---------------------------------------------*/
+
+document
+  .getElementById('contactForm')
+  .addEventListener('submit', function (event) {
+    // Prevenim trimiterea implicită a formularului
+    event.preventDefault();
+
+    // Obținem valorile câmpurilor
+    const email = document.getElementById('email').value;
+    const mesaj = document.getElementById('mesaj').value;
+
+    // Validăm adresa de email
+    if (!isValidEmail(email)) {
+      alert('Adresa de email nu este validă.');
+      return;
+    }
+
+    // Validăm mesajul
+    if (mesaj.trim() === '') {
+      alert('Mesajul nu poate fi gol.');
+      return;
+    }
+
+    // Afișăm un mesaj de confirmare
+    const confirmare = confirm('Sigur doriți să trimiteți mesajul?');
+    if (!confirmare) {
+      return;
+    }
+
+    // Aici ar trebui să trimiți datele către un backend pentru a trimite emailul
+    // De exemplu, poți folosi fetch sau XMLHttpRequest pentru a trimite datele către un server
+
+    // Afișăm un mesaj de succes (simulat)
+    alert('Mesajul a fost trimis cu succes!');
+
+    // Resetăm formularul
+    document.getElementById('contactForm').reset();
+  });
+
+// Funcție pentru validarea adresei de email
+function isValidEmail(email) {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+}
+
+
+/*-----------------------------BACKEND--------NODE.JS-------------------------*/
+
+const express = require('express');
+const nodemailer = require('nodemailer');
+const bodyParser = require('body-parser');
+
+const app = express();
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.post('/contact', (req, res) => {
+    const { email, mesaj } = req.body;
+
+    const transporter = nodemailer.createTransport({
+        service: 'gmail', // sau alt serviciu
+        auth: {
+            user: 'your_email@gmail.com',
+            pass: 'your_password'
+        }
+    });
+
+    const mailOptions = {
+        from: email,
+        to: 'kkk@gmail.com',
+        subject: 'Mesaj de pe site',
+        text: mesaj
+    };
+
+    transporter.sendMail(mailOptions, (error, info) => {
+        if (error) {
+            console.log(error);
+            res.send('Eroare la trimiterea emailului.');
+        } else {
+            console.log('Email trimis: ' + info.response);
+            res.send('Mesajul a fost trimis cu succes!');
+        }
+    });
+});
+
+app.listen(3000, () => {
+    console.log('Serverul rulează pe portul 3000');
+});
+
+------------------------------END BACKEND----------------------------------------
+
+Securitate: Implementează măsuri de securitate pentru a proteja serverul și datele utilizatorilor.
+Logare: Înregistrează trimiterile de formulare și erorile pentru depanare.
+Testare: Testează funcționalitatea formularului și a backend-ului.
+Recomandări:
+
+Începe cu un tutorial simplu pentru limbajul și framework-ul ales.
+Folosește un serviciu de email dedicat pentru trimiterea emailurilor în producție (de exemplu, SendGrid, Mailgun).
+Asigură-te că serverul tău este securizat.
+
+
+
+
+------------------------------	DIV CU TEXT OBLIC  -----------------------
+
+.div-cu-text-oblic {
+  width: 500px; /* Sau dimensiunea dorită */
+  height: 300px; /* Sau dimensiunea dorită */
+  background-image: linear-gradient(
+    45deg,
+    transparent 25%,
+    rgba(0, 0, 0, 0.1) 25%,
+    rgba(0, 0, 0, 0.1) 50%,
+    transparent 50%,
+    transparent 75%,
+    rgba(0, 0, 0, 0.1) 75%
+  ),
+  linear-gradient(
+    45deg,
+    "test" 10%,
+    transparent 10%,
+    transparent 90%,
+    "test" 90%
+  );
+  background-size: 50px 50px; /* Dimensiunea modelului repetat */
+  background-repeat: repeat;
+  color: #333; /* Culoarea textului (opțional) */
+  font-size: 20px; /* Dimensiunea fontului (opțional) */
+  text-align: center; /* Aliniere text (opțional) */
+}

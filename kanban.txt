@@ -1,9 +1,0 @@
-  {
-    "title": "Projet 7: Planifiez le développement du site de votre client",
-    "description": "Dans ce projet, j'ai participé à la planification du développement d'un site web sans intervenir directement dans le codage. Mon rôle a consisté à analyser la maquette, les spécifications fonctionnelles et les User Stories afin de préparer un plan structuré pour le développement du site. J'ai réalisé une veille technologique pour identifier les dernières tendances et technologies pertinentes pour le projet, en utilisant un système de veille pour rester à jour dans le domaine du développement web. Ensuite, j'ai rédigé les spécifications techniques du projet, en identifiant les besoins fonctionnels et en décomposant les fonctionnalités en tâches spécifiques. Pour organiser le projet, j'ai utilisé un outil de gestion comme Notion, où j'ai créé un tableau Kanban pour suivre les étapes du projet de manière claire et efficace. Enfin, j'ai présenté la solution technique, en détaillant les choix technologiques et la planification pour garantir la réussite du développement du site.",
-    "image": "kanban.webp",
-    "evaluation": "Points forts : Les livrables sont conformes à ce qui est attendu. Des livrables dans l'ensemble très complet. Axes d'amélioration : Les diapositives sont un peu surchargées, hésitez pas à alléger et à faire des présentations plus simples.",
-    "githublink": "https://rose-bus-88d.notion.site/Plan-d-veloppement-site-Menu-Maker-by-Qwenta-13fa46527cdb8040b17ff23c549054ad",
-    "evaluatorname": "Maria Lena Pietri",
-    "evaluatorpage": "https://openclassrooms.com/fr/members/w8stgdfrlpk3"
-  }

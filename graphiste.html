@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="/images/logo_icon_tiny.png" />
 
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
@@ -14,7 +13,12 @@
       referrerpolicy="no-referrer"
     />
 
-    <link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'">
+    <link
+      rel="stylesheet"
+      href="styles.css"
+      media="print"
+      onload="this.media='all'"
+    />
     <title>Graphisme - Roxana C</title>
 
     <!-- i am using jquery from https://releases.jquery.com/ - minified jquery 3.x-->
@@ -22,57 +26,88 @@
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
-      
     ></script>
 
     <!-- the script from app.js with defer for DOM stuff-->
     <script src="./js/app.js" defer></script>
 
-  <meta property="og:type" content="website" />
+    <meta property="og:type" content="website" />
     <meta
       property="og:url"
       content="https://roxanadc.github.io/portfolio/graphiste.html"
     />
 
-
     <meta property="og:title" content="Portfolio Graphiste - Roxana Cretu" />
-    <meta property="og:description" 
-          content="Graphiste passionnée, je crée des visuels uniques, percutants et créatifs pour donner vie à vos idées: 
-          identité visuelle, affiches, illustrations et design numérique. Découvrez mon portfolio!" />
-    <meta name="description" 
-          content="Portfolio de graphiste : créations graphiques, affiches, illustrations, retouches photo et branding." />
-    <meta name="keywords" 
-          content="graphiste, design graphique, identité visuelle, affiches, illustrations, Photoshop, Illustrator, Inkscape, branding, retouche photo, création visuelle" />
-    
+    <meta
+      property="og:description"
+      content="Graphiste passionnée, je crée des visuels uniques, percutants et créatifs pour donner vie à vos idées: 
+          identité visuelle, affiches, illustrations et design numérique. Découvrez mon portfolio!"
+    />
+    <meta
+      name="description"
+      content="Portfolio de graphiste : créations graphiques, affiches, illustrations, retouches photo et branding."
+    />
+    <meta
+      name="keywords"
+      content="graphiste, design graphique, identité visuelle, affiches, illustrations, Photoshop, Illustrator, Inkscape, branding, retouche photo, création visuelle"
+    />
 
-      <meta
+    <meta
       property="og:image"
       content="https://roxanadc.github.io/portfolio/images/graph_tn.webp"
     />
 
-
     <!-- Lightbox2 CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+      rel="stylesheet"
+    />
 
-<!-- Lightbox2 JS -->
-<script 
-src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js" 
-integrity="sha512-KbRFbjA5bwNan6DvPl1ODUolvTTZ/vckssnFhka5cG80JVa5zSlRPCr055xSgU/q6oMIGhZWLhcbgIC0fyw3RQ==" 
-crossorigin="anonymous" 
-referrerpolicy="no-referrer"></script>
+    <!-- Lightbox2 JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js"
+      integrity="sha512-KbRFbjA5bwNan6DvPl1ODUolvTTZ/vckssnFhka5cG80JVa5zSlRPCr055xSgU/q6oMIGhZWLhcbgIC0fyw3RQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
-
-<script>
-  lightbox.option({
-    'resizeDuration': 2, // Viteza animației
-    'wrapAround': true,    // Permite navigarea în loop între imagini
-    'fadeDuration': 3,   // Efect de fade când se deschide/închide
-  });
-</script>
-
+    <script>
+      lightbox.option({
+        resizeDuration: 2, // Viteza animației
+        wrapAround: true, // Permite navigarea în loop între imagini
+        fadeDuration: 3, // Efect de fade când se deschide/închide
+      });
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebPage",
+        "name": "Portfolio Graphisme",
+        "url": "https://roxanadc.github.io/portfolio/graphiste.html",
+        "description": "Découvrez mes projets de design graphique.",
+        "mainEntity": {
+          "@type": "CreativeWork",
+          "name": "Projets de graphisme",
+          "creator": {
+            "@type": "Person",
+            "name": "Roxana Cretu",
+            "jobTitle": "Graphiste",
+            "url": "https://roxanadc.github.io/portfolio/"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/in/roxana-diana-cretu-635672a6/",
+            "https://github.com/RoxanaDC",
+            "https://roxanadc.github.io/portfolio/dev_web.html",
+            "https://cioplitdintr-obucata.blogspot.com/"
+          ],
+          "image": "https://roxanadc.github.io/portfolio/images/roxana_tn.webp",
+          "areaServed": "France",
+          "email": "cretu2roxana@gmail.com"
+        }
+      }
+    </script>
   </head>
   <body class="light-mode">
-
     <!--NAVBAR-->
     <nav id="nav">
       <div class="left">
@@ -86,48 +121,31 @@ referrerpolicy="no-referrer"></script>
           rel="noopener noreferrer"
         >
           <i class="fa-brands fa-github"></i>
-                <span>
-  Github
-        </span>
+          <span> Github </span>
         </a>
- 
+
         <a
           href="https://www.linkedin.com/in/roxana-diana-cretu-635672a6/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <i class="fa-brands fa-linkedin"></i>
-              <span>
-    LinkedIn
-        </span>
+          <span> LinkedIn </span>
         </a>
 
-
-      <a
-        href="dev_web.html"
-        target="_self"
-        rel="noopener noreferrer"
-      >
-      <i class="fa-solid fa-code"></i>
-          <span>
-  Portfolio developpement web
-    </span>
-      </a>
+        <a href="dev_web.html" target="_self" rel="noopener noreferrer">
+          <i class="fa-solid fa-code"></i>
+          <span> Portfolio Dév. Web </span>
+        </a>
 
         <a href="mailto:cretu2roxana@gmail.com">
           <i class="fa-solid fa-envelope"></i>
-               <span>
-   Email
-      </span>
+          <span> Email </span>
         </a>
 
-        <a
-        href="index.html"
-        target="_self"
-        rel="noopener noreferrer"
-      >
-              ...← <span>Home</span>
-      </a>
+        <a href="index.html" target="_self" rel="noopener noreferrer">
+          ...← <span>Home</span>
+        </a>
       </div>
     </nav>
 
@@ -135,237 +153,242 @@ referrerpolicy="no-referrer"></script>
       <!--SECTION 1: Hero-->
       <section class="hero-section">
         <div class="text">
-          <h2 class="intro_projects">Design print et digital, ou dessin, pour votre identité visuelle</h2><br>
-         <div class="text group projet-details">Graphiste passionnée, je transforme vos idées en <strong>visuels percutants et uniques. </strong>
-          <br>  
-          Je mets ma <strong>créativité</strong> et mon <strong>expertise</strong> au service de vos projets,
-          pour donner vie à une <strong>communication visuelle impactante.</strong>
-          <br><br>
-          Je vous accompagne dans la création d’une image <strong>forte et cohérente. </strong><br><br>          
-          <a href="CV_Graphiste_Dev_Web_Roxana_Diana_Cretu_6mars_2025.pdf" target="_blank">
-            <strong>Cliquez ici pour voir mon CV de graphiste</strong><br>
-            <img src="images/cv_picture_small.png" alt="Image pour CV Graphiste" width="80" height="80" id="cv_graph" loading="lazy">
-          </a>
+          <h2 class="intro_projects">
+            Design print et digital, ou dessin, pour votre identité visuelle
+          </h2>
+          <br />
+          <div class="text group projet-details">
+            Graphiste passionnée, je transforme vos idées en
+            <strong>visuels percutants et uniques. </strong>
+            <br />
+            Je mets ma <strong>créativité</strong> et mon
+            <strong>expertise</strong> au service de vos projets, pour donner
+            vie à une <strong>communication visuelle impactante.</strong>
+            <br /><br />
+            Je vous accompagne dans la création d’une image
+            <strong>forte et cohérente. </strong><br /><br />
+            <a
+              href="CV_Graphiste_Dev_Web_Roxana_Diana_Cretu_6mars_2025.pdf"
+              target="_blank"
+            >
+              <strong>Cliquez ici pour voir mon CV de graphiste</strong><br />
+              <img
+                src="images/cv_picture_small.png"
+                alt="Image pour CV Graphiste"
+                width="80"
+                height="80"
+                id="cv_graph"
+                loading="lazy"
+              />
+            </a>
+            <br /><br />
+            Explorez mon portfolio et contactez-moi pour donner forme à vos
+            idées.
+            <br /><br />
 
-          Explorez mon portfolio et contactez-moi pour donner forme à vos idées.     
-          <br><br></div> 
-    
-        <h2>  <i class="fa-solid fa-computer-mouse"></i> Portfolio numérique</h2>
+            <h2 class="titre_portfolio_graphiste">
+              <i class="fa-solid fa-computer-mouse"></i> Portfolio numérique
+            </h2>
+          </div>
+          <div class="links" min-height="200px" weight="100%">
+            <a href="#affiches">
+              <span> affiches </span>
+            </a>
 
-        <div class="links">
+            <a href="#retouches">
+              <span> retouche photo </span>
+            </a>
 
-          <a href="#affiches">
-            <span>
-              affiches
-            </span>
-          </a>
+            <a href="#vectors">
+              <span> vectors </span>
+            </a>
+            <!--Portfolio graphisme et dessin-->
+            <h2 class="titre_portfolio_graphiste">
+              <i class="fa-solid fa-palette"></i>
+              Portfolio graphisme | dessin | photos
+            </h2>
 
+            <a href="#portraits">
+              <span> portraits </span>
+            </a>
 
-          <a href="#retouches">
-            <span>
-              retouche photo
-            </span>
-          </a>
+            <a href="#croquis">
+              <span> croquis </span>
+            </a>
 
+            <a href="#nus">
+              <span> nus </span>
+            </a>
 
-          <a href="#vectors">
-            <span>
-              vectors
-            </span>
-          </a>
+            <a href="#compositions">
+              <span> compositions </span>
+            </a>
 
+            <a href="#lgbtq">
+              <span> LGBTQ </span>
+            </a>
 
-        </div>
-<!--Portfolio graphisme et dessin-->
-<h2><i class="fa-solid fa-palette"></i> Portfolio graphisme | dessin | photos</h2>
-<div class="links">
+            <a href="#caricatures">
+              <span> caricatures </span>
+            </a>
 
-  <a href="#portraits">
-    <span>
-      portraits
-    </span>
-  </a>
+            <a href="#paysages">
+              <span> paysages </span>
+            </a>
 
-  <a href="#croquis">
-    <span>
-      croquis
-      </span>
-  </a>
+            <a href="#reproductions">
+              <span> reproductions </span>
+            </a>
 
-  <a href="#nus">
-    <span>
-      nus
-    </span>
-  </a>
-
-  
-    <a href="#compositions">
-        <span>
-          compositions
-      </span>
-      </a>
-  
-      <a href="#lgbtq">
-        <span>
-          LGBTQ
-          </span>
-      </a>
-  
-      <a href="#caricatures">
-        <span>
-      
-          caricatures</span>
-        </a>
-
-          <a href="#paysages">
-            <span>
-              paysages
-          </span>
-          </a>
-      
-          <a href="#reproductions">
-            <span>
-              reproductions
-              </span>
-          </a>
-      
-          <a href="#idees">
-            <span>
-          
-              idées</span>
-        
+            <a href="#idees">
+              <span> idées </span>
             </a>
 
             <a href="#photos">
-              <span>
-            
-                photos</span>
-          
+              <span> photos </span>
+            </a>
+          </div>
+        </div>
+
+        <!--SECTION 3: Projets-->
+
+        <section class="drawings">
+          <div id="affiches" class="category">
+            <h3>
+              Affiches
+              <a class="links" href="#nav">
+                <span>...↑...</span>
               </a>
-  
+            </h3>
+            <div class="items"></div>
+          </div>
 
-</div>
-        
-      <!--SECTION 3: Projets-->
+          <div id="retouches" class="category">
+            <h3>
+              Retouches
+              <a class="links" href="#nav">
+                <span>...↑...</span>
+              </a>
+            </h3>
+            <div class="items"></div>
+          </div>
 
-<section class="drawings">
+          <div id="vectors" class="category">
+            <h3>
+              Vectors
+              <a class="links" href="#nav">
+                <span>...↑...</span>
+              </a>
+            </h3>
+            <div class="items"></div>
+          </div>
 
- <div id="affiches" class="category">
-    <h3>Affiches    <a class="links" href="#nav">
-      <span>...↑...</span>
-    </a>              
-  </h3>
-    <div class="items"></div>
-  </div>
+          <div id="portraits" class="category">
+            <h3>
+              Portraits
+              <a class="links" href="#nav">
+                <span>...↑...</span>
+              </a>
+            </h3>
+            <div class="items"></div>
+          </div>
 
-  <div id="retouches" class="category">
-    <h3>Retouches    <a class="links" href="#nav">
-      <span>...↑...</span>
-    </a>              
-  </h3>
-    <div class="items"></div>
-  </div>
+          <div id="caricatures" class="category">
+            <h3>
+              Caricatures
+              <a class="links" href="#nav">
+                <span>...↑...</span>
+              </a>
+            </h3>
+            <div class="items"></div>
+          </div>
 
-  <div id="vectors" class="category">
-    <h3>Vectors    <a class="links" href="#nav">
-      <span>...↑...</span>
-    </a>              
-  </h3>
-    <div class="items"></div>
-  </div>
+          <div id="compositions" class="category">
+            <h3>
+              Compositions
+              <a class="links" href="#nav">
+                <span>...↑...</span>
+              </a>
+            </h3>
+            <div class="items"></div>
+          </div>
 
-  <div id="portraits" class="category">
-    <h3>Portraits    <a class="links" href="#nav">
-      <span>...↑...</span>
-    </a>              
-  </h3>
-    <div class="items"></div>
-  </div>
+          <div id="croquis" class="category">
+            <h3>
+              Croquis
+              <a class="links" href="#nav">
+                <span>...↑...</span>
+              </a>
+            </h3>
+            <div class="items"></div>
+          </div>
 
-  <div id="caricatures" class="category">
-    <h3>Caricatures    <a class="links" href="#nav">
-      <span>...↑...</span>
-    </a>              
-  </h3>
-    <div class="items"></div>
-  </div>
+          <div id="nus" class="category">
+            <h3>
+              Nus
+              <a class="links" href="#nav">
+                <span>...↑...</span>
+              </a>
+            </h3>
+            <div class="items"></div>
+          </div>
 
-  <div id="compositions" class="category">
-    <h3>Compositions    <a class="links" href="#nav">
-      <span>...↑...</span>
-    </a>              
-  </h3>
-    <div class="items"></div>
-  </div>
+          <div id="lgbtq" class="category">
+            <h3>
+              LGBTQ
+              <a class="links" href="#nav">
+                <span>...↑...</span>
+              </a>
+            </h3>
+            <div class="items"></div>
+          </div>
 
-  <div id="croquis" class="category">
-    <h3>Croquis   <a class="links" href="#nav">
-      <span>...↑...</span>
-    </a>              
-  </h3>
-    <div class="items"></div>
-  </div>
+          <div id="paysages" class="category">
+            <h3>
+              Paysages
+              <a class="links" href="#nav">
+                <span>...↑...</span>
+              </a>
+            </h3>
+            <div class="items"></div>
+          </div>
 
-  <div id="nus" class="category">
-    <h3>Nus    <a class="links" href="#nav">
-      <span>...↑...</span>
-    </a>              
-  </h3>
-    <div class="items"></div>
-  </div>
+          <div id="reproductions" class="category">
+            <h3>
+              Reproductions
+              <a class="links" href="#nav">
+                <span>...↑...</span>
+              </a>
+            </h3>
+            <div class="items"></div>
+          </div>
 
+          <div id="photos" class="category">
+            <h3>
+              Photos
+              <a class="links" href="#nav">
+                <span>...↑...</span>
+              </a>
+            </h3>
+            <div class="items"></div>
+          </div>
 
-  <div id="lgbtq" class="category">
-    <h3>LGBTQ    <a class="links" href="#nav">
-      <span>...↑...</span>
-    </a>              
-  </h3>
-    <div class="items"></div>
-  </div>
+          <div id="idees" class="category">
+            <h3>
+              Idées
+              <a class="links" href="#nav">
+                <span>...↑...</span>
+              </a>
+            </h3>
+            <div class="items"></div>
+          </div>
+        </section>
 
-
-  <div id="paysages" class="category">
-    <h3>Paysages    <a class="links" href="#nav">
-      <span>...↑...</span>
-    </a>              
-  </h3>
-    <div class="items"></div>
-  </div>
-
-
-  <div id="reproductions" class="category">
-    <h3>Reproductions   <a class="links" href="#nav">
-      <span>...↑...</span>
-    </a>              
-  </h3>
-    <div class="items"></div>
-  </div>
-
-
-<div id="photos" class="category">
-  <h3>Photos    <a class="links" href="#nav">
-    <span>...↑...</span>
-  </a>              
-</h3>
-  <div class="items"></div>
-</div>
-
-<div id="idees" class="category">
-  <h3>Idées    <a class="links" href="#nav">
-    <span>...↑...</span>
-  </a>              
-</h3>
-  <div class="items"></div>
-</div>
-
-
-</section>
-
-
-   <a class="links" href="#nav">
-    <span>...↑...</span>
-   </a>              
-<br><br><br>
-</main>
-</body>
+        <a class="links" href="#nav">
+          <span>...↑...</span>
+        </a>
+        <br /><br /><br />
+      </section>
+    </main>
+  </body>
 </html>
