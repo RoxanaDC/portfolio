@@ -1,0 +1,22 @@
+---------- blocking scripts
+
+spliting app.js
+
+
+----------layout shifts:
+
+add
+  min-height: 650px;
+  width: auto;
+
+in
+
+.hero-section .text {
+  flex: 5; /*text will have about 5 from 7 space*/
+  min-height: 650px;
+  width: auto;
+}
+
+
+
+

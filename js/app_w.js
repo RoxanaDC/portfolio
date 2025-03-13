@@ -1,11 +1,4 @@
-if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-  document.body.classList.remove('light-mode');
-  document.body.classList.add('dark-mode');
-} else {
-  document.body.classList.remove('dark-mode');
-  document.body.classList.add('light-mode');
-}
-
+/* 2. TREBUIE PUS IN -----------APP_W.JS ----"W" FROM WEB---- CARE SE AFLA IN ---- DEV-WEB.HTML -------CARE CONTINE ---------- PROIECTELE WEB------- */
 const projects = $('.projects');
 $.ajax('./json/projects.json').then((data) => {
   data.forEach((project) => {
@@ -41,86 +34,4 @@ $.ajax('./json/projects.json').then((data) => {
 
     projects.append(div);
   });
-});
-
-const cells = $('.cells');
-
-$.ajax('./json/skills.json').then((data) => {
-  data.forEach((skill) => {
-    // Creăm un div pentru fiecare skill
-    const div = $("<div class='cell'>");
-
-    // Adăugăm conținutul HTML dinamic pentru fiecare skill
-    div.html(`
-      <img src="./images/${skill.image}" alt="${skill.skillname}" loading="lazy" width="10" height="10"/>
-      <span>${skill.skillname}</span>
-    `);
-
-    // Adăugăm div-ul creat în secțiunea cu clasele 'skills'
-    cells.append(div);
-  });
-});
-
-const categories = [
-  'affiches',
-  'caricatures',
-  'compositions',
-  'croquis',
-  'idees',
-  'lgbtq',
-  'nus',
-  'paysages',
-  'photos',
-  'portraits',
-  'reproductions',
-  'retouches',
-  'vectors',
-];
-
-$.ajax('./json/drawings.json').then((data) => {
-  categories.forEach((category) => {
-    const container = $(`#${category} .items`);
-
-    data[category].forEach((drawing) => {
-      const div = $("<div class='cell'>");
-
-      div.html(`
-        <a
-          href="./images/img_graphiste/${category}/${drawing.image}" 
-          data-lightbox="${category}" 
-          data-title="${drawing.name}">
-
-          
-         <img
-            class="clickable-image lazy-load" 
-            src="./images/img_graphiste/${category}/${drawing.image}" 
-            alt="${drawing.name}"
-            loading="lazy"
-            width="600"  
-            height="400" 
-          />
-        </a>
-      `);
-
-      container.append(div);
-    });
-  });
-
-  // 🚀 După ce AJAX a terminat, adăugăm observer-ul
-  const images = document.querySelectorAll('.lazy-load');
-
-  const observer = new IntersectionObserver(
-    (entries, observer) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          console.log('Imagine vizibilă:', entry.target); // ✅ Verifică în consolă
-          entry.target.classList.add('visible'); // Adaugă efectul fade-in
-          observer.unobserve(entry.target); // Oprește observarea după ce imaginea s-a încărcat
-        }
-      });
-    },
-    { rootMargin: '100px' } // Încarcă imaginile cu 100px înainte să fie vizibile
-  );
-
-  images.forEach((img) => observer.observe(img));
 });
