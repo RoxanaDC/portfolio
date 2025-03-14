@@ -266,7 +266,7 @@ nav .right a :hover {
 
 .skills-section .cells .cell {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   width: 180px;
   height: 50px;
@@ -488,7 +488,7 @@ nav .right a :hover {
   padding: 1rem;
   font-size: 1.2rem;
   font-weight: 600;
-  color: #555;
+  color: var(--text-color);
 }
 
 .category {
