@@ -1,13 +1,14 @@
 /*CULORILE PENTRU DARK MODE*/
 
 :root {
-  --background-color: #1d1d1d;
+  --background-color: #333333;
+
   --text-color: #ffeeb9;
   --link-color: #ffcc00;
   --hover-color: #ffeeb9;
   --gradient-color1: 110, 110, 110;
   --gradient-color2: 30, 30, 30;
-  --border-radius-standard: 10px;
+  --border-radius-standard: 5px;
 }
 
 * {
@@ -67,7 +68,8 @@ body {
 /*CULORILE PENTRU LIGHT MODE*/
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: #1d1d1d;
+    --background-color: #333333;
+
     --text-color: #ffeeb9;
     --link-color: #ffcc00;
     --hover-color: #ffeeb9;
@@ -428,7 +430,6 @@ nav .right a :hover {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
-
   padding: 2rem;
   background: var(--background-color);
   border-radius: var(--border-radius-standard);

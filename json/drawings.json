@@ -4,7 +4,8 @@
     { "name": "Affiche 2", "image": "affiche_002.webp" },
     { "name": "Affiche 3", "image": "affiche_003.webp" },
     { "name": "Affiche 6", "image": "affiche_006.webp" },
-    { "name": "Affiche 8", "image": "affiche_008.webp" }
+    { "name": "Affiche 8", "image": "affiche_008.webp" },
+    { "name": "Affiche 10", "image": "affiche_010.webp" }
   ],
   "caricatures": [
     { "name": "Caricatura 1", "image": "caricatura_001.webp" },
@@ -19,7 +20,7 @@
     { "name": "Caricatura 13", "image": "caricatura_013.webp" },
     { "name": "Caricatura 15", "image": "caricatura_015.webp" }
   ],
-  "compositions": [
+  "diverses": [
     { "name": "Composition 1", "image": "compo_001.webp" },
     { "name": "Composition 2", "image": "compo_002.webp" },
     { "name": "Composition 3", "image": "compo_003.webp" },
@@ -30,7 +31,11 @@
     { "name": "Composition 8", "image": "compo_008.webp" },
     { "name": "Composition 9", "image": "compo_009.webp" },
     { "name": "Composition 10", "image": "compo_010.webp" },
-    { "name": "Composition 11", "image": "compo_011.webp" }
+    { "name": "Composition 11", "image": "compo_011.webp" },
+    { "name": "Composition 12", "image": "compo_012.webp" },
+    { "name": "Composition 13", "image": "compo_013.webp" },
+    { "name": "Composition 14", "image": "compo_014.webp" },
+    { "name": "Composition 15", "image": "compo_015.webp" }
   ],
   "croquis": [
     { "name": "Schita 1", "image": "schita_001.webp" },
@@ -41,9 +46,7 @@
     { "name": "Schita 7", "image": "schita_007.webp" },
     { "name": "Schita 12", "image": "schita_012.webp" },
     { "name": "Schita 13", "image": "schita_013.webp" },
-    { "name": "Schita 14", "image": "schita_014.webp" },
     { "name": "Schita 15", "image": "schita_015.webp" },
-    { "name": "Schita 17", "image": "schita_017.webp" },
     { "name": "Schita 18", "image": "schita_018.webp" },
     { "name": "Schita 30", "image": "schita_030.webp" }
   ],
@@ -53,7 +56,8 @@
     { "name": "Idée 3", "image": "idee_003.webp" },
     { "name": "Idée 10", "image": "idee_010.webp" },
     { "name": "Idée 11", "image": "idee_011.webp" },
-    { "name": "Idée 18", "image": "idee_018.webp" }
+    { "name": "Idée 18", "image": "idee_018.webp" },
+    { "name": "Idée 19", "image": "idee_019.webp" }
   ],
   "lgbtq": [
     { "name": "lgbtq 1", "image": "lgbtq_001.webp" },
@@ -64,25 +68,19 @@
     { "name": "lgbtq 6", "image": "lgbtq_006.webp" },
     { "name": "lgbtq 7", "image": "lgbtq_007.webp" }
   ],
-  "nus": [
+  "nus1": [
     { "name": "Nud 1", "image": "nud_001.webp" },
     { "name": "Nud 2", "image": "nud_002.webp" },
     { "name": "Nud 3", "image": "nud_003.webp" },
     { "name": "Nud 4", "image": "nud_004.webp" },
-    { "name": "Nud 5", "image": "nud_005.webp" },
-    { "name": "Nud 8", "image": "nud_008.webp" },
+    { "name": "Nud 5", "image": "nud_005.webp" }
+  ],
+  "nus2": [
     { "name": "Nud 10", "image": "nud_010.webp" },
     { "name": "Nud 11", "image": "nud_011.webp" },
     { "name": "Nud 12", "image": "nud_012.webp" },
     { "name": "Nud 13", "image": "nud_013.webp" },
-    { "name": "Nud 14", "image": "nud_014.webp" },
-    { "name": "Nud 15", "image": "nud_015.webp" }
-  ],
-  "paysages": [
-    { "name": "Peisaj 1", "image": "peisaj_001.webp" },
-    { "name": "Peisaj 2", "image": "peisaj_002.webp" },
-    { "name": "Peisaj 3", "image": "peisaj_003.webp" },
-    { "name": "Peisaj 4", "image": "peisaj_004.webp" }
+    { "name": "Nud 16", "image": "nud_016.webp" }
   ],
   "photos": [
     { "name": "Photo 1", "image": "photo_001.webp" },
@@ -112,8 +110,13 @@
     { "name": "Reproduction 6", "image": "reprod_006.webp" }
   ],
   "retouches": [
-    { "name": "Retouche 1", "image": "retouche_001.webp" },
-    { "name": "Retouche 2", "image": "retouche_002.webp" }
+    { "name": "Photo 1", "image": "photo_001.webp" },
+    { "name": "Photo 2", "image": "photo_002.webp" },
+    { "name": "Photo 3", "image": "photo_003.webp" },
+    { "name": "Photo 4", "image": "photo_004.webp" },
+    { "name": "Photo 5", "image": "photo_005.webp" },
+    { "name": "Photo 6", "image": "photo_006.webp" },
+    { "name": "Photo 7", "image": "photo_007.webp" }
   ],
   "vectors": [
     { "name": "Vector 1", "image": "vector_001.webp" },
