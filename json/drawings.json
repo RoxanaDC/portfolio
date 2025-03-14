@@ -21,21 +21,24 @@
     { "name": "Caricatura 15", "image": "caricatura_015.webp" }
   ],
   "diverses": [
+    { "name": "Composition 5", "image": "compo_005.webp" },
+    { "name": "Composition 6", "image": "compo_006.webp" },
+    { "name": "Composition 7", "image": "compo_007.webp" },
+
     { "name": "Composition 1", "image": "compo_001.webp" },
     { "name": "Composition 2", "image": "compo_002.webp" },
     { "name": "Composition 3", "image": "compo_003.webp" },
     { "name": "Composition 4", "image": "compo_004.webp" },
-    { "name": "Composition 5", "image": "compo_005.webp" },
-    { "name": "Composition 6", "image": "compo_006.webp" },
-    { "name": "Composition 7", "image": "compo_007.webp" },
     { "name": "Composition 8", "image": "compo_008.webp" },
     { "name": "Composition 9", "image": "compo_009.webp" },
     { "name": "Composition 11", "image": "compo_011.webp" },
-    { "name": "Composition 12", "image": "compo_012.webp" },
     { "name": "Composition 13", "image": "compo_013.webp" },
     { "name": "Composition 14", "image": "compo_014.webp" },
-    { "name": "Composition 15", "image": "compo_015.webp" }
+    { "name": "Composition 15", "image": "compo_015.webp" },
+    { "name": "Composition 12", "image": "compo_012.webp" },
+    { "name": "Composition 10", "image": "compo_010.webp" }
   ],
+
   "croquis": [
     { "name": "Schita 1", "image": "schita_001.webp" },
     { "name": "Schita 2", "image": "schita_002.webp" },
