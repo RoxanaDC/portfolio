@@ -1,0 +1,30 @@
+body {
+  background-color: #000;
+  overflow: hidden;
+  margin: 0;
+}
+
+.particle {
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  background-color: #ffd000;
+  border-radius: 3%;
+  will-change: transform;
+  opacity: 0.3;
+
+  box-shadow: 0 0 5px 5px rgb(255, 196, 1);
+}
+
+@keyframes particle-move {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(
+      calc(var(--translateX) * 1px),
+      calc(var(--translateY) * 1px)
+    );
+    opacity: 0;
+  }
+}

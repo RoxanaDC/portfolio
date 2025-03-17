@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Particule CSS</title>
+    <style>
+      body {
+        background-color: #000;
+        overflow: hidden;
+        margin: 0;
+      }
+
+      /* Container pentru particule */
+      .particle-container {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        pointer-events: none;
+      }
+
+      /* Stil pentru particule */
+      .particle {
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        background-color: #00aeff;
+        border-radius: 50%;
+        opacity: 0.8;
+        animation: moveParticle linear infinite;
+      }
+
+      /* Definirea animației */
+      @keyframes moveParticle {
+        0% {
+          transform: translate(0, 0);
+          opacity: 1;
+        }
+        100% {
+          transform: translate(var(--x), var(--y));
+          opacity: 0;
+        }
+      }
+
+      /* Generăm 30 de particule cu poziții și mișcări diferite */
+      .particle:nth-child(1) {
+        --x: 100px;
+        --y: 200px;
+        animation-duration: 5s;
+        left: 10%;
+        top: 20%;
+      }
+      .particle:nth-child(2) {
+        --x: -150px;
+        --y: 100px;
+        animation-duration: 6s;
+        left: 30%;
+        top: 50%;
+      }
+      .particle:nth-child(3) {
+        --x: 200px;
+        --y: -100px;
+        animation-duration: 4s;
+        left: 70%;
+        top: 30%;
+      }
+      .particle:nth-child(4) {
+        --x: -50px;
+        --y: -150px;
+        animation-duration: 7s;
+        left: 40%;
+        top: 80%;
+      }
+      .particle:nth-child(5) {
+        --x: 120px;
+        --y: 90px;
+        animation-duration: 5s;
+        left: 60%;
+        top: 10%;
+      }
+
+      /* Creează mai multe particule */
+      .particle:nth-child(6) {
+        --x: -100px;
+        --y: 50px;
+        animation-duration: 8s;
+        left: 25%;
+        top: 60%;
+      }
+      .particle:nth-child(7) {
+        --x: 80px;
+        --y: -120px;
+        animation-duration: 6s;
+        left: 75%;
+        top: 40%;
+      }
+      .particle:nth-child(8) {
+        --x: -180px;
+        --y: -90px;
+        animation-duration: 7s;
+        left: 15%;
+        top: 75%;
+      }
+      .particle:nth-child(9) {
+        --x: 90px;
+        --y: 150px;
+        animation-duration: 5s;
+        left: 50%;
+        top: 50%;
+      }
+      .particle:nth-child(10) {
+        --x: -130px;
+        --y: -200px;
+        animation-duration: 4s;
+        left: 85%;
+        top: 20%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="particle-container">
+      <!-- Creăm 30 de particule manual -->
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
+  </body>
+</html>
