@@ -3,7 +3,7 @@
 :root {
   /*   --background-color:rgb(51, 51, 51);
  */
-  --background-color: rgb(45, 0, 82);
+  --background-color: rgb(90, 0, 44);
 
   --text-color: #ffeeb9;
   --link-color: #ffcc00;
@@ -70,7 +70,7 @@ body {
 /*CULORILE PENTRU LIGHT MODE*/
 @media (prefers-color-scheme: light) {
   :root {
-    --background-color: rgb(45, 0, 82);
+    --background-color: rgb(90, 0, 44);
 
     --text-color: #ffeeb9;
     --link-color: #ffcc00;
