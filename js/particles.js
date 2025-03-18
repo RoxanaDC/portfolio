@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   console.log('Script loaded!'); // Verificare
-  const numParticles = 10;
+  const numParticles = 8;
 
   for (let i = 0; i < numParticles; i++) {
     const particle = document.createElement('div');

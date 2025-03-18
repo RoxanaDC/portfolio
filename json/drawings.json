@@ -127,6 +127,7 @@
     { "name": "Vector 5", "image": "vector_005.webp" },
     { "name": "Vector 6", "image": "vector_006.webp" },
     { "name": "Vector 7", "image": "vector_007.webp" },
-    { "name": "Vector 8", "image": "vector_008.webp" }
+    { "name": "Vector 8", "image": "vector_008.webp" },
+    { "name": "Vector 10", "image": "vector_010.webp" }
   ]
 }
