@@ -11,6 +11,12 @@
   --gradient-color1: 110, 110, 110;
   --gradient-color2: 30, 30, 30;
   --border-radius-standard: 5px;
+  --title1: 35px;
+  --title2: 30px;
+  --title3: 20px;
+  --text_paragraph: 18px;
+  --text_paragraph_max_600: 16px;
+  --font-size-default: 25px;
 }
 
 * {
@@ -42,6 +48,7 @@ html {
 /*BODY PENTRU DARK MODE*/
 
 body {
+  font-size: var(--font-size-default);
   font-family: 'Segoe UI', 'Helvetica', 'Arial', 'Roboto', sans-serif;
   color: var(--text-color);
   background-color: var(--background-color);
@@ -127,6 +134,7 @@ a {
 
 /*NAVBAR*/
 nav {
+  font-size: var(--title3);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -210,7 +218,7 @@ nav .right a :hover {
   gap: 40px;
 }
 .hero-section .text h2 {
-  font-size: 30px;
+  font-size: var(--title1);
   color: var(--text-color);
   margin-top: 20px;
 }
@@ -271,7 +279,7 @@ nav .right a :hover {
 
 .skills-section h2 {
   text-align: center;
-  font-size: 30px;
+  font-size: var(--title1);
   color: var(--text-color);
   margin-top: 20px;
 }
@@ -314,7 +322,7 @@ nav .right a :hover {
 }
 
 .skills-section .cells .cell span {
-  font-size: 14px;
+  font-size: var(--text_paragraph);
 }
 
 /*SECTION 3: Projets*/
@@ -322,7 +330,7 @@ nav .right a :hover {
   text-align: center;
   margin-bottom: 10px;
   padding: 15px;
-  font-size: 35px;
+  font-size: var(--title2);
   color: var(--text-color);
   border-radius: var(--border-radius-standard);
 }
@@ -334,7 +342,7 @@ nav .right a :hover {
 }
 
 .projets-section h2 {
-  font-size: 25px;
+  font-size: var(--title1);
   margin-bottom: 30px;
   color: var(--text-color);
   text-align: center;
@@ -377,17 +385,18 @@ nav .right a :hover {
   filter: brightness(1.05);
   box-shadow: 0 0 5px 3px rgb(255, 196, 1);
 }
-.projets-section .group .projet-details p {
+/* .projets-section .group .projet-details p {
   font-weight: 600;
 }
-
-.projets-section .group .projet-details p:last-child {
+ */
+/* .projets-section .group .projet-details p:last-child {
   font-weight: normal;
-}
+} */
 
 .projets-section .group .text {
   flex: 8;
-  font-weight: normal;
+  /*   font-weight: normal;
+ */
   color: var(--text-color);
   padding-right: 10px;
   padding-left: 10px;
@@ -424,7 +433,7 @@ nav .right a :hover {
 }
 
 .contact-section h2 {
-  font-size: 30px;
+  font-size: var(--title1);
   color: var(--text-color);
 }
 
@@ -461,7 +470,7 @@ nav .right a :hover {
 }
 
 .drawings h2 {
-  font-size: 2rem;
+  font-size: var(--title1);
   color: #333;
   margin-bottom: 1.5rem;
 }
@@ -509,7 +518,7 @@ nav .right a :hover {
 .cell span {
   display: block;
   padding: 1rem;
-  font-size: 1.2rem;
+  font-size: var(--title2);
   /*   font-weight: 600;
  */
   color: var(--text-color);
@@ -532,12 +541,15 @@ nav .right a :hover {
 }
 /*--------------------------< 850---------------------*/
 @media (max-width: 850px) {
-  /*SECTION 1: Hero*/
+  #nav {
+    font-size: var(--title3);
+  }
+
   nav .left {
-    font-size: 15px;
+    font-size: var(--text_paragraph);
   }
   .hero-section .text h2 {
-    font-size: 20px;
+    font-size: var(--title3);
   }
 
   .drawings {
@@ -573,7 +585,7 @@ nav .right a :hover {
     display: none;
   }
   nav .right a {
-    font-size: 30px;
+    font-size: var(--title3);
   }
 
   /*SECTION 1: Hero*/
@@ -655,7 +667,7 @@ nav .right a :hover {
   }
 
   .hero-section .text h2 {
-    font-size: 20px;
+    font-size: var(--title3);
   }
 
   /*SECTION 2: Skills*/
@@ -663,7 +675,7 @@ nav .right a :hover {
     padding: 0 20px;
   }
   .skills-section .cells .cell span {
-    font-size: 12px;
+    font-size: var(--text_paragraph_max_600);
   }
 
   /*SECTION 3: Projets*/
@@ -703,7 +715,7 @@ nav .right a :hover {
   }
 
   .intro_projects {
-    font-size: 25px;
+    font-size: var(--title3);
   }
   #objectifs {
     min-height: 270px;
