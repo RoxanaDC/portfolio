@@ -510,7 +510,8 @@ nav .right a :hover {
   display: block;
   padding: 1rem;
   font-size: 1.2rem;
-  font-weight: 600;
+  /*   font-weight: 600;
+ */
   color: var(--text-color);
 }
 
