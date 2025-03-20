@@ -14,14 +14,15 @@
   --title1: 35px;
   --title2: 30px;
   --title3: 20px;
+  --title4: 10px;
   --text_paragraph: 18px;
   --text_paragraph_max_600: 16px;
-  --font-size-default: 25px;
+  --font-size-default: 20px;
 }
 
 * {
-  /*   outline: 1px solid red;
- */
+  /* outline: 1px solid red; */
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -327,14 +328,16 @@ nav .right a :hover {
 
 /*SECTION 3: Projets*/
 .intro_projects {
-  text-align: center;
+  text-align: start;
   margin-bottom: 10px;
   padding: 15px;
-  font-size: var(--title2);
+  font-size: var(--title3);
   color: var(--text-color);
   border-radius: var(--border-radius-standard);
 }
 .projets-section {
+  display: flex;
+  flex-direction: column;
   padding: 0 50px;
   margin: 20px;
   box-shadow: 0px 0px 10px 1px var(--link-color);
@@ -345,7 +348,7 @@ nav .right a :hover {
   font-size: var(--title1);
   margin-bottom: 30px;
   color: var(--text-color);
-  text-align: center;
+  text-align: start;
 }
 .projets-section .group {
   display: flex;
@@ -356,13 +359,12 @@ nav .right a :hover {
   display: flex;
   flex-direction: row;
   justify-items: end;
-  text-align: center;
+  text-align: start;
   flex: 3;
   margin-bottom: 10px;
 }
 
 .evaluator_code_ahref {
-  border-left: thin solid var(--link-color);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -392,22 +394,34 @@ nav .right a :hover {
 /* .projets-section .group .projet-details p:last-child {
   font-weight: normal;
 } */
-
+.containet_pt_evaluateur {
+  display: block;
+  width: 100%;
+  align-items: center;
+}
+.evaluation_com {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
 .projets-section .group .text {
   flex: 8;
   /*   font-weight: normal;
  */
   color: var(--text-color);
   padding-right: 10px;
-  padding-left: 10px;
+  padding-left: 0;
+
+  align-items: start;
 }
 
 .center-link-project {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  justify-content: end;
+  align-items: end;
+  text-align: end;
 }
 
 .center-link-project img {
@@ -471,7 +485,8 @@ nav .right a :hover {
 
 .drawings h2 {
   font-size: var(--title1);
-  color: #333;
+  /*   color: #333;
+ */
   margin-bottom: 1.5rem;
 }
 .drawings a,
@@ -537,6 +552,36 @@ nav .right a :hover {
 @media (max-width: 1250px) {
   #nav {
     flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .projets-section .group .projet-details {
+    width: 100%;
+    flex-direction: column;
+    justify-items: start;
+    text-align: start;
+    margin-bottom: 10px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .center-link-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  .evaluator_code_ahref {
+    /*     display: flex;
+    flex-direction: column;
+ */
+    /*     align-items: center;
+    align-self: center;
+ */
+    padding: 0;
+    border: 0;
+  }
+  .projets-section {
+    padding: 30px;
   }
 }
 /*--------------------------< 850---------------------*/
@@ -560,11 +605,16 @@ nav .right a :hover {
     min-height: 165px;
     width: auto;
   }
+  .projets-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
   .projets-section .group .projet-details {
     flex-direction: column;
-    align-items: center;
+    /*     align-items: center;
     text-align: center;
+ */
   }
   .evaluator_code_ahref {
     border: 0;
@@ -621,6 +671,7 @@ nav .right a :hover {
   /*SECTION 3: Projets*/
   .projets-section {
     text-align: center;
+    margin: 0;
   }
 
   .projets-section .group {
@@ -715,6 +766,9 @@ nav .right a :hover {
   }
 
   .intro_projects {
+    font-size: var(--text_paragraph);
+  }
+  .projets-section h2 {
     font-size: var(--title3);
   }
   #objectifs {

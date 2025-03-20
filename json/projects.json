@@ -1,9 +1,9 @@
 [
   {
     "title": "Projet 1: Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
-    "description": "- Ma mission principale consistait à intégrer une interface utilisateur responsive, adaptée à différents types d'écrans, afin d'offrir une expérience utilisateur fluide et agréable. <br>- Ce projet m'a permis de renforcer mes compétences en intégration web et en conception d'interfaces modernes et fonctionnelles.",
+    "description": "<h3>Mission:</h3> Intégrer une interface utilisateur responsive, adaptée à différents types d'écrans, pour offrir une expérience utilisateur fluide et agréable. <br><br><h3>Détails:</h3> Utilisation de HTML et CSS pour la structure et le design de l'interface.<br>Application des techniques de responsive design pour une compatibilité optimale sur tous les appareils.",
     "image": "booki.webp",
-    "evaluation": "Points forts : La page HTML est codée avec les balises fondamentales attendues. La page est responsive. Le CSS est séparé du code HTML. Les fonctionnalités attendues sont disponible. Axes d'amélioration : Penser à respecter les bonnes pratiques Git",
+    "evaluation": "<h3>Points forts:</h3> La page HTML est codée avec les balises fondamentales attendues.<br>La page est responsive.<br>Le CSS est séparé du code HTML.<br>Les fonctionnalités attendues sont disponibles.<br><br><h3>Axes d'amélioration:</h3> Pensée à respecter les bonnes pratiques Git.",
     "link": "https://github.com/RoxanaDC/booki",
     "sitedeployed": "https://roxanadc.github.io/booki/",
     "hostedon": "GitHub",
@@ -14,9 +14,9 @@
 
   {
     "title": "Projet 2: Créez une page web dynamique avec JavaScript",
-    "description": "- Ma mission a consisté à développer la partie Front-End du site, notamment la page de présentation des travaux, à partir d'un fichier HTML fourni. <br>- J'ai géré les événements utilisateur et manipulé les éléments du DOM avec JavaScript, afin de rendre l'interface interactive. <br>- J'ai également créé la page de connexion pour l'administrateur du site ainsi qu'une modale permettant l'upload de nouveaux médias. <br>- Pour la première fois, j'ai interagi avec un code back-end afin de tester les fonctionnalités et j'ai appris à communiquer avec une API. <br>- Pour tester les fonctionnalités du site, vous pouvez utiliser le compte administrateur de test avec <strong>email : sophie.bluel@test.tld </strong> et <strong> mot de passe : S0phie</strong>. <br>- <strong>Le code back-end a été déployé sur Railway, tandis que le code front-end est hébergé sur GitHub.</strong>",
+    "description": "<h3>Mission:</h3> Intégration d'une interface responsive pour une expérience utilisateur fluide. <br><br><h3>Détails:</h3> Développement de la partie Front-End avec HTML fourni.<br>Gestion des événements utilisateur et manipulation du DOM avec JavaScript.<br>Création de la page de connexion admin et modale d'upload de médias.<br>Interaction avec le code back-end et apprentissage de l'utilisation d'une API.<br>Test avec le compte admin: <strong>email: sophie.bluel@test.tld</strong>, <strong>mdp: S0phie</strong>.<br>Le back-end est déployé sur Railway, le front-end sur GitHub.",
     "image": "sophie.webp",
-    "evaluation": "Commentaires : Les travaux de l’architecte dans la galerie sont bien récupérés depuis l’API. Le menu de catégories permettant le filtrage a bien été généré dynamiquement. Lorsque l’on est connecté: il est possible de supprimer un des travaux. Cela ne recharge pas la page, et le changement se voit directement. Il est également possible d’ajouter un travail. Le travail s’ajoute à la galerie sans nécessité de recharger la page. Une présentation fluide et complète en 15 minutes avec support. Dans l’ensemble Roxana a bien répondu à mes questions et a rapidement fait la correction demandée. Félicitation et bonne continuation",
+    "evaluation": "<h3>Commentaires:</h3> Les travaux de l’architecte dans la galerie sont bien récupérés depuis l’API.<br>Le menu de catégories permettant le filtrage a bien été généré dynamiquement.<br>Lorsque l’on est connecté, il est possible de supprimer un des travaux sans recharger la page, et le changement se voit directement.<br>Il est également possible d’ajouter un travail, et il s’ajoute à la galerie sans nécessité de recharger la page.<br>Une présentation fluide et complète en 15 minutes avec support.<br>Dans l’ensemble, Roxana a bien répondu à mes questions et a rapidement fait la correction demandée.<br>Félicitations et bonne continuation.",
     "link": "https://github.com/RoxanaDC/Sophie_Bluel",
     "sitedeployed": "https://roxanadc.github.io/Sophie_Bluel/",
     "hostedon": "GitHub",
@@ -27,9 +27,9 @@
 
   {
     "title": "Projet 3:  Débuggez et optimisez un site de photographe",
-    "description": "- Dans ce projet, j'ai travaillé en tant que développeur freelance pour optimiser le référencement d'un site web en améliorant ses performances et son accessibilité. <br>- Ma première étape a été d'identifier les problèmes de chargement et de référencement du site. <br>- Pour cela, j'ai utilisé des outils comme Lighthouse et Wave afin d'évaluer les performances actuelles et l'accessibilité. <br>- J'ai ensuite proposé des recommandations pour améliorer la vitesse de chargement, la structure du code et le référencement. <br>- Après validation, j'ai appliqué ces recommandations en modifiant le code du site, dans le but d'optimiser ses performances et de faciliter son référencement sur les moteurs de recherche. <br>- Enfin, j'ai élaboré un rapport détaillant les résultats avant et après les modifications, comprenant des captures d'écran des audits ainsi que des explications sur les changements apportés et leur impact positif sur le référencement et l'accessibilité du site.",
+    "description": "<h3>Mission:</h3> Optimisation du référencement d'un site web pour améliorer ses performances et son accessibilité. <br><br><h3>Détails:</h3> Analyse des problèmes de chargement et référencement avec des outils comme Lighthouse et Wave.<br>Proposition de recommandations pour améliorer la vitesse, la structure du code et le SEO.<br>Application des recommandations pour optimiser le code et faciliter le référencement.<br>Rédaction d'un rapport détaillant les résultats avant et après, avec des captures d'écran des audits et explications des changements.",
     "image": "optimisez.webp",
-    "evaluation": "L'étudiante a présenté son travail de manière claire et structurée, démontrant une bonne maîtrise des outils et des techniques utilisés. Elle a montré une compréhension approfondie des objectifs d'optimisation et de débogage. La présentation a été convaincante et bien argumentée, avec une capacité à répondre efficacement aux questions posées.",
+    "evaluation": "<h3>Évaluation:</h3> L'étudiante a présenté son travail de manière claire et structurée, démontrant une bonne maîtrise des outils et des techniques utilisés.<br>Elle a montré une compréhension approfondie des objectifs d'optimisation et de débogage.<br>La présentation a été convaincante et bien argumentée, avec une capacité à répondre efficacement aux questions posées.",
     "link": "https://github.com/RoxanaDC/Nina_Carducci_Dev",
     "sitedeployed": "https://roxanadc.github.io/Nina_Carducci_Dev/",
     "hostedon": "GitHub",
@@ -40,9 +40,9 @@
 
   {
     "title": "Projet 4: Application web, de location immobilière avec React",
-    "description": "- Dans ce projet, j'ai développé le front-end d'une application en utilisant React et React Router pour créer une expérience utilisateur moderne et interactive. <br>- J'ai travaillé sur la logique de présentation des données et les composants React, afin de concevoir des interfaces dynamiques et réactives. <br>- Avec React Router, j'ai configuré la navigation entre les différentes pages de l'application, ce qui m'a permis de mieux comprendre la gestion du routage dans une application web moderne.",
+    "description": "<h3>Mission:</h3> Développement du front-end d'une application avec React et React Router pour une expérience utilisateur moderne et interactive. <br><br><h3>Détails:</h3> Création des composants React et gestion de la présentation des données pour des interfaces dynamiques.<br>Configuration de la navigation avec React Router pour une gestion du routage fluide dans l'application.",
     "image": "kasa.webp",
-    "evaluation": "Points forts : Utilisation de React. Utilisation de Sass. Application conforme aux spécs. Remarques : Très bonne présentation orale/visuelle avec un support. Respect du timing. L'étudiante a su répondre aux questions. Bravo.",
+    "evaluation": "<h3>Points forts:</h3> Utilisation de React.<br>Utilisation de Sass.<br>Application conforme aux spécifications.<br><br><h3>Remarques:</h3> Très bonne présentation orale/visuelle avec un support.<br>Respect du timing.<br>L'étudiante a su répondre aux questions.<br>Bravo.",
     "link": "https://github.com/RoxanaDC/Kasa_005",
     "sitedeployed": "https://roxanadc.github.io/Kasa_005/",
     "hostedon": "GitHub",
@@ -53,9 +53,9 @@
 
   {
     "title": "Projet 5: Backend d'un site de notation de livres",
-    "description": "- Pour mon projet intitulé 'Mon Vieux Grimoire', un site de notation de livres, j'ai développé le back-end de l'application. <br>- Création d’un serveur avec Express, pour gérer les requêtes et réponses HTTP. <br>- Connexion à une base de données MongoDB, pour stocker et gérer efficacement les données des utilisateurs et des livres. <br>- Modèles de données et opérations CRUD (Créer, Lire, Mettre à jour, Supprimer) pour assurer une gestion complète des informations. <br>- Sécurisation des données et système d'authentification. <br>- Fonctionnalité de téléchargement et d’optimisation des images. <br>- Fonctionnalité pour noter les livres et calcul automatique de la moyenne des évaluations.",
+    "description": "<h3>Mission:</h3> Développement du back-end de l'application 'Mon Vieux Grimoire' pour un site de notation de livres. <br><br><h3>Détails:</h3> Création d’un serveur avec Express pour gérer les requêtes et réponses HTTP.<br>Connexion à MongoDB pour la gestion des données des utilisateurs et des livres.<br>Création de modèles de données et opérations CRUD pour une gestion complète des informations.<br>Sécurisation des données et mise en place d'un système d'authentification.<br>Fonctionnalité de téléchargement et d’optimisation des images.<br>Fonctionnalité de notation des livres avec calcul automatique de la moyenne des évaluations.",
     "image": "grimoire.webp",
-    "evaluation": "Roxana a mené la soutenance de manière très professionnelle, avec une bonne maîtrise de son sujet. Elle a su répondre avec assurance aux questions posées et a démontré une excellente compréhension des aspects techniques du projet. Son attitude positive face aux axes d'amélioration était très appréciable, et cela montre une bonne volonté de progression. Félicitations Roxana et bonne chance pour la suite !",
+    "evaluation": "<h3>Évaluation:</h3> Roxana a mené la soutenance de manière très professionnelle, avec une bonne maîtrise de son sujet.<br>Elle a su répondre avec assurance aux questions posées et a démontré une excellente compréhension des aspects techniques du projet.<br>Son attitude positive face aux axes d'amélioration était très appréciable, et cela montre une bonne volonté de progression.<br>Félicitations Roxana et bonne chance pour la suite !",
     "link": "https://github.com/RoxanaDC/Backend_Mon_Vieux_Grimoire",
     "sitedeployed": "https://github.com/RoxanaDC/Backend_Mon_Vieux_Grimoire",
     "hostedon": "GitHub",
@@ -66,9 +66,9 @@
 
   {
     "title": "Projet 6: Planifiez le développement du site de votre client",
-    "description": "- Dans ce projet, j'ai planifié le développement d'un site web sans coder. <br>- J'ai analysé la maquette, les spécifications et les User Stories, tout en menant une veille technologique avec Feedly. <br>- J'ai rédigé les spécifications techniques, décomposé les fonctionnalités en tâches et organisé le projet avec Notion. <br>- Un tableau Kanban a facilité le suivi du projet, et j'ai présenté la solution technique retenue.",
+    "description": "<h3>Mission:</h3> Planification du développement d'un site web sans coder. <br><br><h3>Détails:</h3> Analyse de la maquette, des spécifications et des User Stories, avec veille technologique via Feedly.<br>Rédaction des spécifications techniques et décomposition des fonctionnalités en tâches avec Notion.<br>Organisation du projet avec un tableau Kanban et présentation de la solution technique.",
     "image": "kanban.webp",
-    "evaluation": "Points forts :Les livrables sont conformes à ce qui est attendu. Des livrables dans l'ensemble très complet. Axes d'amélioration: Les diapositives sont un peu surchargées, hésitez pas à alléger et à faire des présentations plus simples. Remarques: Bonne soutenance dans l'ensemble ; mais attention à ne pas vouloir trop en faire, ce qui nuit à la qualité de la présentation finale, c'est dommage ! Pensez à bien regarder la rubrique soutenance pour organiser la présentation, et mettre un timer pour respecter au mieux le temps demandé, ça vous aidera à mieux structurer et à ne pas trop en rajouter. Bonne continuation pour la suite !",
+    "evaluation": "<h3>Points forts:</h3> Les livrables sont conformes à ce qui est attendu.<br>Des livrables dans l'ensemble très complets.<br><br><h3>Axes d'amélioration:</h3> Les diapositives sont un peu surchargées, n'hésitez pas à alléger et à faire des présentations plus simples.<br><br><h3>Remarques:</h3> Bonne soutenance dans l'ensemble ; mais attention à ne pas vouloir trop en faire, ce qui nuit à la qualité de la présentation finale, c'est dommage !<br>Pensez à bien regarder la rubrique soutenance pour organiser la présentation, et mettre un timer pour respecter au mieux le temps demandé, ça vous aidera à mieux structurer et à ne pas trop en rajouter.<br>Bonne continuation pour la suite !",
     "link": "https://rose-bus-88d.notion.site/Plan-d-veloppement-site-Menu-Maker-by-Qwenta-13fa46527cdb8040b17ff23c549054ad?pvs=4",
     "sitedeployed": "https://rose-bus-88d.notion.site/Plan-d-veloppement-site-Menu-Maker-by-Qwenta-13fa46527cdb8040b17ff23c549054ad?pvs=4",
     "hostedon": "Notion",
@@ -79,9 +79,9 @@
 
   {
     "title": "Projet 7: Créez et publiez votre portfolio de développeur",
-    "description": "- J'ai créé un site web personnel pour me présenter de manière originale et mettre en valeur mes compétences ainsi que mes projets. <br>- Ce site est conçu à partir d'une mind map développée sur <a href='https://miro.com/app/board/uXjVL8o7Qls=/?share_link_id=274875783980' target='_blank'>miro.com</a>, garantissant une structure claire et intuitive pour une navigation optimale. <br>- Mon portfolio reflète mes compétences techniques à travers un code soigné et une interface fluide, offrant une expérience agréable. <br>- De plus, il propose un design adaptatif, avec des thèmes clair et sombre, pour s'ajuster parfaitement à chaque utilisateur et offrir une expérience cohérente et agréable.",
+    "description": "<h3>Mission:</h3> Création d'un site web personnel pour mettre en valeur mes compétences et mes projets. <br><br><h3>Détails:</h3> Structure claire et intuitive. <br>Code soigné et interface fluide.<br>Design adaptatif avec thèmes clair et sombre pour une expérience utilisateur cohérente et agréable.<br>Utilisation de JavaScript pour le chargement dynamique des éléments via des fichiers JSON. <br>Optimisation des performances de chaque page avec les rapports Lighthouse.",
     "image": "portfolio.webp",
-    "evaluation": "Points forts : Carte des compétences présente et complète. Les offres d'emplois indiquées correspondent totalement aux compétences acquises durant la formation. Portfolio hébergé en ligne. Les différentes rubriques attendues sont bien présentes. La présentation de 2 projet de formation est présente. Projet responsive. Soutenance - Remarques : Présentation fluide & structurée. Timing respecté. Chaque point du brief a été présenté. Tous les choix ont été justifié",
+    "evaluation": "<h3>Points forts:</h3> Carte des compétences présente et complète.<br>Les offres d'emplois indiquées correspondent totalement aux compétences acquises durant la formation.<br>Portfolio hébergé en ligne avec toutes les rubriques attendues.<br>Projet responsive.<br><br><h3>Remarques:</h3> Présentation fluide et structurée.<br>Timing respecté.<br>Chaque point du brief a été présenté et justifié.",
     "link": "https://github.com/RoxanaDC/portfolio",
     "sitedeployed": "https://github.com/RoxanaDC/portfolio",
     "hostedon": "GitHub",
