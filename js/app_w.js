@@ -15,10 +15,10 @@ $.ajax('./json/projects.json').then((data) => {
           </div>
           <div class="container_pt_evaluator_image" >
             <div class="evaluator_code_ahref"><br>
-                        <p>Evalué par:
+                        <p>Projet validé le <strong>${project.validation_date}</strong> par:
               <a href="${project.evaluatorpage}" target="_blank">${project.evaluatorname}</a>
             </p>
-            <p>Evaluateur OpenClassrooms</p><br>
+            <p>Evaluateur OpenClassrooms</p><br><br>
 
 
               <a href=${project.sitedeployed} target="_blank">

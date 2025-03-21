@@ -606,8 +606,7 @@ nav .right a :hover {
     width: auto;
   }
   .projets-section {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
   }
 
   .projets-section .group .projet-details {
@@ -671,7 +670,7 @@ nav .right a :hover {
   /*SECTION 3: Projets*/
   .projets-section {
     text-align: center;
-    margin: 0;
+    margin: 10px;
   }
 
   .projets-section .group {
