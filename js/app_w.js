@@ -17,8 +17,8 @@ $.ajax('./json/projects.json').then((data) => {
             <div class="evaluator_code_ahref"><br>
                         <p>Projet validé le <strong>${project.validation_date}</strong> par:
               <a href="${project.evaluatorpage}" target="_blank">${project.evaluatorname}</a>
-            </p>
-            <p>Evaluateur OpenClassrooms</p><br><br>
+              </p>
+             <p>Evaluateur OpenClassrooms</p><br><br>
 
 
               <a href=${project.sitedeployed} target="_blank">
@@ -26,7 +26,6 @@ $.ajax('./json/projects.json').then((data) => {
                 <img src="./images/${project.image}" alt="${project.title}" loading="lazy" />
               </a>
              </div>
-
           </div>
         </div>
       </div>

@@ -24,7 +24,6 @@
     { "name": "Composition 5", "image": "compo_005.webp" },
     { "name": "Composition 6", "image": "compo_006.webp" },
     { "name": "Composition 7", "image": "compo_007.webp" },
-
     { "name": "Composition 1", "image": "compo_001.webp" },
     { "name": "Composition 2", "image": "compo_002.webp" },
     { "name": "Composition 3", "image": "compo_003.webp" },
@@ -36,7 +35,8 @@
     { "name": "Composition 14", "image": "compo_014.webp" },
     { "name": "Composition 15", "image": "compo_015.webp" },
     { "name": "Composition 12", "image": "compo_012.webp" },
-    { "name": "Composition 10", "image": "compo_010.webp" }
+    { "name": "Composition 10", "image": "compo_010.webp" },
+    { "name": "Composition 16", "image": "compo_016.webp" }
   ],
 
   "croquis": [
@@ -124,6 +124,8 @@
     { "name": "Vector 1", "image": "vector_001.webp" },
     { "name": "Vector 2", "image": "vector_002.webp" },
     { "name": "Vector 3", "image": "vector_003.webp" },
+    { "name": "Vector 9", "image": "vector_009.webp" },
+    { "name": "Vector 10", "image": "vector_010.webp" },
     { "name": "Vector 4", "image": "vector_004.webp" },
     { "name": "Vector 5", "image": "vector_005.webp" },
     { "name": "Vector 6", "image": "vector_006.webp" },
