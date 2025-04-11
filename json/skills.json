@@ -7,10 +7,7 @@
     "skillname": "CSS",
     "image": "css-logo.webp"
   },
-  {
-    "skillname": "SASS",
-    "image": "sass-logo.webp"
-  },
+
   {
     "skillname": "JavaScript",
     "image": "javascript-logo.webp"
@@ -22,6 +19,10 @@
   {
     "skillname": "NodeJS",
     "image": "nodejs-logo.webp"
+  },
+  {
+    "skillname": "WordPress",
+    "image": "wordpress-logo.webp"
   },
   {
     "skillname": "Wix",
