@@ -12,6 +12,7 @@ const categories = [
   'photos',
   'portraits',
   'reproductions',
+  'bd',
   'retouches',
   'vectors',
 ];
