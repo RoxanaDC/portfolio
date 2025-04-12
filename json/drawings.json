@@ -44,9 +44,7 @@
     { "name": "Caricatura 15", "image": "caricatura_015.webp" }
   ],
   "diverses": [
-    { "name": "Composition 5", "image": "compo_005.webp" },
-    { "name": "Composition 6", "image": "compo_006.webp" },
-    { "name": "Composition 7", "image": "compo_007.webp" },
+    { "name": "Composition 16", "image": "compo_016.webp" },
     { "name": "Composition 1", "image": "compo_001.webp" },
     { "name": "Composition 2", "image": "compo_002.webp" },
     { "name": "Composition 3", "image": "compo_003.webp" },
@@ -58,8 +56,7 @@
     { "name": "Composition 14", "image": "compo_014.webp" },
     { "name": "Composition 15", "image": "compo_015.webp" },
     { "name": "Composition 12", "image": "compo_012.webp" },
-    { "name": "Composition 10", "image": "compo_010.webp" },
-    { "name": "Composition 16", "image": "compo_016.webp" }
+    { "name": "Composition 10", "image": "compo_010.webp" }
   ],
 
   "croquis": [
@@ -73,12 +70,9 @@
     { "name": "Schita 13", "image": "schita_013.webp" },
     { "name": "Schita 15", "image": "schita_015.webp" },
     { "name": "Schita 18", "image": "schita_018.webp" },
-    { "name": "Schita 30", "image": "schita_030.webp" }
-  ],
-  "idees": [
+    { "name": "Schita 30", "image": "schita_030.webp" },
     { "name": "Idée 1", "image": "idee_001.webp" },
     { "name": "Idée 2", "image": "idee_002.webp" },
-    { "name": "Idée 3", "image": "idee_003.webp" },
     { "name": "Idée 10", "image": "idee_010.webp" },
     { "name": "Idée 11", "image": "idee_011.webp" },
     { "name": "Idée 18", "image": "idee_018.webp" },
@@ -146,12 +140,11 @@
   "vectors": [
     { "name": "Vector 1", "image": "vector_001.webp" },
     { "name": "Vector 2", "image": "vector_002.webp" },
+    { "name": "Vector 11", "image": "vector_011.webp" },
     { "name": "Vector 3", "image": "vector_003.webp" },
     { "name": "Vector 9", "image": "vector_009.webp" },
-    { "name": "Vector 10", "image": "vector_010.webp" },
     { "name": "Vector 4", "image": "vector_004.webp" },
     { "name": "Vector 5", "image": "vector_005.webp" },
-    { "name": "Vector 6", "image": "vector_006.webp" },
     { "name": "Vector 7", "image": "vector_007.webp" },
     { "name": "Vector 8", "image": "vector_008.webp" }
   ]

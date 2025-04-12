@@ -5,7 +5,6 @@ const categories = [
   'caricatures',
   'diverses',
   'croquis',
-  'idees',
   'lgbtq',
   'nus1',
   'nus2',
