@@ -1,0 +1,13 @@
+  {
+    "title": "Créez une page web dynamique avec JavaScript",
+    "description": "<h3>Mission:</h3> Intégration d'une interface responsive pour une expérience utilisateur fluide. <br><br><h3>Détails:</h3> Développement de la partie Front-End avec HTML fourni.<br>Gestion des événements utilisateur et manipulation du DOM avec JavaScript.<br>Création de la page de connexion admin et modale d'upload de médias.<br>Interaction avec le code back-end et apprentissage de l'utilisation d'une API.<br>Test avec le compte admin: <strong>email: sophie.bluel@test.tld</strong>, <strong>mdp: S0phie</strong>.<br>Le back-end est déployé sur Railway, le front-end sur GitHub.",
+    "image": "sophie.webp",
+    "evaluation": "<h3>Commentaires:</h3> Les travaux de l’architecte dans la galerie sont bien récupérés depuis l’API.<br>Le menu de catégories permettant le filtrage a bien été généré dynamiquement.<br>Lorsque l’on est connecté, il est possible de supprimer un des travaux sans recharger la page, et le changement se voit directement.<br>Il est également possible d’ajouter un travail, et il s’ajoute à la galerie sans nécessité de recharger la page.<br>Une présentation fluide et complète en 15 minutes avec support.<br>Dans l’ensemble, Roxana a bien répondu à mes questions et a rapidement fait la correction demandée.<br>Félicitations et bonne continuation.",
+    "link": "https://github.com/RoxanaDC/Sophie_Bluel",
+    "sitedeployed": "https://roxanadc.github.io/Sophie_Bluel/",
+    "hostedon": "GitHub",
+    "details": "le code",
+    "validation_date": "samedi 17 août 2024",
+    "evaluatorname": "Thierry Raimond",
+    "evaluatorpage": "https://openclassrooms.com/fr/members/mcz5h488s2m7"
+  },

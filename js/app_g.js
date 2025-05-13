@@ -1,7 +1,10 @@
 /* 4. TREBUIE PUS IN -----------APP_G.JS --- "G" FROM GRAPHISTE----- CARE SE AFLA IN ---- GRAPHISTE.HTML----CARE CONTINE -----------DRAWINGS------- */
 
 const categories = [
-  'affiches',
+  'conception_graphique',
+  'mise_en_page',
+  'vectors',
+  'impression',
   'caricatures',
   'diverses',
   'croquis',
@@ -12,8 +15,6 @@ const categories = [
   'portraits',
   'reproductions',
   'bd',
-  'retouches',
-  'vectors',
 ];
 
 $.ajax('./json/drawings.json').then((data) => {
