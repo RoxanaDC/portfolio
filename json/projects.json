@@ -1,7 +1,7 @@
 [
   {
     "title": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
-    "description": "<h3>Mission:</h3> Intégrer une interface utilisateur responsive, adaptée à différents types d'écrans, pour offrir une expérience utilisateur fluide et agréable. <br><br><h3>Détails:</h3> Utilisation de HTML et CSS pour la structure et le design de l'interface.<br>Application des techniques de responsive design pour une compatibilité optimale sur tous les appareils.",
+    "description": "<h3>Mission:</h3> Intégrer une interface utilisateur responsive, adaptée à différents types d'écrans, pour offrir une expérience utilisateur fluide et agréable. <br><br><h3>Détails:</h3> Interface web en HTML/CSS, adaptative à tous les écrans.",
     "image": "booki.webp",
     "evaluation": "<h3>Points forts:</h3> La page HTML est codée avec les balises fondamentales attendues.<br>La page est responsive.<br>Le CSS est séparé du code HTML.<br>Les fonctionnalités attendues sont disponibles.<br><br><h3>Axes d'amélioration:</h3> Pensée à respecter les bonnes pratiques Git.",
     "link": "https://github.com/RoxanaDC/booki",
@@ -15,7 +15,7 @@
 
   {
     "title": "Débuggez et optimisez un site de photographe",
-    "description": "<h3>Mission:</h3> Optimisation du référencement d'un site web pour améliorer ses performances et son accessibilité. <br><br><h3>Détails:</h3> Analyse des problèmes de chargement et référencement avec des outils comme Lighthouse et Wave.<br>Proposition de recommandations pour améliorer la vitesse, la structure du code et le SEO.<br>Application des recommandations pour optimiser le code et faciliter le référencement.<br>Rédaction d'un rapport détaillant les résultats avant et après, avec des captures d'écran des audits et explications des changements.",
+    "description": "<h3>Mission:</h3> Optimisation du référencement d'un site web pour améliorer ses performances et son accessibilité. <br><br><h3>Détails:</h3> Audit technique (Lighthouse, Wave) : performance & accessibilité<br>Recommandations SEO : vitesse, structure du code <br>Optimisation appliquée + rapport avant/après avec captures d’écran",
     "image": "optimisez.webp",
     "evaluation": "<h3>Évaluation:</h3> L'étudiante a présenté son travail de manière claire et structurée, démontrant une bonne maîtrise des outils et des techniques utilisés.<br>Elle a montré une compréhension approfondie des objectifs d'optimisation et de débogage.<br>La présentation a été convaincante et bien argumentée, avec une capacité à répondre efficacement aux questions posées.",
     "link": "https://github.com/RoxanaDC/Nina_Carducci_Dev",

@@ -9,11 +9,6 @@ $.ajax('./json/projects.json').then((data) => {
       <div class="group">
         <div class="projet-details center-link-project">
           
-          <div class="text evaluation_com"><h3>
-            Lors de la soutenance de ce projet, j'ai reçu l'évaluation suivante:</h3> 
-            "${project.evaluation}"
-          </div>
-          <div class="container_pt_evaluator_image" >
             <div class="evaluator_code_ahref"><br>
                         <p>Projet validé le <strong>${project.validation_date}</strong> par:
               <a href="${project.evaluatorpage}" target="_blank">${project.evaluatorname}</a>
