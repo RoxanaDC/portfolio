@@ -10,7 +10,7 @@
   --hover-color: #ffeeb9;
   --gradient-color1: 110, 110, 110;
   --gradient-color2: 30, 30, 30;
-  --border-radius-standard: 5px;
+  --border-radius-standard: 25px 5px 55px 10px;
   --title1: 35px;
   --title2: 30px;
   --title3: 20px;
@@ -34,6 +34,11 @@ main {
   border-radius: var(--border-radius-standard);
 }
 
+.graphic-section span {
+  box-shadow: 2px 1px 8px rgb(255, 196, 1);
+  padding: 6px 20px 8px 8px;
+  border-radius: 44px 4px 55px 10px;
+}
 img {
   box-shadow: 0 3px 4px rgb(255, 196, 1);
   width: 100%;
@@ -229,23 +234,22 @@ nav .right a :hover {
   margin-top: 20px;
 }
 
-.hero-section .text .links {
-  margin-top: 20px;
-  margin-bottom: 20px;
+.graphic-section .text .links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  gap: 10px;
 }
 
 .titre_portfolio_graphiste {
   margin-bottom: 10px;
 }
-.hero-section a {
+.graphic-section a {
   display: inline-block;
-  padding: 5px 10px;
-  border: 2px solid var(--link-color);
-  border-radius: var(--border-radius-standard);
-  margin-right: 10px;
-  margin-bottom: 10px;
+  padding: 10px;
+  margin: 2px;
   transition: 0.2s;
-  box-shadow: 0 3px 4px rgb(255, 196, 1);
 }
 
 #a_cv,
@@ -253,12 +257,11 @@ nav .right a :hover {
   border-radius: var(--border-radius-standard);
   margin-top: 10px;
 }
-.hero-section a:hover {
+.graphic-section a:hover {
   color: var(--hover-color);
-  box-shadow: 0 3px 4px rgb(255, 196, 1);
 }
 
-.hero-section .text {
+.graphic-section .text {
   flex: 5; /*text will have about 5 from 7 space*/
   min-height: 150px;
   width: auto;
@@ -787,4 +790,19 @@ nav .right a :hover {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+}
+h3 span {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.rainbow {
+  padding: 5px 25px 5px 25px;
+  background: transparent;
+  box-shadow: 10px 2px 3px red, 20px 4px 3px orange,
+    30px 6px 3px rgb(255, 251, 31), 40px 8px 3px green,
+    50px 10px 3px rgb(59, 134, 247), 60px 12px 3px indigo,
+    70px 14px 3px rgb(0, 41, 175);
+  border-radius: 44px 4px 55px 10px;
 }
