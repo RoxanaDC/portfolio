@@ -25,7 +25,8 @@
  */
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /*   box-sizing: border-box;
+ */
 }
 .small_icons {
   display: none;
@@ -94,6 +95,7 @@ body {
     --gradient-color2: 30, 30, 30;
   }
   body {
+    overflow-x: hidden;
     background-color: var(--background-color);
     background-image: linear-gradient(
         135deg,
@@ -223,7 +225,7 @@ nav .right a :hover {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  padding: 0 max(5vw, 10px);
+  padding: 0 max(5px, 10px);
   margin: 15px;
   align-items: start;
   margin-bottom: 10px;
@@ -235,12 +237,13 @@ nav .right a :hover {
   margin-top: 20px;
 }
 
-.graphic-section .text .links {
+.category-links {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
   gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .titre_portfolio_graphiste {
@@ -253,8 +256,7 @@ nav .right a :hover {
   transition: 0.2s;
 }
 
-#a_cv,
-#a_miro {
+#a_cv {
   border-radius: var(--border-radius-standard);
   margin-top: 10px;
 }
@@ -482,16 +484,6 @@ nav .right a :hover {
 }
 
 /* Stilizarea secțiunii de drawings  PE COLOANE */
-.drawings {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  padding: 2rem;
-  background: var(--background-color);
-  border-radius: var(--border-radius-standard);
-  box-shadow: 0 3px 4px rgb(255, 196, 1);
-  text-align: center;
-}
 
 .drawings h2 {
   font-size: var(--title1);
@@ -550,7 +542,7 @@ nav .right a :hover {
 }
 
 .category {
-  max-width: 400px;
+  max-width: 100%;
 }
 
 #projets-section {
@@ -560,6 +552,10 @@ nav .right a :hover {
 /*--------------------------------------MEDIA---------------------------------*/
 
 @media (max-width: 1250px) {
+  html {
+    max-width: 1240px;
+  }
+
   #nav {
     flex-direction: column;
     margin-bottom: 50px;
@@ -582,12 +578,6 @@ nav .right a :hover {
     align-items: start;
   }
   .evaluator_code_ahref {
-    /*     display: flex;
-    flex-direction: column;
- */
-    /*     align-items: center;
-    align-self: center;
- */
     padding: 0;
     border: 0;
   }
@@ -597,10 +587,15 @@ nav .right a :hover {
 }
 /*--------------------------< 850---------------------*/
 @media (max-width: 850px) {
+  html {
+    max-width: 840px;
+  }
+
   #nav {
     font-size: var(--title3);
-    margin-bottom: 50px;
+    /*     margin-bottom: 50px;
     margin-top: 50px;
+ */
   }
 
   nav .left {
@@ -610,10 +605,6 @@ nav .right a :hover {
     font-size: var(--title3);
   }
 
-  .drawings {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
   #objectifs {
     min-height: 165px;
     width: auto;
@@ -624,9 +615,6 @@ nav .right a :hover {
 
   .projets-section .group .projet-details {
     flex-direction: column;
-    /*     align-items: center;
-    text-align: center;
- */
   }
   .evaluator_code_ahref {
     border: 0;
@@ -643,6 +631,10 @@ nav .right a :hover {
 /*--------------------------< 740-----------------------------*/
 
 @media (max-width: 740px) {
+  html {
+    max-width: 730px;
+  }
+
   nav .right a span {
     display: none;
   }
@@ -695,11 +687,6 @@ nav .right a :hover {
     flex-direction: column;
   }
 
-  .drawings {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .projets-section .group .projet-details img {
     width: 40vw;
     height: auto;
@@ -720,10 +707,20 @@ nav .right a :hover {
     margin: 0;
     padding: 0;
   }
+
+  .cell {
+    flex: 1 1 45%;
+    max-width: 45%;
+    height: 200px;
+  }
 }
 /*----------------------------------< 600-------------------*/
 @media (max-width: 600px) {
   /*NAVBAR*/
+  html {
+    max-width: 590px;
+  }
+
   nav {
     padding: 0 20px;
     margin-top: 50px;
@@ -759,11 +756,6 @@ nav .right a :hover {
     padding: 0 20px;
   }
 
-  .drawings {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   #objectifs {
     min-height: 220px;
     width: auto;
@@ -776,6 +768,10 @@ nav .right a :hover {
 }
 /*-----------------------------------------< 420-----------------------*/
 @media (max-width: 420px) {
+  html {
+    max-width: 410px;
+  }
+
   #nav {
     flex-direction: column;
     margin-bottom: 50px;
@@ -796,11 +792,6 @@ nav .right a :hover {
     min-height: 270px;
     width: auto;
   }
-
-  .drawings {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
 }
 h3 span {
   display: inline-block;
@@ -816,4 +807,58 @@ h3 span {
     50px 10px 3px rgb(59, 134, 247), 60px 12px 3px indigo,
     70px 14px 3px rgb(0, 41, 175);
   border-radius: 44px 4px 55px 10px;
+}
+
+.category {
+  width: 100%;
+}
+
+.items {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.container-cu-poze {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center; /* 🔥 centrează itemii pe orizontală */
+  gap: 20px;
+  max-width: 1200px;
+  padding: 10px;
+  margin: 0;
+  width: 100vw;
+  align-items: center;
+  box-sizing: border-box; /* esențial dacă ai padding */
+}
+
+.cell {
+  flex: 1 1 300px;
+  max-width: 600px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.drawings {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+  gap: 20px;
+  /*   padding: 2rem;
+ */
+  background: var(--background-color);
+  border-radius: var(--border-radius-standard);
+  box-shadow: 0 3px 4px rgb(255, 196, 1);
+  text-align: center;
+}
+
+.links {
+  width: 100%;
 }

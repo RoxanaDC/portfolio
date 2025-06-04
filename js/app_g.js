@@ -1,4 +1,6 @@
-/* 4. TREBUIE PUS IN -----------APP_G.JS --- "G" FROM GRAPHISTE----- CARE SE AFLA IN ---- GRAPHISTE.HTML----CARE CONTINE -----------DRAWINGS------- */
+/* 4. TREBUIE PUS IN -----------APP_G.JS --- "G" 
+FROM GRAPHISTE----- CARE SE AFLA IN ---- GRAPHISTE.HTML----
+CARE CONTINE -----------DRAWINGS------- */
 
 const categories = [
   'conception_graphique',
@@ -17,7 +19,7 @@ const categories = [
   'bd',
 ];
 
-$.ajax('./json/drawings.json').then((data) => {
+/* $.ajax('./json/drawings.json').then((data) => {
   categories.forEach((category) => {
     const container = $(`#${category} .items`);
 
@@ -44,6 +46,44 @@ $.ajax('./json/drawings.json').then((data) => {
 
       container.append(div);
     });
+  });
+
+
+  
+ */
+
+$.ajax('./json/drawings.json').then((data) => {
+  categories.forEach((category) => {
+    const categoryDiv = $(`#${category}`);
+
+    // 🔧 Creează div-ul .container-cu-poze
+    const containerCuPoze = $("<div class='container-cu-poze'>");
+
+    data[category].forEach((drawing) => {
+      const div = $("<div class='cell'>");
+
+      div.html(`
+        <a
+          href="./images/img_graphiste/${category}/${drawing.image}" 
+          data-lightbox="${category}" 
+          data-title="${drawing.name}">
+          <img
+            class="clickable-image lazy-load" 
+            src="./images/img_graphiste/${category}/${drawing.image}" 
+            alt="${drawing.name}"
+            loading="lazy"
+            width="600"  
+            height="400" 
+          />
+        </a>
+      `);
+
+      containerCuPoze.append(div);
+    });
+
+    // 🧱 Elimină .items dacă există și adaugă .container-cu-poze
+    categoryDiv.find('.items').remove(); // opțional, dacă există
+    categoryDiv.append(containerCuPoze);
   });
 
   // 🚀 După ce AJAX a terminat, adăugăm observer-ul
