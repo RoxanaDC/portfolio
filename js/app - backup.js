@@ -203,6 +203,7 @@ const categories = [
   'idees',
   'lgbtq',
   'nus',
+  'sculptures',
   'paysages',
   'photos',
   'portraits',

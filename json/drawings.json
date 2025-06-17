@@ -141,19 +141,31 @@
     { "name": "lgbtq 6", "image": "lgbtq_006.webp" },
     { "name": "lgbtq 7", "image": "lgbtq_007.webp" }
   ],
-  "nus1": [
+  "nus": [
     { "name": "Nud 1", "image": "nud_001.webp" },
     { "name": "Nud 2", "image": "nud_002.webp" },
     { "name": "Nud 3", "image": "nud_003.webp" },
     { "name": "Nud 4", "image": "nud_004.webp" },
-    { "name": "Nud 5", "image": "nud_005.webp" }
-  ],
-  "nus2": [
+    { "name": "Nud 5", "image": "nud_005.webp" },
     { "name": "Nud 10", "image": "nud_010.webp" },
     { "name": "Nud 11", "image": "nud_011.webp" },
     { "name": "Nud 12", "image": "nud_012.webp" },
     { "name": "Nud 13", "image": "nud_013.webp" },
     { "name": "Nud 16", "image": "nud_016.webp" }
+  ],
+  "sculptures": [
+    { "name": "Sculpture 1", "image": "sc1.webp" },
+    { "name": "Sculpture 2", "image": "sc2.webp" },
+    { "name": "Sculpture 3", "image": "sc3.webp" },
+    { "name": "Sculpture 4", "image": "sc4.webp" },
+    { "name": "Sculpture 5", "image": "sc5.webp" },
+    { "name": "Sculpture 6", "image": "sc6.webp" },
+    { "name": "Sculpture 7", "image": "sc7.webp" },
+    { "name": "Sculpture 8", "image": "sc8.webp" },
+    { "name": "Sculpture 9", "image": "sc9.webp" },
+    { "name": "Sculpture 10", "image": "sc10.webp" },
+    { "name": "Sculpture 11", "image": "sc11.webp" },
+    { "name": "Sculpture 0", "image": "sc0.webp" }
   ],
   "photos": [
     { "name": "Photo 1", "image": "photo_001.webp" },
