@@ -3,54 +3,22 @@ FROM GRAPHISTE----- CARE SE AFLA IN ---- GRAPHISTE.HTML----
 CARE CONTINE -----------DRAWINGS------- */
 
 const categories = [
-  'conception_graphique',
-  'mise_en_page',
-  'vectors',
-  'impression',
+  'bd',
   'caricatures',
-  'diverses',
+  'conception_graphique',
   'croquis',
+  'diverses',
+  'impression',
   'lgbtq',
+  'mise_en_page',
   'nus',
-  'sculptures',
   'photos',
   'portraits',
   'reproductions',
-  'bd',
+  'sculptures',
+  'taches',
+  'vectors',
 ];
-
-/* $.ajax('./json/drawings.json').then((data) => {
-  categories.forEach((category) => {
-    const container = $(`#${category} .items`);
-
-    data[category].forEach((drawing) => {
-      const div = $("<div class='cell'>");
-
-      div.html(`
-        <a
-          href="./images/img_graphiste/${category}/${drawing.image}" 
-          data-lightbox="${category}" 
-          data-title="${drawing.name}">
-
-          
-         <img
-            class="clickable-image lazy-load" 
-            src="./images/img_graphiste/${category}/${drawing.image}" 
-            alt="${drawing.name}"
-            loading="lazy"
-            width="600"  
-            height="400" 
-          />
-        </a>
-      `);
-
-      container.append(div);
-    });
-  });
-
-
-  
- */
 
 $.ajax('./json/drawings.json').then((data) => {
   categories.forEach((category) => {
