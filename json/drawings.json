@@ -134,12 +134,12 @@
   ],
   "lgbtq": [
     { "name": "lgbtq 1", "image": "lgbtq_001.webp" },
-    { "name": "lgbtq 2", "image": "lgbtq_002.webp" },
+    { "name": "lgbtq 7", "image": "lgbtq_007.webp" },
     { "name": "lgbtq 3", "image": "lgbtq_003.webp" },
     { "name": "lgbtq 4", "image": "lgbtq_004.webp" },
     { "name": "lgbtq 5", "image": "lgbtq_005.webp" },
     { "name": "lgbtq 6", "image": "lgbtq_006.webp" },
-    { "name": "lgbtq 7", "image": "lgbtq_007.webp" }
+    { "name": "lgbtq 2", "image": "lgbtq_002.webp" }
   ],
   "nus": [
     { "name": "Nud 1", "image": "nud_001.webp" },
@@ -195,7 +195,9 @@
     { "name": "Reproduction 6", "image": "reprod_006.webp" }
   ],
   "taches": [
-    { "name": "tache 1", "image": "tache1.jpg" },
-    { "name": "tache 2", "image": "tache2.jpg" }
+    { "name": "tache 1", "image": "tache1_v1.jpg" },
+    { "name": "tache 1", "image": "tache1_v2.jpg" },
+    { "name": "tache 2", "image": "tache2_v1.jpg" },
+    { "name": "tache 2", "image": "tache2_v2.jpg" }
   ]
 }
