@@ -16,7 +16,7 @@ const categories = [
   'portraits',
   'reproductions',
   'sculptures',
-  'taches',
+  'fragments',
   'vectors',
 ];
 

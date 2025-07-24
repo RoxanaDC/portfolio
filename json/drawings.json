@@ -194,10 +194,13 @@
     { "name": "Reproduction 5", "image": "reprod_005.webp" },
     { "name": "Reproduction 6", "image": "reprod_006.webp" }
   ],
-  "taches": [
-    { "name": "tache 1", "image": "tache1_v1.jpg" },
-    { "name": "tache 1", "image": "tache1_v2.jpg" },
-    { "name": "tache 2", "image": "tache2_v1.jpg" },
-    { "name": "tache 2", "image": "tache2_v2.jpg" }
+  "fragments": [
+    { "name": "rue 1", "image": "tache1_v1.jpg" },
+    { "name": "bee", "image": "bee_small.jpg" },
+    { "name": "rue 3", "image": "tache2_v1.jpg" },
+    { "name": "soi", "image": "dino_giraphe_small.jpg" },
+    { "name": "rue 2", "image": "tache1_v2.jpg" },
+    { "name": "soi", "image": "1_invert_dino_giraphe_sans_texte.jpg" },
+    { "name": "rue 2", "image": "tache2_v2.jpg" }
   ]
 }
