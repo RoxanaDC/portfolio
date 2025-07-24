@@ -824,7 +824,6 @@ h3 span {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center; /* 🔥 centrează itemii pe orizontală */
   gap: 20px;
   max-width: 1200px;
   padding: 10px;
@@ -832,6 +831,9 @@ h3 span {
   width: 100vw;
   align-items: center;
   box-sizing: border-box; /* esențial dacă ai padding */
+  justify-content: center; /* 🔥 centrează itemii pe orizontală */
+  width: 100%;
+  margin: 0 auto;
 }
 
 .cell {
