@@ -180,7 +180,8 @@ nav .right a span {
 
 nav .right a span:hover {
   color: var(--hover-color);
-  box-shadow: 0 0 5px 3px rgb(255, 196, 1);
+  box-shadow: 0 0 50px 1px rgb(255, 196, 1);
+  border-radius: 10px;
 }
 
 /* nav .right a {
