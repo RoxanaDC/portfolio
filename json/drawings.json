@@ -99,7 +99,10 @@
   ],
   "diverses": [
     { "name": "Composition 16", "image": "compo_016.webp" },
+    { "name": "Composition 16 digitale", "image": "compo_016_d.webp" },
+
     { "name": "Composition 1", "image": "compo_001.webp" },
+    { "name": "Composition 1 digitale", "image": "compo_001_d.webp" },
     { "name": "Composition 2", "image": "compo_002.webp" },
     { "name": "Composition 3", "image": "compo_003.webp" },
     { "name": "Composition 4", "image": "compo_004.webp" },
@@ -195,12 +198,12 @@
     { "name": "Reproduction 6", "image": "reprod_006.webp" }
   ],
   "fragments": [
-    { "name": "rue 1", "image": "tache1_v1.jpg" },
-    { "name": "bee", "image": "bee_small.jpg" },
-    { "name": "rue 3", "image": "tache2_v1.jpg" },
-    { "name": "soi", "image": "dino_giraphe_small.jpg" },
-    { "name": "rue 2", "image": "tache1_v2.jpg" },
-    { "name": "soi", "image": "1_invert_dino_giraphe_sans_texte.jpg" },
-    { "name": "rue 2", "image": "tache2_v2.jpg" }
+    { "name": "small bee", "image": "small_bee.webp" },
+    { "name": "big bee", "image": "big_bee.webp" },
+    { "name": "eleph dog", "image": "ele_dog.webp" },
+    { "name": "dino giraphe", "image": "dino_giraphe.webp" },
+    { "name": "invert dino", "image": "invert_dino.webp" },
+    { "name": "wb invert dino", "image": "wb_invert_dino.webp" },
+    { "name": "manifest", "image": "manifest.webp" }
   ]
 }

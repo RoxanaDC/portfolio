@@ -19,6 +19,10 @@
   --text_paragraph_max_600: 16px;
   --font-size-default: 20px;
 }
+.calme {
+  color: var(--link-color);
+  font-weight: bold;
+}
 
 * {
   /*   outline: 1px solid red;
@@ -70,14 +74,15 @@ body {
       rgba(var(--gradient-color1)) 0%,
       rgba(var(--gradient-color2)) 100%
     ),
-    /* Gradient */
+    /* Gradient -----*/
       repeating-linear-gradient(
         45deg,
         rgba(var(--gradient-color1), 0.15) 0px,
         rgba(var(--gradient-color2), 0.15) 10px,
         transparent 10px,
         transparent 20px
-      ); /* Linii diagonale */
+      );
+  /*  Linii diagonale*/
 
   background-size: 100% 100%, cover;
   background-blend-mode: overlay;
@@ -194,8 +199,9 @@ nav .right a :hover {
 #cv_dev,
 #cv_graph,
 #image_carte_miro {
-  transition: transform 0.3s ease-out, border 0.3s ease-out; /* transiton for rotation & border */
-  border: 3px solid rgb(255, 196, 1);
+  transition: transform 0.4s ease-out, border 0.3s ease-out; /* transiton for rotation & border */
+  /*   border: 3px solid rgb(255, 196, 1);
+ */
   width: 80px;
   height: auto;
   aspect-ratio: 1/1;
@@ -210,7 +216,8 @@ nav .right a :hover {
   height: auto;
   /*   box-shadow: 0 0 5px 3px rgb(255, 196, 1);
  */
-  margin-top: 15%;
+  /*   margin-top: 15%;
+ */
 }
 
 #cv_dev:hover,
@@ -270,8 +277,22 @@ nav .right a :hover {
   width: auto;
 }
 
+.headshot_home {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-items: start;
+  height: auto;
+}
+
+.headshot_home img {
+  width: 220px;
+  height: auto;
+  margin: 0;
+}
+
 .hero-section .headshot {
-  flex: 2; /*image will have about 2 from 7 space*/
+  /*   flex: 2; /*image will have about 2 from 7 space*/
   display: flex;
   justify-content: right;
 }
@@ -324,7 +345,6 @@ nav .right a :hover {
 }
 .skills-section .cell:hover {
   opacity: 1;
-  transform: translateY(4px);
   box-shadow: 0 0 5px 1px rgb(255, 196, 1);
 }
 .skills-section .cells .cell img {
@@ -443,8 +463,7 @@ nav .right a :hover {
 
 .lazy-load {
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  transition: opacity 0.3s ease-out, transform 4s ease-out;
 }
 
 .lazy-load.visible {
@@ -584,9 +603,15 @@ nav .right a :hover {
   .projets-section {
     padding: 30px;
   }
+  .bienvenue {
+    padding-left: 5%;
+  }
 }
 /*--------------------------< 850---------------------*/
 @media (max-width: 850px) {
+  .bienvenue {
+    font-size: large;
+  }
   html {
     max-width: 840px;
   }
@@ -715,6 +740,7 @@ nav .right a :hover {
   }
 }
 /*----------------------------------< 600-------------------*/
+
 @media (max-width: 600px) {
   /*NAVBAR*/
   html {
@@ -727,7 +753,16 @@ nav .right a :hover {
     margin-bottom: 50px;
     margin-top: 50px;
   }
-
+  .headshot_home {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .bienvenue {
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+  }
   /*SECTION 1: Hero*/
   .hero-section {
     padding: 0 20px;
