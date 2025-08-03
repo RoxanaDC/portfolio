@@ -204,6 +204,8 @@
     { "name": "dino giraphe", "image": "dino_giraphe.webp" },
     { "name": "invert dino", "image": "invert_dino.webp" },
     { "name": "wb invert dino", "image": "wb_invert_dino.webp" },
-    { "name": "manifest", "image": "manifest.webp" }
+    { "name": "manifest", "image": "manifest.webp" },
+    { "name": "magic", "image": "magic.webp" },
+    { "name": "magic2", "image": "magic2_small.webp" }
   ]
 }
