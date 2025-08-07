@@ -1,15 +1,17 @@
 {
   "conception_graphique": [
-    { "name": "Conception_graphique 1", "image": "cg01.webp" },
-    { "name": "Conception_graphique 2", "image": "cg02.webp" },
-    { "name": "Conception_graphique 3", "image": "cg03.webp" },
     { "name": "Conception_graphique 4", "image": "cg04.webp" },
     { "name": "Conception_graphique 5", "image": "cg05.webp" },
     { "name": "Conception_graphique 6", "image": "cg06.webp" },
     { "name": "Conception_graphique 7", "image": "cg07.webp" },
     { "name": "Conception_graphique 8", "image": "cg08.webp" },
     { "name": "Conception_graphique 9", "image": "cg09.webp" },
-    { "name": "Conception_graphique 10", "image": "cg10.webp" }
+    { "name": "Conception_graphique 10", "image": "cg10.webp" },
+    { "name": "Impression 7", "image": "i07.webp" },
+    { "name": "Impression 8", "image": "i08.webp" },
+    { "name": "Impression 9", "image": "i09.webp" },
+    { "name": "Impression 10", "image": "i10.webp" },
+    { "name": "Impression 11", "image": "i11.webp" }
   ],
   "mise_en_page": [
     { "name": "Mise_en_page 1", "image": "mp01.webp" },
@@ -29,12 +31,7 @@
     { "name": "Impression 3", "image": "i03.webp" },
     { "name": "Impression 4", "image": "i04.webp" },
     { "name": "Impression 5", "image": "i05.webp" },
-    { "name": "Impression 6", "image": "i06.webp" },
-    { "name": "Impression 7", "image": "i07.webp" },
-    { "name": "Impression 8", "image": "i08.webp" },
-    { "name": "Impression 9", "image": "i09.webp" },
-    { "name": "Impression 10", "image": "i10.webp" },
-    { "name": "Impression 11", "image": "i11.webp" }
+    { "name": "Impression 6", "image": "i06.webp" }
   ],
   "vectors": [
     { "name": "Vector 1", "image": "v01.webp" },
