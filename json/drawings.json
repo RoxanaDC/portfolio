@@ -5,25 +5,28 @@
     { "name": "Conception_graphique 6", "image": "cg06.webp" },
     { "name": "Conception_graphique 7", "image": "cg07.webp" },
     { "name": "Conception_graphique 8", "image": "cg08.webp" },
-    { "name": "Conception_graphique 9", "image": "cg09.webp" },
     { "name": "Conception_graphique 10", "image": "cg10.webp" },
     { "name": "Impression 7", "image": "i07.webp" },
     { "name": "Impression 8", "image": "i08.webp" },
     { "name": "Impression 9", "image": "i09.webp" },
     { "name": "Impression 10", "image": "i10.webp" },
-    { "name": "Impression 11", "image": "i11.webp" }
+    { "name": "Impression 11", "image": "i11.webp" },
+    { "name": "conception", "image": "gr.webp" }
   ],
   "mise_en_page": [
-    { "name": "Mise_en_page 1", "image": "mp01.webp" },
-    { "name": "Mise_en_page 2", "image": "mp02.webp" },
-    { "name": "Mise_en_page 3", "image": "mp03.webp" },
-    { "name": "Mise_en_page 4", "image": "mp04.webp" },
-    { "name": "Mise_en_page 5", "image": "mp05.webp" },
-    { "name": "Mise_en_page 6", "image": "mp06.webp" },
-    { "name": "Mise_en_page 7", "image": "mp07.webp" },
-    { "name": "Mise_en_page 8", "image": "mp08.webp" },
-    { "name": "Mise_en_page 9", "image": "mp09.webp" },
-    { "name": "Mise_en_page 10", "image": "mp10.webp" }
+    { "name": "Mise_en_page 1", "image": "metro1.webp" },
+    { "name": "Mise_en_page 2", "image": "metro2.webp" },
+    { "name": "Mise_en_page 3", "image": "metro3.webp" },
+    { "name": "ecussons", "image": "metro4.webp" },
+
+    { "name": "Mise_en_page 4", "image": "rando1.webp" },
+    { "name": "Mise_en_page 5", "image": "rando2.webp" },
+    { "name": "Mise_en_page 6", "image": "rando3.webp" },
+    { "name": "Mise_en_page 7", "image": "scr1.webp" },
+    { "name": "Mise_en_page 8", "image": "scr2.webp" },
+    { "name": "Mise_en_page 9", "image": "scr3.webp" },
+    { "name": "Mise_en_page 10", "image": "scr4.webp" },
+    { "name": "Mise_en_page 10", "image": "b90.webp" }
   ],
   "impression": [
     { "name": "Impression 1", "image": "i01.webp" },
