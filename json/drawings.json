@@ -47,7 +47,8 @@
       "name": "Randonova - Charte graphique",
       "image": "Randonova_charte.png"
     },
-    { "name": "Randonova site", "image": "Randonova_site.webp" }
+    { "name": "Randonova site", "image": "Randonova_site.webp" },
+    { "name": "Randonova flyer", "image": "Randonova_flyer.webp" }
   ],
   "bd": [
     { "name": "bd en construction 1", "image": "bd01.webp" },
