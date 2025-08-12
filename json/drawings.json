@@ -10,17 +10,22 @@
     { "name": "Impression 8", "image": "i08.webp" },
     { "name": "Impression 9", "image": "i09.webp" },
     { "name": "Impression 10", "image": "i10.webp" },
-    { "name": "Impression 11", "image": "i11.webp" },
+    { "name": "Impression", "image": "v01.webp" },
+    { "name": "Impression", "image": "v02.webp" },
+    { "name": "Impression ", "image": "v03.webp" },
+    { "name": "Impression ", "image": "v05.webp" },
+    { "name": "Impression ", "image": "v06.webp" },
+
     { "name": "conception", "image": "gr.webp" }
   ],
   "mise_en_page": [
-    { "name": "Mise_en_page 1", "image": "metro1.webp" },
-    { "name": "Mise_en_page 2", "image": "metro2.webp" },
+    { "name": "Banner", "image": "metro1.webp" },
     { "name": "Mise_en_page 3", "image": "metro3.webp" },
-    { "name": "ecussons", "image": "metro4.webp" },
+    { "name": "Mise_en_page 2", "image": "metro2.webp" },
+    { "name": "Ecussons", "image": "metro4.webp" },
+    { "name": "Affiches", "image": "metro5.webp" },
+
     { "name": "Mise_en_page 4", "image": "rando1.webp" },
-    { "name": "Mise_en_page 5", "image": "rando2.webp" },
-    { "name": "Mise_en_page 6", "image": "rando3.webp" },
     { "name": "Mise_en_page 7", "image": "scr1.webp" },
     { "name": "Mise_en_page 8", "image": "scr2.webp" },
     { "name": "Mise_en_page 9", "image": "scr3.webp" },
@@ -35,14 +40,14 @@
     { "name": "Impression 5", "image": "i05.webp" },
     { "name": "Impression 6", "image": "i06.webp" }
   ],
-  "vectors": [
-    { "name": "Vector 1", "image": "v01.webp" },
-    { "name": "Vector 2", "image": "v02.webp" },
-    { "name": "Vector 3", "image": "v03.webp" },
-    { "name": "Vector 4", "image": "v04.webp" },
-    { "name": "Vector 5", "image": "v05.webp" },
-    { "name": "Vector 6", "image": "v06.webp" },
-    { "name": "Vector 7", "image": "v07.webp" }
+  "identite": [
+    { "name": "Randonova Logo", "image": "Randonova_logo_final.webp" },
+
+    {
+      "name": "Randonova - Charte graphique",
+      "image": "Randonova_charte.png"
+    },
+    { "name": "Randonova site", "image": "Randonova_site.webp" }
   ],
   "bd": [
     { "name": "bd en construction 1", "image": "bd01.webp" },

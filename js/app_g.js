@@ -17,7 +17,7 @@ const categories = [
   'reproductions',
   'sculptures',
   'fragments',
-  'vectors',
+  'identite',
 ];
 
 $.ajax('./json/drawings.json').then((data) => {

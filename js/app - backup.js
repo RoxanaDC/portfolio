@@ -74,7 +74,7 @@ const categories = [
   'portraits',
   'reproductions',
   'retouches',
-  'vectors',
+  'identite',
 ];
 
 $.ajax('./json/drawings.json').then((data) => {
@@ -209,7 +209,7 @@ const categories = [
   'portraits',
   'reproductions',
   'retouches',
-  'vectors',
+  'identite',
 ];
 
 $.ajax('./json/drawings.json').then((data) => {
