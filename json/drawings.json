@@ -1,22 +1,22 @@
 {
   "conception_graphique": [
-    { "name": "Conception_graphique 4", "image": "cg04.webp" },
-    { "name": "Conception_graphique 5", "image": "cg05.webp" },
-    { "name": "Conception_graphique 6", "image": "cg06.webp" },
-    { "name": "Conception_graphique 7", "image": "cg07.webp" },
-    { "name": "Conception_graphique 8", "image": "cg08.webp" },
-    { "name": "Conception_graphique 10", "image": "cg10.webp" },
-    { "name": "Impression 7", "image": "i07.webp" },
-    { "name": "Impression 8", "image": "i08.webp" },
-    { "name": "Impression 9", "image": "i09.webp" },
-    { "name": "Impression 10", "image": "i10.webp" },
-    { "name": "Impression", "image": "v01.webp" },
-    { "name": "Impression", "image": "v02.webp" },
-    { "name": "Impression ", "image": "v03.webp" },
-    { "name": "Impression ", "image": "v05.webp" },
-    { "name": "Impression ", "image": "v06.webp" },
-    { "name": "Impression ", "image": "wizard.webp" },
-    { "name": "conception", "image": "gr.webp" }
+    { "name": "IdentitéR 1", "image": "rox_ide1.webp" },
+    { "name": "IdentitéR 2", "image": "rox_ide2.webp" },
+    { "name": "IdentitéR 3", "image": "rox_ide3.webp" },
+    { "name": "IdentitéEV 4", "image": "evidanse1.webp" },
+    { "name": "IdentitéEV ", "image": "evidanse2.webp" },
+    { "name": "Diverse", "image": "diverse1.webp" },
+    { "name": "Diverse", "image": "diverse2.webp" },
+    { "name": "Diverse", "image": "diverse3.webp" },
+    { "name": "Diverse", "image": "diverse4.webp" },
+    { "name": "Diverse", "image": "diverse5.webp" },
+    { "name": "Diverse", "image": "diverse6.webp" },
+    { "name": "Tshirt1", "image": "T_sh1.webp" },
+    { "name": "Tshirt2 ", "image": "T_sh2.webp" },
+    { "name": "Tshirt3 ", "image": "T_sh3.webp" },
+    { "name": "Tshirt4 ", "image": "T_sh4.webp" },
+    { "name": "Tshirt5", "image": "T_sh5.webp" },
+    { "name": "Wizard", "image": "wizard.webp" }
   ],
   "mise_en_page": [
     { "name": "Banner", "image": "metro1.webp" },
@@ -25,7 +25,6 @@
     { "name": "Ecussons", "image": "metro4.webp" },
     { "name": "Affiches", "image": "metro5.webp" },
 
-    { "name": "Mise_en_page 4", "image": "rando1.webp" },
     { "name": "Mise_en_page 7", "image": "scr1.webp" },
     { "name": "Mise_en_page 8", "image": "scr2.webp" },
     { "name": "Mise_en_page 9", "image": "scr3.webp" },
@@ -45,10 +44,11 @@
 
     {
       "name": "Randonova - Charte graphique",
-      "image": "Randonova_charte.png"
+      "image": "Randonova_charte.webp"
     },
     { "name": "Randonova site", "image": "Randonova_site.webp" },
-    { "name": "Randonova flyer", "image": "Randonova_flyer.webp" }
+    { "name": "Randonova flyer", "image": "Randonova_flyer.webp" },
+    { "name": "Randonova marque page", "image": "rando1.webp" }
   ],
   "bd": [
     { "name": "bd en construction 1", "image": "bd01.webp" },
