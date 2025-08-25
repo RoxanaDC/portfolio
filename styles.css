@@ -520,20 +520,24 @@ nav .right a :hover {
   padding: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain; /* nu mai taie, păstrează întreaga imagine */
+  object-position: center; /* aliniază sus și pe centru orizontal */
 }
+
+.clickable-image {
+  box-shadow: 0 20px 40px rgb(255, 219, 102);
+}
+
 /* Fiecare desen (card) */
 .cell {
-  background: #000000;
+  background-color: var(--background-color);
   border-radius: var(--border-radius-standard);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animație pe hover */
-  box-shadow: 0 2px 4px rgb(255, 219, 102);
+  box-shadow: 0 1px 2px;
   margin-bottom: 10px;
-
   width: 100%;
   height: 100%;
-
   object-fit: cover;
 }
 
@@ -874,14 +878,15 @@ h3 span {
 
 .cell {
   flex: 1 1 300px;
-  max-width: 600px;
-  height: 300px;
+  max-width: 400px;
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* aliniază imaginile sus */
   justify-content: center;
   overflow: hidden;
+  height: auto; /* important */
 }
-.drawings {
+
+*/ .drawings {
   margin: 0;
   padding: 0;
   display: flex;
@@ -899,4 +904,9 @@ h3 span {
 
 .links {
   width: 100%;
+}
+
+html,
+body {
+  padding: 0 20px; /* padding stânga/dreapta */
 }
