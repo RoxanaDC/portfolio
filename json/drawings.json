@@ -214,7 +214,6 @@
   ],
   "fragments": [
     { "name": "poule", "image": "pui_mic.webp" },
-
     { "name": "small bee", "image": "small_bee.webp" },
     { "name": "big bee", "image": "big_bee.webp" },
     { "name": "eleph dog", "image": "ele_dog.webp" },
