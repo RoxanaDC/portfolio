@@ -16,7 +16,8 @@
     { "name": "Tshirt3 ", "image": "T_sh3.webp" },
     { "name": "Tshirt4 ", "image": "T_sh4.webp" },
     { "name": "Tshirt5", "image": "T_sh5.webp" },
-    { "name": "Wizard", "image": "wizard.webp" }
+    { "name": "Wizard", "image": "wizard.webp" },
+    { "name": "CV", "image": "cv_mic.webp" }
   ],
   "mise_en_page": [
     { "name": "Banner", "image": "metro1.webp" },
@@ -47,8 +48,17 @@
       "image": "Randonova_charte.webp"
     },
     { "name": "Randonova site", "image": "Randonova_site.webp" },
-    { "name": "Randonova flyer", "image": "Randonova_flyer.webp" },
-    { "name": "Randonova marque page", "image": "rando1.webp" }
+    { "name": "Randonova flyer1", "image": "Randonova_flyer.webp" },
+    {
+      "name": "Randonova flyer imprimé",
+      "image": "randonova_fly_printed_r.webp"
+    },
+    {
+      "name": "Randonova flyer imprimé",
+      "image": "randonova_fly_printed_v.webp"
+    },
+    { "name": "Randonova flyer2", "image": "randonova_fly_r.webp" },
+    { "name": "Randonova flyer2", "image": "randonova_fly_v.webp" }
   ],
   "bd": [
     { "name": "bd en construction 1", "image": "bd01.webp" },
@@ -203,6 +213,8 @@
     { "name": "Reproduction 6", "image": "reprod_006.webp" }
   ],
   "fragments": [
+    { "name": "poule", "image": "pui_mic.webp" },
+
     { "name": "small bee", "image": "small_bee.webp" },
     { "name": "big bee", "image": "big_bee.webp" },
     { "name": "eleph dog", "image": "ele_dog.webp" },
